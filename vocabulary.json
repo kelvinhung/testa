@@ -1,0 +1,2819 @@
+{
+  "grades": [
+    {
+      "id": 5,
+      "title": "5th Grade",
+      "words": [
+        {
+          "word": "Abolish",
+          "definition": "to officially end or get rid of something",
+          "examples": [
+            "The school board voted to abolish the old dress code.",
+            "Many countries have worked to abolish unfair laws."
+          ]
+        },
+        {
+          "word": "Absurd",
+          "definition": "extremely unreasonable or silly",
+          "examples": [
+            "It would be absurd to wear a winter coat in the desert.",
+            "The clown's absurd antics made everyone laugh."
+          ]
+        },
+        {
+          "word": "Abuse",
+          "definition": "to treat someone or something badly or wrongly",
+          "examples": [
+            "No one should abuse animals or people.",
+            "The coach warned players not to abuse their power on the field."
+          ]
+        },
+        {
+          "word": "Access",
+          "definition": "the ability to enter, use, or reach something",
+          "examples": [
+            "Students need a password to access the online library.",
+            "The ramp gives wheelchair users access to the building."
+          ]
+        },
+        {
+          "word": "Accomplish",
+          "definition": "to succeed in doing something",
+          "examples": [
+            "She worked hard to accomplish her goal of reading fifty books.",
+            "The team accomplished a lot during the science fair."
+          ]
+        },
+        {
+          "word": "Achievement",
+          "definition": "something important that you succeed in doing",
+          "examples": [
+            "Graduating fifth grade is a big achievement.",
+            "Winning the spelling bee was her proudest achievement."
+          ]
+        },
+        {
+          "word": "Aggressive",
+          "definition": "ready to attack or argue; forceful",
+          "examples": [
+            "The aggressive dog barked at strangers.",
+            "He played an aggressive style of basketball."
+          ]
+        },
+        {
+          "word": "Alternate",
+          "definition": "to switch back and forth between two things",
+          "examples": [
+            "We alternate between math and reading each morning.",
+            "The traffic lights alternate between red and green."
+          ]
+        },
+        {
+          "word": "Altitude",
+          "definition": "the height of something above sea level",
+          "examples": [
+            "Pilots must know the plane's altitude at all times.",
+            "Mountain climbers feel the cold more at high altitude."
+          ]
+        },
+        {
+          "word": "Antagonist",
+          "definition": "a character who opposes the main character",
+          "examples": [
+            "The villain is the antagonist in most adventure stories.",
+            "In the play, the antagonist tried to stop the hero."
+          ]
+        },
+        {
+          "word": "Antonym",
+          "definition": "a word that means the opposite of another word",
+          "examples": [
+            "'Hot' is an antonym of 'cold.'",
+            "We made a list of antonyms for our vocabulary homework."
+          ]
+        },
+        {
+          "word": "Anxious",
+          "definition": "worried or nervous about something",
+          "examples": [
+            "She felt anxious before her first piano recital.",
+            "The anxious puppy hid under the bed during the storm."
+          ]
+        },
+        {
+          "word": "Apparent",
+          "definition": "easy to see or understand; obvious",
+          "examples": [
+            "It was apparent that she had studied for the test.",
+            "The crack in the wall was apparent after the earthquake."
+          ]
+        },
+        {
+          "word": "Approximate",
+          "definition": "close to an exact amount but not exact",
+          "examples": [
+            "The approximate cost of the trip was two hundred dollars.",
+            "Can you give me an approximate time of arrival?"
+          ]
+        },
+        {
+          "word": "Aroma",
+          "definition": "a pleasant smell",
+          "examples": [
+            "The aroma of fresh bread filled the kitchen.",
+            "We enjoyed the sweet aroma of the blooming flowers."
+          ]
+        },
+        {
+          "word": "Assume",
+          "definition": "to believe something is true without proof",
+          "examples": [
+            "Don't assume everyone agrees with you.",
+            "I assumed the store was open, but it was closed."
+          ]
+        },
+        {
+          "word": "Astound",
+          "definition": "to surprise someone very much",
+          "examples": [
+            "The magician's tricks astound the audience.",
+            "Her talent on the violin will astound you."
+          ]
+        },
+        {
+          "word": "Available",
+          "definition": "able to be used or obtained",
+          "examples": [
+            "There are three computers available in the lab.",
+            "Is the librarian available to help us?"
+          ]
+        },
+        {
+          "word": "Avalanche",
+          "definition": "a large mass of snow sliding down a mountain",
+          "examples": [
+            "The skiers heard an avalanche rumble in the distance.",
+            "Heavy snow can cause a dangerous avalanche."
+          ]
+        },
+        {
+          "word": "Banquet",
+          "definition": "a large formal meal for many people",
+          "examples": [
+            "The school held a banquet to honor the volunteers.",
+            "Guests dressed up for the wedding banquet."
+          ]
+        },
+        {
+          "word": "Beverage",
+          "definition": "a drink, especially one other than water",
+          "examples": [
+            "Hot chocolate is my favorite winter beverage.",
+            "Please choose a beverage from the menu."
+          ]
+        },
+        {
+          "word": "Bland",
+          "definition": "lacking strong flavor or interest",
+          "examples": [
+            "The soup tasted bland without any salt.",
+            "The movie had a bland plot with no surprises."
+          ]
+        },
+        {
+          "word": "Blizzard",
+          "definition": "a severe snowstorm with strong winds",
+          "examples": [
+            "School was canceled because of the blizzard.",
+            "Drivers stayed home during the fierce blizzard."
+          ]
+        },
+        {
+          "word": "Budge",
+          "definition": "to move slightly or make something move",
+          "examples": [
+            "The heavy box would not budge an inch.",
+            "Try to budge the stuck door with your shoulder."
+          ]
+        },
+        {
+          "word": "Bungle",
+          "definition": "to do something badly or clumsily",
+          "examples": [
+            "He tried to fix the bike but bungled the repair.",
+            "Don't bungle your chance to make a good first impression."
+          ]
+        },
+        {
+          "word": "Cautiously",
+          "definition": "in a careful way that avoids danger",
+          "examples": [
+            "The cat cautiously stepped onto the wet floor.",
+            "We cautiously crossed the icy sidewalk."
+          ]
+        },
+        {
+          "word": "Challenge",
+          "definition": "something difficult that tests your ability",
+          "examples": [
+            "Climbing the rock wall was a fun challenge.",
+            "She accepted the challenge to run a mile every day."
+          ]
+        },
+        {
+          "word": "Character",
+          "definition": "a person in a story; also, the qualities that make someone who they are",
+          "examples": [
+            "The main character in the book is very brave.",
+            "Honesty is an important part of good character."
+          ]
+        },
+        {
+          "word": "Combine",
+          "definition": "to join or mix things together",
+          "examples": [
+            "Let's combine our ideas for the group project.",
+            "The recipe tells you to combine flour and sugar."
+          ]
+        },
+        {
+          "word": "Companion",
+          "definition": "a person or animal that spends time with you",
+          "examples": [
+            "Her dog is a loyal companion on long walks.",
+            "He traveled with a companion who shared his love of hiking."
+          ]
+        },
+        {
+          "word": "Crave",
+          "definition": "to want something very much",
+          "examples": [
+            "After running, I crave a cold glass of water.",
+            "She began to crave adventure beyond her small town."
+          ]
+        },
+        {
+          "word": "Compassion",
+          "definition": "sympathy and concern for others who are suffering",
+          "examples": [
+            "The nurse showed compassion to every patient.",
+            "We should treat others with kindness and compassion."
+          ]
+        },
+        {
+          "word": "Compensate",
+          "definition": "to make up for something lost or to pay someone",
+          "examples": [
+            "Extra rest can compensate for a poor night's sleep.",
+            "The company will compensate workers for their overtime."
+          ]
+        },
+        {
+          "word": "Comply",
+          "definition": "to follow a rule, order, or request",
+          "examples": [
+            "All students must comply with the safety rules.",
+            "The factory agreed to comply with the new regulations."
+          ]
+        },
+        {
+          "word": "Compose",
+          "definition": "to create something, such as music or writing",
+          "examples": [
+            "Mozart began to compose music at a young age.",
+            "Take a moment to compose your thoughts before speaking."
+          ]
+        },
+        {
+          "word": "Concept",
+          "definition": "an idea or general notion",
+          "examples": [
+            "Gravity is a difficult concept to understand at first.",
+            "The concept of fairness is important in games."
+          ]
+        },
+        {
+          "word": "Confident",
+          "definition": "feeling sure of yourself and your abilities",
+          "examples": [
+            "She felt confident before the math competition.",
+            "Practice helps you become a confident reader."
+          ]
+        },
+        {
+          "word": "Convert",
+          "definition": "to change something into a different form",
+          "examples": [
+            "You can convert inches to centimeters using a chart.",
+            "The old warehouse was converted into apartments."
+          ]
+        },
+        {
+          "word": "Course",
+          "definition": "a path or direction; also, a class or part of a meal",
+          "examples": [
+            "The river changed course after the flood.",
+            "We signed up for a science course next semester."
+          ]
+        },
+        {
+          "word": "Courteous",
+          "definition": "polite and respectful toward others",
+          "examples": [
+            "The courteous waiter thanked us for dining there.",
+            "Always be courteous when you meet new people."
+          ]
+        },
+        {
+          "word": "Debate",
+          "definition": "a discussion in which people argue different sides of an issue",
+          "examples": [
+            "The class held a debate about recycling.",
+            "The candidates will debate on television tonight."
+          ]
+        },
+        {
+          "word": "Decline",
+          "definition": "to become smaller, weaker, or less; to refuse politely",
+          "examples": [
+            "Sales began to decline after the holidays.",
+            "She had to decline the invitation because she was busy."
+          ]
+        },
+        {
+          "word": "Dedicate",
+          "definition": "to give time or effort to something important",
+          "examples": [
+            "Athletes dedicate hours to training every week.",
+            "The park was dedicated to a local hero."
+          ]
+        },
+        {
+          "word": "Deprive",
+          "definition": "to take something away from someone",
+          "examples": [
+            "Lack of sleep can deprive you of energy.",
+            "No one should deprive children of an education."
+          ]
+        },
+        {
+          "word": "Detect",
+          "definition": "to discover or notice something",
+          "examples": [
+            "The smoke alarm can detect fire quickly.",
+            "Scientists detect changes in the weather with special tools."
+          ]
+        },
+        {
+          "word": "Dictate",
+          "definition": "to say words aloud for someone to write down; to give orders",
+          "examples": [
+            "The teacher will dictate spelling words for the test.",
+            "You should not let fear dictate your decisions."
+          ]
+        },
+        {
+          "word": "Document",
+          "definition": "a written or printed paper that gives information",
+          "examples": [
+            "Please sign the document before you leave.",
+            "Historians study old documents to learn about the past."
+          ]
+        },
+        {
+          "word": "Duplicate",
+          "definition": "an exact copy of something",
+          "examples": [
+            "Keep a duplicate key in case you lose the first one.",
+            "The printer made a duplicate of the original photo."
+          ]
+        },
+        {
+          "word": "Edible",
+          "definition": "safe to eat",
+          "examples": [
+            "Berries in the forest are not always edible.",
+            "The cake was decorated with edible flowers."
+          ]
+        },
+        {
+          "word": "Endanger",
+          "definition": "to put someone or something in danger",
+          "examples": [
+            "Pollution can endanger wildlife in the river.",
+            "Speeding endangers everyone on the road."
+          ]
+        },
+        {
+          "word": "Escalate",
+          "definition": "to become greater, worse, or more serious",
+          "examples": [
+            "The argument began to escalate quickly.",
+            "Officials tried to stop the conflict from escalating."
+          ]
+        },
+        {
+          "word": "Evade",
+          "definition": "to escape or avoid something",
+          "examples": [
+            "The rabbit tried to evade the fox.",
+            "He attempted to evade answering the difficult question."
+          ]
+        },
+        {
+          "word": "Exasperate",
+          "definition": "to make someone very annoyed or frustrated",
+          "examples": [
+            "The delay will exasperate passengers waiting at the gate.",
+            "His constant interruptions exasperate the teacher."
+          ]
+        },
+        {
+          "word": "Excavate",
+          "definition": "to dig out earth to uncover something",
+          "examples": [
+            "Archaeologists excavate ancient ruins carefully.",
+            "Workers will excavate the site before building begins."
+          ]
+        },
+        {
+          "word": "Exert",
+          "definition": "to use physical or mental effort",
+          "examples": [
+            "You must exert force to push the heavy cart.",
+            "She had to exert all her concentration on the test."
+          ]
+        },
+        {
+          "word": "Exhibit",
+          "definition": "to show something publicly; a display",
+          "examples": [
+            "The museum will exhibit dinosaur fossils this summer.",
+            "Each student created an exhibit for the science fair."
+          ]
+        },
+        {
+          "word": "Exult",
+          "definition": "to show great joy or triumph",
+          "examples": [
+            "Fans exulted when their team won the championship.",
+            "She exulted after receiving her award."
+          ]
+        },
+        {
+          "word": "Feeble",
+          "definition": "weak and lacking strength",
+          "examples": [
+            "The feeble light barely lit the dark hallway.",
+            "After being sick, he felt too feeble to play outside."
+          ]
+        },
+        {
+          "word": "Frigid",
+          "definition": "extremely cold",
+          "examples": [
+            "The frigid wind made us hurry indoors.",
+            "Polar bears survive in frigid Arctic temperatures."
+          ]
+        },
+        {
+          "word": "Gigantic",
+          "definition": "extremely large",
+          "examples": [
+            "A gigantic whale surfaced near the boat.",
+            "They built a gigantic sandcastle on the beach."
+          ]
+        },
+        {
+          "word": "Gorge",
+          "definition": "a deep, narrow valley with steep sides",
+          "examples": [
+            "The hikers looked down into the rocky gorge.",
+            "A river runs through the bottom of the gorge."
+          ]
+        },
+        {
+          "word": "Guardian",
+          "definition": "a person who protects or cares for someone",
+          "examples": [
+            "Her aunt became her legal guardian.",
+            "The lifeguard acts as a guardian of swimmers' safety."
+          ]
+        },
+        {
+          "word": "Hazy",
+          "definition": "not clear because of mist, smoke, or lack of detail",
+          "examples": [
+            "The mountains looked hazy in the morning fog.",
+            "My memory of that day is hazy."
+          ]
+        },
+        {
+          "word": "Hearty",
+          "definition": "enthusiastic, energetic, or large and satisfying",
+          "examples": [
+            "We enjoyed a hearty breakfast before the hike.",
+            "The team gave a hearty cheer after the win."
+          ]
+        },
+        {
+          "word": "Homonym",
+          "definition": "a word that sounds the same as another but has a different meaning",
+          "examples": [
+            "'Bear' and 'bare' are homonyms.",
+            "Our teacher asked us to find homonyms in the poem."
+          ]
+        },
+        {
+          "word": "Identical",
+          "definition": "exactly the same in every way",
+          "examples": [
+            "The twins wore identical shirts to school.",
+            "These two keys look identical."
+          ]
+        },
+        {
+          "word": "Illuminate",
+          "definition": "to light up or make clear",
+          "examples": [
+            "Streetlights illuminate the road at night.",
+            "The teacher used examples to illuminate a tricky math problem."
+          ]
+        },
+        {
+          "word": "Immense",
+          "definition": "extremely large or great",
+          "examples": [
+            "The stadium has immense seating capacity.",
+            "She felt immense relief when the test was over."
+          ]
+        },
+        {
+          "word": "Impressive",
+          "definition": "causing admiration because of skill or quality",
+          "examples": [
+            "Her impressive speech won first place.",
+            "The ancient temple is an impressive sight."
+          ]
+        },
+        {
+          "word": "Independent",
+          "definition": "free from control by others; able to do things alone",
+          "examples": [
+            "She is an independent thinker who forms her own opinions.",
+            "The country became independent after many years of struggle."
+          ]
+        },
+        {
+          "word": "Industrious",
+          "definition": "working hard and steadily",
+          "examples": [
+            "The industrious ants carried food all day.",
+            "He is an industrious student who always finishes homework early."
+          ]
+        },
+        {
+          "word": "Intense",
+          "definition": "very strong or extreme",
+          "examples": [
+            "The intense heat made it hard to play outside.",
+            "She felt intense excitement before the performance."
+          ]
+        },
+        {
+          "word": "Intercept",
+          "definition": "to stop or catch something before it reaches its destination",
+          "examples": [
+            "The defender tried to intercept the pass.",
+            "Spy agencies intercept secret messages."
+          ]
+        },
+        {
+          "word": "Jubilation",
+          "definition": "great happiness and celebration",
+          "examples": [
+            "There was jubilation in the streets after the victory.",
+            "The crowd erupted in jubilation when the final buzzer sounded."
+          ]
+        },
+        {
+          "word": "Kin",
+          "definition": "one's family or relatives",
+          "examples": [
+            "All her kin gathered for the reunion.",
+            "He traveled far to visit his kin."
+          ]
+        },
+        {
+          "word": "Luxurious",
+          "definition": "very comfortable, elegant, and expensive",
+          "examples": [
+            "They stayed in a luxurious hotel by the ocean.",
+            "The cat stretched out on the luxurious blanket."
+          ]
+        },
+        {
+          "word": "Major",
+          "definition": "important, serious, or larger in size",
+          "examples": [
+            "Pollution is a major problem in big cities.",
+            "She chose biology as her major subject in college."
+          ]
+        },
+        {
+          "word": "Miniature",
+          "definition": "very small; a tiny copy of something",
+          "examples": [
+            "She collects miniature horses for her dollhouse.",
+            "The artist painted a miniature portrait."
+          ]
+        },
+        {
+          "word": "Minor",
+          "definition": "small or not very important",
+          "examples": [
+            "It was only a minor scratch on the bike.",
+            "The team made minor changes to the plan."
+          ]
+        },
+        {
+          "word": "Mischief",
+          "definition": "playful trouble or harmless naughtiness",
+          "examples": [
+            "The puppy got into mischief while we were away.",
+            "The children were full of mischief on April Fools' Day."
+          ]
+        },
+        {
+          "word": "Monarch",
+          "definition": "a king, queen, or other supreme ruler",
+          "examples": [
+            "The monarch ruled the kingdom for decades.",
+            "Butterflies are sometimes called monarchs because of their orange wings."
+          ]
+        },
+        {
+          "word": "Moral",
+          "definition": "concerned with right and wrong behavior",
+          "examples": [
+            "The story teaches an important moral about honesty.",
+            "She made a moral choice even when it was difficult."
+          ]
+        },
+        {
+          "word": "Myth",
+          "definition": "a traditional story, often explaining natural events; something untrue",
+          "examples": [
+            "Greek myths tell stories of gods and heroes.",
+            "It is a myth that bats are blind."
+          ]
+        },
+        {
+          "word": "Narrator",
+          "definition": "the person who tells a story",
+          "examples": [
+            "The narrator described the setting at the start of the book.",
+            "In the movie, the narrator guides us through the plot."
+          ]
+        },
+        {
+          "word": "Navigate",
+          "definition": "to find the way through or across an area",
+          "examples": [
+            "Sailors navigate using maps and stars.",
+            "It can be hard to navigate a new school on the first day."
+          ]
+        },
+        {
+          "word": "Negative",
+          "definition": "bad, harmful, or expressing denial",
+          "examples": [
+            "Try not to focus on negative thoughts before a test.",
+            "The answer to 'Is it raining?' can be negative: 'No.'"
+          ]
+        },
+        {
+          "word": "Nonchalant",
+          "definition": "calm and not showing much interest or worry",
+          "examples": [
+            "He gave a nonchalant shrug when asked about the score.",
+            "She tried to look nonchalant even though she was nervous."
+          ]
+        },
+        {
+          "word": "Numerous",
+          "definition": "many; existing in large numbers",
+          "examples": [
+            "Numerous birds gathered at the feeder.",
+            "She has read numerous books about space."
+          ]
+        },
+        {
+          "word": "Oasis",
+          "definition": "a fertile spot in a desert where water is found",
+          "examples": [
+            "Travelers rested at the oasis under the palm trees.",
+            "The park felt like an oasis in the busy city."
+          ]
+        },
+        {
+          "word": "Obsolete",
+          "definition": "no longer used because something newer exists",
+          "examples": [
+            "Typewriters are mostly obsolete today.",
+            "That computer model became obsolete within a few years."
+          ]
+        },
+        {
+          "word": "Occasion",
+          "definition": "a particular time when something happens; a special event",
+          "examples": [
+            "We dressed up for the special occasion.",
+            "On that occasion, she told her funniest joke."
+          ]
+        },
+        {
+          "word": "Overthrow",
+          "definition": "to remove a leader or government by force",
+          "examples": [
+            "Rebels tried to overthrow the dictator.",
+            "The revolution overthrew the old regime."
+          ]
+        },
+        {
+          "word": "Pardon",
+          "definition": "to forgive; an official release from punishment",
+          "examples": [
+            "Please pardon the mess in the classroom.",
+            "The governor may pardon someone who was wrongly convicted."
+          ]
+        },
+        {
+          "word": "Pasture",
+          "definition": "land covered with grass where animals graze",
+          "examples": [
+            "Cows wandered across the green pasture.",
+            "The farmer fenced the pasture to keep the sheep safe."
+          ]
+        },
+        {
+          "word": "Pedestrian",
+          "definition": "a person walking rather than traveling in a vehicle",
+          "examples": [
+            "Pedestrians should use the crosswalk.",
+            "The city built wider sidewalks for pedestrians."
+          ]
+        },
+        {
+          "word": "Perish",
+          "definition": "to die, especially in a sudden or violent way",
+          "examples": [
+            "Many plants will perish without water.",
+            "Food left in the sun can perish quickly."
+          ]
+        },
+        {
+          "word": "Petrify",
+          "definition": "to turn to stone; to make someone very frightened",
+          "examples": [
+            "Legend says the gorgon could petrify people with one look.",
+            "The loud crash seemed to petrify the little dog."
+          ]
+        },
+        {
+          "word": "Portable",
+          "definition": "easy to carry or move",
+          "examples": [
+            "She brought a portable speaker to the picnic.",
+            "The laptop is small and portable."
+          ]
+        },
+        {
+          "word": "Prefix",
+          "definition": "a word part added to the beginning of a word to change its meaning",
+          "examples": [
+            "'Un-' is a prefix meaning 'not,' as in 'unhappy.'",
+            "Learning prefixes helps you understand new words."
+          ]
+        },
+        {
+          "word": "Preserve",
+          "definition": "to keep something in its original state; to protect",
+          "examples": [
+            "We must preserve forests for future generations.",
+            "Jam is made to preserve fruit for months."
+          ]
+        },
+        {
+          "word": "Protagonist",
+          "definition": "the main character in a story",
+          "examples": [
+            "The protagonist faces many challenges in the novel.",
+            "Readers often root for the protagonist to succeed."
+          ]
+        },
+        {
+          "word": "Provide",
+          "definition": "to give or supply something needed",
+          "examples": [
+            "Schools provide students with books and supplies.",
+            "Trees provide shade on hot summer days."
+          ]
+        },
+        {
+          "word": "Purchase",
+          "definition": "to buy something",
+          "examples": [
+            "We will purchase tickets online before the show.",
+            "She saved money to purchase a new bike."
+          ]
+        },
+        {
+          "word": "Realistic",
+          "definition": "showing things as they really are; practical",
+          "examples": [
+            "The painting looks very realistic.",
+            "Set realistic goals you can actually reach."
+          ]
+        },
+        {
+          "word": "Reassure",
+          "definition": "to comfort someone and remove their fears",
+          "examples": [
+            "The doctor reassured the patient that the test was normal.",
+            "Mom reassured me that everything would be fine."
+          ]
+        },
+        {
+          "word": "Reign",
+          "definition": "to rule as a king or queen; the period of rule",
+          "examples": [
+            "Queen Elizabeth's reign lasted many years.",
+            "Peace reigned in the land after the treaty."
+          ]
+        },
+        {
+          "word": "Reliable",
+          "definition": "able to be trusted or depended on",
+          "examples": [
+            "She is a reliable friend who always keeps her promises.",
+            "We need a reliable car for long trips."
+          ]
+        },
+        {
+          "word": "Require",
+          "definition": "to need something; to demand",
+          "examples": [
+            "Plants require sunlight and water to grow.",
+            "The job will require strong math skills."
+          ]
+        },
+        {
+          "word": "Resemble",
+          "definition": "to look or be like someone or something else",
+          "examples": [
+            "She resembles her older sister.",
+            "Dolphins resemble fish but are actually mammals."
+          ]
+        },
+        {
+          "word": "Retain",
+          "definition": "to keep or continue to have something",
+          "examples": [
+            "Try to retain what you learn by reviewing notes.",
+            "The sponge can retain a lot of water."
+          ]
+        },
+        {
+          "word": "Retire",
+          "definition": "to stop working, usually because of age",
+          "examples": [
+            "My grandfather will retire next year.",
+            "Athletes often retire from sports in their thirties."
+          ]
+        },
+        {
+          "word": "Revert",
+          "definition": "to go back to a previous state or condition",
+          "examples": [
+            "Without practice, skills can revert to what they were before.",
+            "The land may revert to forest if left alone."
+          ]
+        },
+        {
+          "word": "Route",
+          "definition": "a way or path from one place to another",
+          "examples": [
+            "We chose the scenic route through the mountains.",
+            "The bus route stops near our house."
+          ]
+        },
+        {
+          "word": "Saunter",
+          "definition": "to walk in a slow, relaxed way",
+          "examples": [
+            "We sauntered through the park on Sunday afternoon.",
+            "The cat likes to saunter across the sunny porch."
+          ]
+        },
+        {
+          "word": "Seldom",
+          "definition": "not often; rarely",
+          "examples": [
+            "It seldom snows in our town.",
+            "She seldom misses a day of practice."
+          ]
+        },
+        {
+          "word": "Senseless",
+          "definition": "without meaning or purpose; lacking good judgment",
+          "examples": [
+            "The senseless noise kept everyone awake.",
+            "Fighting over something small is senseless."
+          ]
+        },
+        {
+          "word": "Sever",
+          "definition": "to cut or break apart",
+          "examples": [
+            "The storm severed the power lines.",
+            "He had to sever the rope to free the boat."
+          ]
+        },
+        {
+          "word": "Slither",
+          "definition": "to slide smoothly, like a snake",
+          "examples": [
+            "The snake began to slither through the grass.",
+            "We watched the eel slither along the river bottom."
+          ]
+        },
+        {
+          "word": "Sluggish",
+          "definition": "slow and lacking energy",
+          "examples": [
+            "I feel sluggish when I don't get enough sleep.",
+            "The sluggish river barely moved in the heat."
+          ]
+        },
+        {
+          "word": "Soar",
+          "definition": "to fly high in the air; to rise quickly",
+          "examples": [
+            "Eagles soar above the cliffs.",
+            "Prices began to soar after the shortage."
+          ]
+        },
+        {
+          "word": "Solitary",
+          "definition": "alone; done without others",
+          "examples": [
+            "The solitary hiker enjoyed the quiet trail.",
+            "Tigers are mostly solitary animals."
+          ]
+        },
+        {
+          "word": "Solo",
+          "definition": "alone; a performance by one person",
+          "examples": [
+            "She sang a solo at the concert.",
+            "He flew solo for the first time yesterday."
+          ]
+        },
+        {
+          "word": "Sparse",
+          "definition": "thinly scattered; not dense",
+          "examples": [
+            "Trees are sparse on the dry hillside.",
+            "Only sparse attendance was expected on the rainy day."
+          ]
+        },
+        {
+          "word": "Spurt",
+          "definition": "a sudden burst of speed, effort, or liquid",
+          "examples": [
+            "He ran in a spurt to catch the bus.",
+            "Water came out in a spurt from the hose."
+          ]
+        },
+        {
+          "word": "Strategy",
+          "definition": "a careful plan to achieve a goal",
+          "examples": [
+            "Our team developed a strategy to win the game.",
+            "Good study strategy includes reviewing notes daily."
+          ]
+        },
+        {
+          "word": "Suffix",
+          "definition": "a word part added to the end of a word to change its meaning",
+          "examples": [
+            "'-ful' is a suffix meaning 'full of,' as in 'helpful.'",
+            "Adding a suffix can turn a verb into a noun."
+          ]
+        },
+        {
+          "word": "Suffocate",
+          "definition": "to die or suffer from lack of air",
+          "examples": [
+            "Never cover your face in a way that could suffocate you.",
+            "Smoke can suffocate people trapped in a fire."
+          ]
+        },
+        {
+          "word": "Summit",
+          "definition": "the highest point of a mountain; a meeting of leaders",
+          "examples": [
+            "Climbers reached the summit at sunrise.",
+            "World leaders met at the summit to discuss climate change."
+          ]
+        },
+        {
+          "word": "Suspend",
+          "definition": "to hang something; to stop something temporarily",
+          "examples": [
+            "The bridge cables suspend the walkway above the river.",
+            "School may suspend a student who breaks serious rules."
+          ]
+        },
+        {
+          "word": "Synonym",
+          "definition": "a word that means the same or nearly the same as another",
+          "examples": [
+            "'Happy' is a synonym of 'joyful.'",
+            "The thesaurus lists synonyms for each word."
+          ]
+        },
+        {
+          "word": "Talon",
+          "definition": "a sharp claw, especially of a bird of prey",
+          "examples": [
+            "The eagle gripped the fish in its talons.",
+            "Hawks use their talons to catch small animals."
+          ]
+        },
+        {
+          "word": "Taunt",
+          "definition": "to tease or provoke someone in a cruel way",
+          "examples": [
+            "It is wrong to taunt classmates about their mistakes.",
+            "Rival fans taunted each other from the stands."
+          ]
+        },
+        {
+          "word": "Thrifty",
+          "definition": "careful about spending money; not wasteful",
+          "examples": [
+            "My thrifty aunt always looks for sales.",
+            "Being thrifty helps you save for big purchases."
+          ]
+        },
+        {
+          "word": "Translate",
+          "definition": "to change words from one language into another",
+          "examples": [
+            "Can you translate this sentence into Spanish?",
+            "Apps can translate signs when you travel abroad."
+          ]
+        },
+        {
+          "word": "Tropical",
+          "definition": "relating to hot, humid regions near the equator",
+          "examples": [
+            "Parrots live in tropical rainforests.",
+            "We dreamed of a tropical vacation on a sunny island."
+          ]
+        },
+        {
+          "word": "Visible",
+          "definition": "able to be seen",
+          "examples": [
+            "The stars became visible after dark.",
+            "Make sure your name is visible on your homework."
+          ]
+        },
+        {
+          "word": "Visual",
+          "definition": "related to seeing or sight",
+          "examples": [
+            "The visual effects in the movie were amazing.",
+            "Some learners prefer visual aids like charts and diagrams."
+          ]
+        },
+        {
+          "word": "Vivid",
+          "definition": "producing strong, clear images in the mind; bright in color",
+          "examples": [
+            "She gave a vivid description of the storm.",
+            "The vivid colors of the sunset painted the sky."
+          ]
+        },
+        {
+          "word": "Wilderness",
+          "definition": "a wild, natural area with few or no people",
+          "examples": [
+            "They camped deep in the wilderness.",
+            "Bears roam freely in the northern wilderness."
+          ]
+        },
+        {
+          "word": "Withdraw",
+          "definition": "to pull back or remove; to take money from a bank",
+          "examples": [
+            "Troops began to withdraw from the border.",
+            "You can withdraw cash from the ATM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "6th Grade",
+      "words": [
+        {
+          "word": "Abandon",
+          "definition": "to leave behind permanently",
+          "examples": [
+            "The crew had to abandon the sinking ship.",
+            "Never abandon a pet when you move away."
+          ]
+        },
+        {
+          "word": "Abundant",
+          "definition": "existing in large amounts",
+          "examples": [
+            "Rainfall was abundant this spring.",
+            "The garden had an abundant harvest of tomatoes."
+          ]
+        },
+        {
+          "word": "Access",
+          "definition": "the ability to enter, use, or reach something",
+          "examples": [
+            "Students need a password to access the online library.",
+            "The ramp gives wheelchair users access to the building."
+          ]
+        },
+        {
+          "word": "Accommodate",
+          "definition": "to provide room or adjust to fit someone's needs",
+          "examples": [
+            "The hotel can accommodate fifty guests.",
+            "Teachers accommodate different learning styles in class."
+          ]
+        },
+        {
+          "word": "Accumulate",
+          "definition": "to gather or collect over time",
+          "examples": [
+            "Dust can accumulate on shelves if you don't clean.",
+            "She began to accumulate savings for college."
+          ]
+        },
+        {
+          "word": "Adapt",
+          "definition": "to change to fit new conditions",
+          "examples": [
+            "Animals adapt to survive in harsh climates.",
+            "We must adapt our plans when the weather changes."
+          ]
+        },
+        {
+          "word": "Adhere",
+          "definition": "to stick firmly; to follow rules closely",
+          "examples": [
+            "Glue helps labels adhere to bottles.",
+            "All members must adhere to the club rules."
+          ]
+        },
+        {
+          "word": "Agony",
+          "definition": "extreme physical or mental pain",
+          "examples": [
+            "He cried out in agony after twisting his ankle.",
+            "Waiting for the results was agony."
+          ]
+        },
+        {
+          "word": "Allegiance",
+          "definition": "loyalty to a person, group, or country",
+          "examples": [
+            "Citizens pledge allegiance to the flag.",
+            "Knights swore allegiance to their lord."
+          ]
+        },
+        {
+          "word": "Ambition",
+          "definition": "a strong desire to achieve something",
+          "examples": [
+            "Her ambition is to become a doctor.",
+            "Hard work turns ambition into success."
+          ]
+        },
+        {
+          "word": "Ample",
+          "definition": "more than enough; plentiful",
+          "examples": [
+            "There was ample food for everyone at the picnic.",
+            "The room had ample space for a desk and bookshelf."
+          ]
+        },
+        {
+          "word": "Anguish",
+          "definition": "severe pain or suffering, especially emotional",
+          "examples": [
+            "She felt anguish when her pet was lost.",
+            "The letter expressed the writer's deep anguish."
+          ]
+        },
+        {
+          "word": "Anticipate",
+          "definition": "to expect or look forward to something",
+          "examples": [
+            "We anticipate a busy week before the holiday.",
+            "Fans anticipate the release of the new book."
+          ]
+        },
+        {
+          "word": "Anxious",
+          "definition": "worried or nervous about something",
+          "examples": [
+            "She felt anxious before her first piano recital.",
+            "The anxious puppy hid under the bed during the storm."
+          ]
+        },
+        {
+          "word": "Apparel",
+          "definition": "clothing",
+          "examples": [
+            "The store sells athletic apparel.",
+            "Workers must wear safety apparel on the construction site."
+          ]
+        },
+        {
+          "word": "Appeal",
+          "definition": "to be attractive or interesting; a request for help",
+          "examples": [
+            "Bright colors appeal to young children.",
+            "The lawyer filed an appeal to overturn the decision."
+          ]
+        },
+        {
+          "word": "Apprehensive",
+          "definition": "anxious or fearful about the future",
+          "examples": [
+            "She felt apprehensive about starting a new school.",
+            "He was apprehensive before his first speech."
+          ]
+        },
+        {
+          "word": "Arid",
+          "definition": "very dry with little rainfall",
+          "examples": [
+            "Cacti thrive in arid deserts.",
+            "The arid land could not support many crops."
+          ]
+        },
+        {
+          "word": "Arrogant",
+          "definition": "having an exaggerated sense of one's own importance",
+          "examples": [
+            "The arrogant player refused to pass the ball.",
+            "Nobody likes an arrogant attitude."
+          ]
+        },
+        {
+          "word": "Awe",
+          "definition": "a feeling of wonder and respect, often mixed with fear",
+          "examples": [
+            "We stared in awe at the towering waterfall.",
+            "The vast night sky filled her with awe."
+          ]
+        },
+        {
+          "word": "Barren",
+          "definition": "unable to produce plants or offspring; empty",
+          "examples": [
+            "The barren field had no crops.",
+            "Nothing grew on the barren hillside."
+          ]
+        },
+        {
+          "word": "Beacon",
+          "definition": "a guiding light or signal; a source of inspiration",
+          "examples": [
+            "The lighthouse served as a beacon for ships.",
+            "She became a beacon of hope for her community."
+          ]
+        },
+        {
+          "word": "Beneficial",
+          "definition": "helpful or good for you",
+          "examples": [
+            "Exercise is beneficial to your health.",
+            "Reading daily is beneficial for vocabulary growth."
+          ]
+        },
+        {
+          "word": "Blunder",
+          "definition": "a careless mistake",
+          "examples": [
+            "Sending the email to the wrong person was a blunder.",
+            "The general's blunder cost his army the battle."
+          ]
+        },
+        {
+          "word": "Boisterous",
+          "definition": "noisy, energetic, and cheerful",
+          "examples": [
+            "The boisterous crowd cheered at the game.",
+            "Boisterous puppies tumbled across the yard."
+          ]
+        },
+        {
+          "word": "Boycott",
+          "definition": "to refuse to buy or use something as a protest",
+          "examples": [
+            "Consumers chose to boycott the unfair company.",
+            "Students organized a boycott of the cafeteria food."
+          ]
+        },
+        {
+          "word": "Burden",
+          "definition": "a heavy load; something difficult to bear",
+          "examples": [
+            "Carrying the heavy backpack was a burden.",
+            "She did not want to burden her friends with her worries."
+          ]
+        },
+        {
+          "word": "Campaign",
+          "definition": "an organized effort to achieve a goal",
+          "examples": [
+            "The class ran a campaign to reduce litter.",
+            "Politicians launch campaigns before elections."
+          ]
+        },
+        {
+          "word": "Capacity",
+          "definition": "the maximum amount something can hold or do",
+          "examples": [
+            "The stadium has a capacity of ten thousand seats.",
+            "She has a great capacity for learning languages."
+          ]
+        },
+        {
+          "word": "Capital",
+          "definition": "the city where a government is located; wealth used to produce more wealth",
+          "examples": [
+            "Washington, D.C., is the capital of the United States.",
+            "The business needed capital to open a second store."
+          ]
+        },
+        {
+          "word": "Chronological",
+          "definition": "arranged in the order that events happened",
+          "examples": [
+            "We listed the presidents in chronological order.",
+            "The timeline showed events in chronological sequence."
+          ]
+        },
+        {
+          "word": "Civic",
+          "definition": "related to a city or the duties of a citizen",
+          "examples": [
+            "Voting is an important civic responsibility.",
+            "The civic center hosts community events."
+          ]
+        },
+        {
+          "word": "Clarity",
+          "definition": "clearness in thought, expression, or appearance",
+          "examples": [
+            "She explained the rules with clarity.",
+            "The clarity of the photograph was amazing."
+          ]
+        },
+        {
+          "word": "Collaborate",
+          "definition": "to work together with others",
+          "examples": [
+            "Scientists collaborate across countries on research.",
+            "We will collaborate on the history project."
+          ]
+        },
+        {
+          "word": "Collide",
+          "definition": "to crash into each other with force",
+          "examples": [
+            "Two cars collided at the intersection.",
+            "Planets may collide in space over billions of years."
+          ]
+        },
+        {
+          "word": "Commend",
+          "definition": "to praise or recommend someone",
+          "examples": [
+            "The principal commended students for their kindness.",
+            "I commend you for trying your best."
+          ]
+        },
+        {
+          "word": "Commentary",
+          "definition": "spoken or written remarks that explain or discuss something",
+          "examples": [
+            "The sportscaster provided commentary during the game.",
+            "We wrote commentary about the poem in class."
+          ]
+        },
+        {
+          "word": "Compact",
+          "definition": "small and tightly packed; an agreement",
+          "examples": [
+            "The compact car fit into the tiny parking space.",
+            "They signed a compact to share resources."
+          ]
+        },
+        {
+          "word": "Composure",
+          "definition": "calmness and self-control",
+          "examples": [
+            "She kept her composure during the difficult interview.",
+            "Deep breaths helped him regain composure."
+          ]
+        },
+        {
+          "word": "Concise",
+          "definition": "giving a lot of information in few words",
+          "examples": [
+            "Please write a concise summary of the chapter.",
+            "Her concise answer saved everyone time."
+          ]
+        },
+        {
+          "word": "Consent",
+          "definition": "permission or agreement",
+          "examples": [
+            "You need a parent's consent to go on the trip.",
+            "All members gave consent to the new rule."
+          ]
+        },
+        {
+          "word": "Consequence",
+          "definition": "a result of an action",
+          "examples": [
+            "Every choice has a consequence.",
+            "Breaking the law can lead to serious consequences."
+          ]
+        },
+        {
+          "word": "Conserve",
+          "definition": "to protect from waste or harm; to save",
+          "examples": [
+            "We should conserve water during a drought.",
+            "Park rangers work to conserve wildlife habitats."
+          ]
+        },
+        {
+          "word": "Conspicuous",
+          "definition": "easy to notice; standing out",
+          "examples": [
+            "His bright red hat was conspicuous in the crowd.",
+            "There was a conspicuous stain on the shirt."
+          ]
+        },
+        {
+          "word": "Constant",
+          "definition": "continuing without stopping; unchanging",
+          "examples": [
+            "The constant noise made it hard to concentrate.",
+            "Gravity provides a constant pull on objects."
+          ]
+        },
+        {
+          "word": "Contaminate",
+          "definition": "to make something dirty or impure",
+          "examples": [
+            "Chemicals can contaminate drinking water.",
+            "Wash your hands so you don't contaminate the food."
+          ]
+        },
+        {
+          "word": "Context",
+          "definition": "the words and situation surrounding something that help explain its meaning",
+          "examples": [
+            "Use context clues to figure out unfamiliar words.",
+            "Historical context helps us understand old documents."
+          ]
+        },
+        {
+          "word": "Continuous",
+          "definition": "happening without interruption",
+          "examples": [
+            "Rain fell in a continuous drizzle all day.",
+            "The factory runs continuous shifts to meet demand."
+          ]
+        },
+        {
+          "word": "Controversy",
+          "definition": "strong public disagreement about an issue",
+          "examples": [
+            "The new law caused controversy across the country.",
+            "There was controversy over who won the debate."
+          ]
+        },
+        {
+          "word": "Convenient",
+          "definition": "easy to use or suited to your needs",
+          "examples": [
+            "Online ordering is convenient for busy families.",
+            "The store's location is convenient to our school."
+          ]
+        },
+        {
+          "word": "Cope",
+          "definition": "to deal successfully with a difficult situation",
+          "examples": [
+            "She learned to cope with stress by exercising.",
+            "Communities must cope with floods and other disasters."
+          ]
+        },
+        {
+          "word": "Cordial",
+          "definition": "warm and friendly",
+          "examples": [
+            "They received a cordial welcome at the neighbor's house.",
+            "Despite their rivalry, the coaches were cordial after the game."
+          ]
+        },
+        {
+          "word": "Cultivate",
+          "definition": "to prepare land for crops; to develop a skill or relationship",
+          "examples": [
+            "Farmers cultivate fields in the spring.",
+            "Reading helps cultivate a love of learning."
+          ]
+        },
+        {
+          "word": "Cumulative",
+          "definition": "growing by addition over time",
+          "examples": [
+            "Your cumulative score includes all quiz results.",
+            "The cumulative effect of small savings adds up."
+          ]
+        },
+        {
+          "word": "Declare",
+          "definition": "to announce officially or clearly",
+          "examples": [
+            "The judge will declare the winner.",
+            "Colonies declare independence with bold statements."
+          ]
+        },
+        {
+          "word": "Deluge",
+          "definition": "a sudden flood; an overwhelming amount",
+          "examples": [
+            "A deluge of rain flooded the streets.",
+            "She received a deluge of birthday messages."
+          ]
+        },
+        {
+          "word": "Dense",
+          "definition": "closely packed together; thick",
+          "examples": [
+            "The dense forest blocked most sunlight.",
+            "Fog was so dense we could barely see the road."
+          ]
+        },
+        {
+          "word": "Deplete",
+          "definition": "to use up or reduce greatly",
+          "examples": [
+            "Long droughts deplete water supplies.",
+            "Running too many apps can deplete your phone battery."
+          ]
+        },
+        {
+          "word": "Deposit",
+          "definition": "to put money in a bank; a layer of material left behind",
+          "examples": [
+            "Please deposit your homework in the tray.",
+            "Minerals form deposit layers in rock over time."
+          ]
+        },
+        {
+          "word": "Designate",
+          "definition": "to choose or name for a specific purpose",
+          "examples": [
+            "The teacher will designate a line leader each week.",
+            "This room is designated for quiet study."
+          ]
+        },
+        {
+          "word": "Desperate",
+          "definition": "feeling hopeless or willing to do anything to change a bad situation",
+          "examples": [
+            "They were desperate for help after the storm.",
+            "A desperate move saved the team in the final seconds."
+          ]
+        },
+        {
+          "word": "Deteriorate",
+          "definition": "to become worse over time",
+          "examples": [
+            "Old buildings deteriorate without repairs.",
+            "His health began to deteriorate after the injury."
+          ]
+        },
+        {
+          "word": "Dialogue",
+          "definition": "conversation between two or more people; speech in a story",
+          "examples": [
+            "The play's dialogue sounded natural and funny.",
+            "Honest dialogue can resolve many conflicts."
+          ]
+        },
+        {
+          "word": "Diligent",
+          "definition": "showing steady, careful effort",
+          "examples": [
+            "She is a diligent student who checks her work twice.",
+            "Diligent practice leads to improvement."
+          ]
+        },
+        {
+          "word": "Diminish",
+          "definition": "to become or make smaller or less",
+          "examples": [
+            "The pain will diminish with rest.",
+            "Loud music can diminish your ability to hear warnings."
+          ]
+        },
+        {
+          "word": "Discretion",
+          "definition": "the ability to make careful, wise choices",
+          "examples": [
+            "Use discretion when sharing personal information online.",
+            "The manager handled the complaint with discretion."
+          ]
+        },
+        {
+          "word": "Dissent",
+          "definition": "to disagree with an official opinion or decision",
+          "examples": [
+            "One judge voiced dissent in the ruling.",
+            "Peaceful dissent is part of a free society."
+          ]
+        },
+        {
+          "word": "Dissolve",
+          "definition": "to mix into a liquid and disappear; to break up formally",
+          "examples": [
+            "Sugar will dissolve in hot tea.",
+            "The club voted to dissolve at the end of the year."
+          ]
+        },
+        {
+          "word": "Distinct",
+          "definition": "clearly different or separate",
+          "examples": [
+            "Each species has distinct markings.",
+            "There are two distinct parts to the assignment."
+          ]
+        },
+        {
+          "word": "Diversity",
+          "definition": "variety; the inclusion of different types of people or things",
+          "examples": [
+            "Our class celebrates diversity of cultures and ideas.",
+            "Rainforests have great diversity of plant life."
+          ]
+        },
+        {
+          "word": "Domestic",
+          "definition": "relating to the home or to one's own country",
+          "examples": [
+            "Domestic chores include cooking and cleaning.",
+            "Domestic flights stay within the same country."
+          ]
+        },
+        {
+          "word": "Dominate",
+          "definition": "to control or be the most important",
+          "examples": [
+            "Tall trees dominate the landscape.",
+            "One team began to dominate the second half."
+          ]
+        },
+        {
+          "word": "Drastic",
+          "definition": "extreme and sudden",
+          "examples": [
+            "The drought required drastic water restrictions.",
+            "Doctors took drastic steps to save the patient."
+          ]
+        },
+        {
+          "word": "Duration",
+          "definition": "the length of time something lasts",
+          "examples": [
+            "The duration of the movie is two hours.",
+            "Rest for the full duration of the recovery period."
+          ]
+        },
+        {
+          "word": "Dwell",
+          "definition": "to live in a place; to think about something for a long time",
+          "examples": [
+            "Many families dwell in apartments downtown.",
+            "Try not to dwell on small mistakes."
+          ]
+        },
+        {
+          "word": "Eclipse",
+          "definition": "when one object in space blocks the light of another",
+          "examples": [
+            "We watched the solar eclipse with special glasses.",
+            "The moon can eclipse the sun during the day."
+          ]
+        },
+        {
+          "word": "Economy",
+          "definition": "the system of money, trade, and industry in a country",
+          "examples": [
+            "A strong economy creates jobs.",
+            "Families plan their budget around the economy."
+          ]
+        },
+        {
+          "word": "Eerie",
+          "definition": "strange and frightening in a mysterious way",
+          "examples": [
+            "An eerie silence filled the empty hall.",
+            "Fog gave the forest an eerie glow."
+          ]
+        },
+        {
+          "word": "Effect",
+          "definition": "a change caused by something else",
+          "examples": [
+            "The effect of exercise is better health.",
+            "What effect did the new rule have on behavior?"
+          ]
+        },
+        {
+          "word": "Efficient",
+          "definition": "achieving results without wasting time or energy",
+          "examples": [
+            "LED bulbs are more efficient than old lights.",
+            "An efficient study plan saves time before tests."
+          ]
+        },
+        {
+          "word": "Elaborate",
+          "definition": "detailed and complicated; to add more detail",
+          "examples": [
+            "She wore an elaborate costume to the play.",
+            "Please elaborate on your answer with examples."
+          ]
+        },
+        {
+          "word": "Eligible",
+          "definition": "qualified or allowed to do something",
+          "examples": [
+            "Students with good grades are eligible for the honor roll.",
+            "You must be eighteen to be eligible to vote."
+          ]
+        },
+        {
+          "word": "Elude",
+          "definition": "to escape from or avoid capture",
+          "examples": [
+            "The fox managed to elude the hunters.",
+            "The answer eluded him until he reread the problem."
+          ]
+        },
+        {
+          "word": "Encounter",
+          "definition": "to meet or experience unexpectedly",
+          "examples": [
+            "Hikers may encounter bears in the woods.",
+            "We encountered a problem with the printer."
+          ]
+        },
+        {
+          "word": "Equivalent",
+          "definition": "equal in value, amount, or meaning",
+          "examples": [
+            "One dollar is equivalent to one hundred cents.",
+            "'Big' and 'large' are equivalent in meaning."
+          ]
+        },
+        {
+          "word": "Erupt",
+          "definition": "to burst out suddenly, as lava from a volcano",
+          "examples": [
+            "The volcano may erupt without warning.",
+            "Laughter erupted when the comedian told a joke."
+          ]
+        },
+        {
+          "word": "Esteem",
+          "definition": "respect and admiration",
+          "examples": [
+            "Teachers hold students who try hard in high esteem.",
+            "Self-esteem grows when you achieve your goals."
+          ]
+        },
+        {
+          "word": "Evolve",
+          "definition": "to develop gradually over time",
+          "examples": [
+            "Languages evolve as people use them.",
+            "Species evolve to survive in changing environments."
+          ]
+        },
+        {
+          "word": "Exaggerate",
+          "definition": "to make something seem larger or more important than it is",
+          "examples": [
+            "Don't exaggerate how hard the test was.",
+            "Fish stories often exaggerate the size of the catch."
+          ]
+        },
+        {
+          "word": "Excel",
+          "definition": "to do extremely well at something",
+          "examples": [
+            "She excels in math and science.",
+            "Athletes excel when they train consistently."
+          ]
+        },
+        {
+          "word": "Exclude",
+          "definition": "to leave out or keep out",
+          "examples": [
+            "The club should not exclude anyone because of differences.",
+            "The price excludes tax and shipping."
+          ]
+        },
+        {
+          "word": "Expanse",
+          "definition": "a wide, open area",
+          "examples": [
+            "We crossed a vast expanse of desert.",
+            "The expanse of ocean stretched to the horizon."
+          ]
+        },
+        {
+          "word": "Exploit",
+          "definition": "to use unfairly for one's own benefit; to make full use of",
+          "examples": [
+            "Companies must not exploit workers.",
+            "Explorers learned to exploit natural resources carefully."
+          ]
+        },
+        {
+          "word": "Extinct",
+          "definition": "no longer existing",
+          "examples": [
+            "Dinosaurs have been extinct for millions of years.",
+            "Some languages become extinct when no one speaks them."
+          ]
+        },
+        {
+          "word": "Extract",
+          "definition": "to remove or pull out",
+          "examples": [
+            "Dentists extract teeth when they cannot be saved.",
+            "Scientists extract DNA from samples in the lab."
+          ]
+        },
+        {
+          "word": "Factor",
+          "definition": "something that contributes to a result",
+          "examples": [
+            "Weather is a factor in crop growth.",
+            "Hard work was a key factor in her success."
+          ]
+        },
+        {
+          "word": "Former",
+          "definition": "having been something in the past",
+          "examples": [
+            "The former captain now coaches the team.",
+            "She visited her former school for the reunion."
+          ]
+        },
+        {
+          "word": "Formulates",
+          "definition": "to create or develop carefully (third person singular)",
+          "examples": [
+            "The chef formulates new recipes each season.",
+            "The committee formulates policies for the school."
+          ]
+        },
+        {
+          "word": "Fuse",
+          "definition": "to join together into one",
+          "examples": [
+            "Heat can fuse metal pieces in welding.",
+            "The communities fused into one larger town."
+          ]
+        },
+        {
+          "word": "Futile",
+          "definition": "useless; having no chance of success",
+          "examples": [
+            "It is futile to argue with someone who won't listen.",
+            "Their futile search ended when night fell."
+          ]
+        },
+        {
+          "word": "Generate",
+          "definition": "to produce or create something",
+          "examples": [
+            "Wind turbines generate electricity.",
+            "Brainstorming helps generate new ideas."
+          ]
+        },
+        {
+          "word": "Genre",
+          "definition": "a category of art, music, or literature",
+          "examples": [
+            "Mystery is my favorite book genre.",
+            "Jazz is a popular music genre."
+          ]
+        },
+        {
+          "word": "Habitat",
+          "definition": "the natural home of an animal or plant",
+          "examples": [
+            "Polar bears live in an Arctic habitat.",
+            "Destroying forests removes wildlife habitat."
+          ]
+        },
+        {
+          "word": "Hazardous",
+          "definition": "dangerous",
+          "examples": [
+            "Chemicals in the lab can be hazardous.",
+            "Driving in icy conditions is hazardous."
+          ]
+        },
+        {
+          "word": "Hoax",
+          "definition": "a trick or deception",
+          "examples": [
+            "The UFO sighting turned out to be a hoax.",
+            "Don't believe every online story—it might be a hoax."
+          ]
+        },
+        {
+          "word": "Hostile",
+          "definition": "unfriendly; wanting to fight",
+          "examples": [
+            "The hostile crowd booed the visiting team.",
+            "Desert conditions can be hostile to plants."
+          ]
+        },
+        {
+          "word": "Idiom",
+          "definition": "a phrase whose meaning is different from the literal words",
+          "examples": [
+            "'Break a leg' is an idiom meaning 'good luck.'",
+            "Learning idioms helps you understand everyday speech."
+          ]
+        },
+        {
+          "word": "Ignite",
+          "definition": "to set on fire; to spark interest or emotion",
+          "examples": [
+            "A spark can ignite dry grass.",
+            "The speech ignited excitement in the crowd."
+          ]
+        },
+        {
+          "word": "Immense",
+          "definition": "extremely large or great",
+          "examples": [
+            "The stadium has immense seating capacity.",
+            "She felt immense relief when the test was over."
+          ]
+        },
+        {
+          "word": "Improvise",
+          "definition": "to create or perform without preparation",
+          "examples": [
+            "Jazz musicians often improvise solos.",
+            "We had to improvise a tent when it started raining."
+          ]
+        },
+        {
+          "word": "Inept",
+          "definition": "not skilled or clumsy",
+          "examples": [
+            "The inept juggler dropped all the balls.",
+            "He felt inept at first but improved with practice."
+          ]
+        },
+        {
+          "word": "Inevitable",
+          "definition": "certain to happen; unavoidable",
+          "examples": [
+            "Change is inevitable as you grow older.",
+            "Rain seemed inevitable after those dark clouds appeared."
+          ]
+        },
+        {
+          "word": "Influence",
+          "definition": "the power to affect how someone thinks or acts",
+          "examples": [
+            "Good friends have a positive influence on you.",
+            "Advertising can influence what people buy."
+          ]
+        },
+        {
+          "word": "Ingenious",
+          "definition": "clever and inventive",
+          "examples": [
+            "She found an ingenious way to organize her desk.",
+            "The ingenious trap caught the mouse safely."
+          ]
+        },
+        {
+          "word": "Innovation",
+          "definition": "a new idea, method, or invention",
+          "examples": [
+            "Smartphones were a major innovation in communication.",
+            "Schools encourage innovation in science projects."
+          ]
+        },
+        {
+          "word": "Intimidate",
+          "definition": "to frighten or threaten someone",
+          "examples": [
+            "Bullies should not intimidate classmates.",
+            "The size of the opponent did not intimidate her."
+          ]
+        },
+        {
+          "word": "Jovial",
+          "definition": "cheerful and friendly",
+          "examples": [
+            "The jovial host made everyone feel welcome.",
+            "His jovial laugh filled the room."
+          ]
+        },
+        {
+          "word": "Knack",
+          "definition": "a natural ability to do something well",
+          "examples": [
+            "She has a knack for solving puzzles.",
+            "He has a knack for making people smile."
+          ]
+        },
+        {
+          "word": "Leeway",
+          "definition": "freedom to act within limits",
+          "examples": [
+            "The teacher gave us leeway on the due date.",
+            "Drivers need leeway when roads are slippery."
+          ]
+        },
+        {
+          "word": "Legislation",
+          "definition": "laws made by a government body",
+          "examples": [
+            "New legislation banned texting while driving.",
+            "Congress debates legislation before it becomes law."
+          ]
+        },
+        {
+          "word": "Leisure",
+          "definition": "free time for relaxation",
+          "examples": [
+            "Reading is my favorite leisure activity.",
+            "We spent the leisure hours playing board games."
+          ]
+        },
+        {
+          "word": "Liberate",
+          "definition": "to set free",
+          "examples": [
+            "Soldiers helped liberate the captured town.",
+            "Education can liberate people from poverty."
+          ]
+        },
+        {
+          "word": "Likeness",
+          "definition": "similar appearance; a portrait",
+          "examples": [
+            "The statue bears a strong likeness to the president.",
+            "Artists capture a person's likeness in a painting."
+          ]
+        },
+        {
+          "word": "Linger",
+          "definition": "to stay longer than expected",
+          "examples": [
+            "Guests lingered after the party to talk.",
+            "The smell of cookies lingered in the kitchen."
+          ]
+        },
+        {
+          "word": "Literal",
+          "definition": "exactly as stated; not figurative",
+          "examples": [
+            "The literal meaning of 'cold feet' is feet that are cold.",
+            "Take his warning in the literal sense."
+          ]
+        },
+        {
+          "word": "Loathe",
+          "definition": "to dislike very much",
+          "examples": [
+            "I loathe waking up before sunrise.",
+            "She loathes dishonesty in any form."
+          ]
+        },
+        {
+          "word": "Lure",
+          "definition": "to attract or tempt someone",
+          "examples": [
+            "Bright colors lure fish toward the bait.",
+            "Advertisements lure shoppers with big sales."
+          ]
+        },
+        {
+          "word": "Majority",
+          "definition": "more than half of a group",
+          "examples": [
+            "The majority of students voted for pizza.",
+            "A majority rules in democratic decisions."
+          ]
+        },
+        {
+          "word": "Makeshift",
+          "definition": "temporary and improvised",
+          "examples": [
+            "They built a makeshift shelter from branches.",
+            "A cardboard box served as a makeshift table."
+          ]
+        },
+        {
+          "word": "Manipulate",
+          "definition": "to control or handle skillfully; sometimes unfairly",
+          "examples": [
+            "You manipulate clay to shape a pot.",
+            "Do not manipulate others to get your way."
+          ]
+        },
+        {
+          "word": "Marvel",
+          "definition": "to be amazed; something wonderful",
+          "examples": [
+            "Visitors marvel at the ancient ruins.",
+            "The Grand Canyon is a natural marvel."
+          ]
+        },
+        {
+          "word": "Massive",
+          "definition": "very large and heavy",
+          "examples": [
+            "A massive iceberg floated near the ship.",
+            "The project requires a massive amount of work."
+          ]
+        },
+        {
+          "word": "Maximum",
+          "definition": "the greatest possible amount",
+          "examples": [
+            "The maximum speed on this road is fifty-five.",
+            "Fill the container to the maximum line."
+          ]
+        },
+        {
+          "word": "Meager",
+          "definition": "small in amount; not enough",
+          "examples": [
+            "They survived on a meager meal of bread and soup.",
+            "Meager rainfall hurt the farmers' crops."
+          ]
+        },
+        {
+          "word": "Mere",
+          "definition": "nothing more than; only",
+          "examples": [
+            "It was a mere scratch, not a serious injury.",
+            "At mere twelve years old, she ran a 5K race."
+          ]
+        },
+        {
+          "word": "Migration",
+          "definition": "movement from one place to another, often seasonally",
+          "examples": [
+            "Bird migration brings geese south in winter.",
+            "Human migration shaped many countries' histories."
+          ]
+        },
+        {
+          "word": "Mimic",
+          "definition": "to copy someone's actions or sounds",
+          "examples": [
+            "Parrots mimic human speech.",
+            "Children often mimic their parents' habits."
+          ]
+        },
+        {
+          "word": "Minute",
+          "definition": "extremely small; also a unit of time",
+          "examples": [
+            "Scientists study minute organisms under microscopes.",
+            "Wait one minute before opening the oven."
+          ]
+        },
+        {
+          "word": "Monotonous",
+          "definition": "boring because it never changes",
+          "examples": [
+            "The monotonous beeping kept us awake all night.",
+            "A monotonous job can feel tiring even if it is easy."
+          ]
+        },
+        {
+          "word": "Negotiate",
+          "definition": "to discuss to reach an agreement",
+          "examples": [
+            "Countries negotiate treaties to avoid war.",
+            "We negotiated who would present first."
+          ]
+        },
+        {
+          "word": "Objective",
+          "definition": "a goal; not influenced by personal feelings",
+          "examples": [
+            "Our objective is to finish the project on time.",
+            "Scientists try to remain objective in experiments."
+          ]
+        },
+        {
+          "word": "Obstacle",
+          "definition": "something that blocks progress",
+          "examples": [
+            "Fear can be an obstacle to trying new things.",
+            "They cleared the obstacle from the trail."
+          ]
+        },
+        {
+          "word": "Omniscient",
+          "definition": "knowing everything",
+          "examples": [
+            "An omniscient narrator knows all characters' thoughts.",
+            "No human is truly omniscient."
+          ]
+        },
+        {
+          "word": "Onset",
+          "definition": "the beginning of something",
+          "examples": [
+            "At the onset of winter, birds fly south.",
+            "Medicine works best at the onset of symptoms."
+          ]
+        },
+        {
+          "word": "Optimist",
+          "definition": "a person who expects good things to happen",
+          "examples": [
+            "An optimist sees challenges as opportunities.",
+            "She is an optimist even when plans change."
+          ]
+        },
+        {
+          "word": "Originate",
+          "definition": "to begin or come from a particular place",
+          "examples": [
+            "Coffee originates from Ethiopia.",
+            "The idea originated during our group discussion."
+          ]
+        },
+        {
+          "word": "Painstaking",
+          "definition": "requiring great care and effort",
+          "examples": [
+            "Restoring the painting was painstaking work.",
+            "She took painstaking notes during the lecture."
+          ]
+        },
+        {
+          "word": "Paraphrase",
+          "definition": "to restate something in different words",
+          "examples": [
+            "Please paraphrase the paragraph in your own words.",
+            "He paraphrased the quote so it was easier to understand."
+          ]
+        },
+        {
+          "word": "Parody",
+          "definition": "a humorous imitation of something",
+          "examples": [
+            "The skit was a parody of a famous movie.",
+            "Writers use parody to poke fun at trends."
+          ]
+        },
+        {
+          "word": "Persecute",
+          "definition": "to treat someone cruelly because of who they are",
+          "examples": [
+            "No group should persecute others for their beliefs.",
+            "History books describe regimes that persecuted citizens."
+          ]
+        },
+        {
+          "word": "Plummet",
+          "definition": "to fall suddenly and steeply",
+          "examples": [
+            "Temperatures can plummet overnight in winter.",
+            "Stock prices plummet during a crisis."
+          ]
+        },
+        {
+          "word": "Possess",
+          "definition": "to own or have something",
+          "examples": [
+            "She possesses great talent for music.",
+            "The museum possesses rare ancient artifacts."
+          ]
+        },
+        {
+          "word": "Poverty",
+          "definition": "the state of being very poor",
+          "examples": [
+            "Charities work to reduce poverty worldwide.",
+            "The family escaped poverty through education."
+          ]
+        },
+        {
+          "word": "Precise",
+          "definition": "exact and accurate",
+          "examples": [
+            "Measure the ingredients with precise amounts.",
+            "Give a precise answer instead of guessing."
+          ]
+        },
+        {
+          "word": "Predicament",
+          "definition": "a difficult or unpleasant situation",
+          "examples": [
+            "We were in a predicament when the car broke down.",
+            "Honesty can help you out of a predicament."
+          ]
+        },
+        {
+          "word": "Predict",
+          "definition": "to say what will happen before it does",
+          "examples": [
+            "Meteorologists predict the weather using data.",
+            "Can you predict the ending of the story?"
+          ]
+        },
+        {
+          "word": "Prejudice",
+          "definition": "an unfair opinion formed without enough knowledge",
+          "examples": [
+            "We must fight prejudice and treat everyone fairly.",
+            "Prejudice can hurt people who deserve respect."
+          ]
+        },
+        {
+          "word": "Preliminary",
+          "definition": "coming before the main part; initial",
+          "examples": [
+            "Preliminary results look promising.",
+            "The team held a preliminary meeting before the event."
+          ]
+        },
+        {
+          "word": "Primitive",
+          "definition": "early; simple; from ancient times",
+          "examples": [
+            "Primitive tools were made from stone.",
+            "Early computers seem primitive compared to today's."
+          ]
+        },
+        {
+          "word": "Priority",
+          "definition": "something treated as more important than others",
+          "examples": [
+            "Safety is our top priority on field trips.",
+            "Finish homework before leisure activities is a good priority."
+          ]
+        },
+        {
+          "word": "Prominent",
+          "definition": "important or well known; sticking out",
+          "examples": [
+            "She is a prominent scientist in her field.",
+            "The prominent nose is a family trait."
+          ]
+        },
+        {
+          "word": "Propel",
+          "definition": "to drive or push forward",
+          "examples": [
+            "Oars propel the boat across the lake.",
+            "Ambition can propel you toward your dreams."
+          ]
+        },
+        {
+          "word": "Prosecute",
+          "definition": "to bring someone to trial for a crime",
+          "examples": [
+            "The state may prosecute those who break the law.",
+            "Lawyers prosecute cases in criminal court."
+          ]
+        },
+        {
+          "word": "Prosper",
+          "definition": "to succeed and grow strong",
+          "examples": [
+            "Businesses prosper when customers are happy.",
+            "Communities prosper when schools and jobs are strong."
+          ]
+        },
+        {
+          "word": "Provoke",
+          "definition": "to cause a reaction, often anger",
+          "examples": [
+            "Do not provoke the dog by pulling its tail.",
+            "His rude comment provoked an argument."
+          ]
+        },
+        {
+          "word": "Pursue",
+          "definition": "to follow or chase; to work toward a goal",
+          "examples": [
+            "Detectives pursue clues to solve crimes.",
+            "She will pursue a career in engineering."
+          ]
+        },
+        {
+          "word": "Quest",
+          "definition": "a long search for something important",
+          "examples": [
+            "Knights went on a quest for the holy grail.",
+            "Her quest for knowledge led her to many libraries."
+          ]
+        },
+        {
+          "word": "Recount",
+          "definition": "to tell a story again; to count again",
+          "examples": [
+            "She will recount her adventure to the class.",
+            "Officials recount votes when results are close."
+          ]
+        },
+        {
+          "word": "Refuge",
+          "definition": "a safe place protected from danger",
+          "examples": [
+            "Birds find refuge in the wetland preserve.",
+            "The library was a quiet refuge from the noisy hall."
+          ]
+        },
+        {
+          "word": "Reinforce",
+          "definition": "to strengthen or support",
+          "examples": [
+            "Practice will reinforce what you learned.",
+            "Steel bars reinforce the concrete wall."
+          ]
+        },
+        {
+          "word": "Reluctant",
+          "definition": "unwilling or hesitant",
+          "examples": [
+            "He was reluctant to try the new food.",
+            "She gave a reluctant yes to helping after school."
+          ]
+        },
+        {
+          "word": "Remorse",
+          "definition": "deep regret for doing wrong",
+          "examples": [
+            "He felt remorse after breaking his friend's toy.",
+            "A sincere apology shows remorse."
+          ]
+        },
+        {
+          "word": "Remote",
+          "definition": "far away; distant",
+          "examples": [
+            "They live in a remote village in the mountains.",
+            "Use the remote to change the channel."
+          ]
+        },
+        {
+          "word": "Resolute",
+          "definition": "firm and determined",
+          "examples": [
+            "She remained resolute despite setbacks.",
+            "The resolute leader refused to give up."
+          ]
+        },
+        {
+          "word": "Restrain",
+          "definition": "to hold back or control",
+          "examples": [
+            "Officers restrain suspects safely during arrests.",
+            "Try to restrain your excitement until the results are final."
+          ]
+        },
+        {
+          "word": "Retaliate",
+          "definition": "to get revenge or strike back",
+          "examples": [
+            "It is better not to retaliate when someone is rude.",
+            "The team retaliated with two quick goals."
+          ]
+        },
+        {
+          "word": "Retrieve",
+          "definition": "to get something back",
+          "examples": [
+            "The dog retrieves the ball from the pond.",
+            "I need to retrieve my jacket from the locker."
+          ]
+        },
+        {
+          "word": "Rigorous",
+          "definition": "very strict, thorough, or demanding",
+          "examples": [
+            "The training program is rigorous but effective.",
+            "Scientists use rigorous methods in experiments."
+          ]
+        },
+        {
+          "word": "Rural",
+          "definition": "relating to the countryside, not the city",
+          "examples": [
+            "They grew up in a rural area with wide fields.",
+            "Rural schools sometimes have long bus routes."
+          ]
+        },
+        {
+          "word": "Salvage",
+          "definition": "to save something from loss or damage",
+          "examples": [
+            "Workers tried to salvage items from the flooded house.",
+            "We salvaged a good grade by studying hard the night before."
+          ]
+        },
+        {
+          "word": "Sanctuary",
+          "definition": "a place of safety and protection",
+          "examples": [
+            "The wildlife sanctuary protects endangered species.",
+            "Churches once served as sanctuary for those in need."
+          ]
+        },
+        {
+          "word": "Siege",
+          "definition": "a military attack that surrounds a place to force surrender",
+          "examples": [
+            "The castle endured a long siege.",
+            "Supplies ran low during the siege."
+          ]
+        },
+        {
+          "word": "Significant",
+          "definition": "important or large enough to matter",
+          "examples": [
+            "There was a significant improvement in her grades.",
+            "The discovery was significant for science."
+          ]
+        },
+        {
+          "word": "Solar",
+          "definition": "relating to the sun",
+          "examples": [
+            "Solar panels convert sunlight into electricity.",
+            "A solar eclipse happens when the moon blocks the sun."
+          ]
+        },
+        {
+          "word": "Soothe",
+          "definition": "to calm or relieve pain",
+          "examples": [
+            "Soft music can soothe a crying baby.",
+            "Lotion helps soothe sunburned skin."
+          ]
+        },
+        {
+          "word": "Stationary",
+          "definition": "not moving",
+          "examples": [
+            "Remain stationary while the photo is taken.",
+            "The stationary bike is used for indoor exercise."
+          ]
+        },
+        {
+          "word": "Stifle",
+          "definition": "to hold back or suppress; to make breathing difficult",
+          "examples": [
+            "Don't stifle your creativity with too many rules.",
+            "Thick smoke can stifle people in a fire."
+          ]
+        },
+        {
+          "word": "Strive",
+          "definition": "to try hard to achieve something",
+          "examples": [
+            "We strive to do our best every day.",
+            "Athletes strive for gold medals."
+          ]
+        },
+        {
+          "word": "Subordinate",
+          "definition": "lower in rank; less important",
+          "examples": [
+            "A sergeant is subordinate to a captain.",
+            "Safety is never subordinate to speed on the job."
+          ]
+        },
+        {
+          "word": "Subsequent",
+          "definition": "coming after something else in time",
+          "examples": [
+            "The first test was hard; subsequent ones were easier.",
+            "Subsequent chapters explain the experiment."
+          ]
+        },
+        {
+          "word": "Superior",
+          "definition": "higher in rank or quality",
+          "examples": [
+            "This brand is superior in durability.",
+            "She reported the problem to her superior."
+          ]
+        },
+        {
+          "word": "Supplement",
+          "definition": "something added to improve or complete",
+          "examples": [
+            "Vitamins supplement a healthy diet.",
+            "We read a supplement to learn more about the topic."
+          ]
+        },
+        {
+          "word": "Swarm",
+          "definition": "to move in a large group; a large group of insects",
+          "examples": [
+            "Bees swarm around the hive in spring.",
+            "Tourists swarm to the famous landmark each summer."
+          ]
+        },
+        {
+          "word": "Tangible",
+          "definition": "able to be touched; real and concrete",
+          "examples": [
+            "The reward was tangible: a trophy and a medal.",
+            "Kindness is not always tangible, but it is real."
+          ]
+        },
+        {
+          "word": "Terminate",
+          "definition": "to bring to an end",
+          "examples": [
+            "The contract will terminate next month.",
+            "The referee may terminate the game for safety."
+          ]
+        },
+        {
+          "word": "Terrain",
+          "definition": "the physical features of a piece of land",
+          "examples": [
+            "Rocky terrain made hiking difficult.",
+            "Maps show terrain with hills, rivers, and valleys."
+          ]
+        },
+        {
+          "word": "Trait",
+          "definition": "a quality that makes one person or thing different from another",
+          "examples": [
+            "Patience is a helpful trait in teachers.",
+            "Curiosity is a common trait among scientists."
+          ]
+        },
+        {
+          "word": "Transform",
+          "definition": "to change completely in form or appearance",
+          "examples": [
+            "Caterpillars transform into butterflies.",
+            "Paint can transform a dull room."
+          ]
+        },
+        {
+          "word": "Transport",
+          "definition": "to carry people or goods from one place to another",
+          "examples": [
+            "Trucks transport food to grocery stores.",
+            "Ferries transport cars across the river."
+          ]
+        },
+        {
+          "word": "Treacherous",
+          "definition": "dangerous and unpredictable; disloyal",
+          "examples": [
+            "Icy roads are treacherous for drivers.",
+            "The treacherous villain betrayed his friends."
+          ]
+        },
+        {
+          "word": "Unanimous",
+          "definition": "in complete agreement by everyone",
+          "examples": [
+            "The vote was unanimous to adopt the new rule.",
+            "The jury reached a unanimous decision."
+          ]
+        },
+        {
+          "word": "Unique",
+          "definition": "one of a kind; unlike anything else",
+          "examples": [
+            "Each snowflake has a unique pattern.",
+            "Her unique voice made her stand out in the choir."
+          ]
+        },
+        {
+          "word": "Unruly",
+          "definition": "hard to control; disorderly",
+          "examples": [
+            "The unruly crowd pushed toward the stage.",
+            "Unruly hair stuck up in every direction."
+          ]
+        },
+        {
+          "word": "Urban",
+          "definition": "relating to a city",
+          "examples": [
+            "Urban areas have many buildings and buses.",
+            "Urban gardens grow food on rooftops."
+          ]
+        },
+        {
+          "word": "Vacate",
+          "definition": "to leave empty; to move out",
+          "examples": [
+            "Please vacate your seat when the train arrives.",
+            "Tenants must vacate the apartment by Friday."
+          ]
+        },
+        {
+          "word": "Verdict",
+          "definition": "a decision made by a jury in court",
+          "examples": [
+            "The jury announced a guilty verdict.",
+            "Everyone waited nervously for the verdict."
+          ]
+        },
+        {
+          "word": "Verge",
+          "definition": "the edge; the point when something is about to happen",
+          "examples": [
+            "Flowers bloom on the verge of spring.",
+            "She was on the verge of tears after the sad movie."
+          ]
+        },
+        {
+          "word": "Vibrant",
+          "definition": "full of energy and life; bright in color",
+          "examples": [
+            "The market was vibrant with music and color.",
+            "Vibrant posters covered the classroom walls."
+          ]
+        },
+        {
+          "word": "Vital",
+          "definition": "absolutely necessary; essential for life",
+          "examples": [
+            "Water is vital for all living things.",
+            "Sleep plays a vital role in learning."
+          ]
+        },
+        {
+          "word": "Vow",
+          "definition": "a serious promise",
+          "examples": [
+            "Doctors take a vow to help patients.",
+            "She made a vow to read every day."
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "totalWords": 350
+  }
+}

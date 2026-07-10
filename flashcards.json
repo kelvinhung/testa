@@ -1,0 +1,3039 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Properties of Arithmetic",
+      "sections": [
+        {
+          "title": "1.1 · Why Start with Arithmetic?",
+          "topics": [
+            {
+              "name": "Arithmetic → Algebra Bridge",
+              "keyIdea": "Prealgebra builds the bridge from arithmetic (specific numbers) to algebra (general rules with variables).",
+              "example": "Arithmetic shows 3+5=8; algebra shows a+b=b+a for *any* a and b.",
+              "questions": [
+                {
+                  "text": "Is 7+4 the same as 4+7?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "If a+b=10 and a=6, what is b?",
+                  "answer": "4"
+                },
+                {
+                  "text": "Name one thing algebra lets you do that arithmetic alone cannot.",
+                  "answer": "Write general rules, use variables, etc."
+                }
+              ]
+            },
+            {
+              "name": "Number Line & Integer Types",
+              "keyIdea": "Numbers live on an infinite number line. Integers have no fractional part.",
+              "example": "−3 is left of 0 (negative); 5 is right of 0 (positive); 0 is neither.",
+              "questions": [
+                {
+                  "text": "Is −1 positive, negative, or neither?",
+                  "answer": "Negative"
+                },
+                {
+                  "text": "Is 0 nonnegative?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Name the integer one unit right of −4.",
+                  "answer": "−3"
+                }
+              ]
+            },
+            {
+              "name": "Positive / Negative / Nonnegative / Nonpositive",
+              "keyIdea": "- **Positive** → right of 0 - **Negative** → left of 0 - **Nonnegative** → 0 or positive - **Nonpositive** → 0 or negative",
+              "example": "−2 is negative and nonpositive, but not nonnegative.",
+              "questions": [
+                {
+                  "text": "Is −5 nonpositive?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 0 positive?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 8 nonnegative?",
+                  "answer": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.2 · Addition",
+          "topics": [
+            {
+              "name": "Commutative Property of Addition",
+              "keyIdea": "Order doesn't matter: **a + b = b + a**",
+              "example": "3 + 7 = 7 + 3 = 10",
+              "questions": [
+                {
+                  "text": "Compute 9 + 6 mentally.",
+                  "answer": "15"
+                },
+                {
+                  "text": "Compute 6 + 9 + 4 mentally (reorder!).",
+                  "answer": "19"
+                },
+                {
+                  "text": "Is 15 + 8 equal to 8 + 15?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Associative Property of Addition",
+              "keyIdea": "Grouping doesn't matter: **(a + b) + c = a + (b + c)**",
+              "example": "(2 + 3) + 4 = 2 + (3 + 4) = 9",
+              "questions": [
+                {
+                  "text": "Compute (5 + 5) + 3.",
+                  "answer": "13"
+                },
+                {
+                  "text": "Compute 5 + (5 + 3).",
+                  "answer": "13"
+                },
+                {
+                  "text": "Compute 12 + 8 + 5 by pairing 12+8 first.",
+                  "answer": "25"
+                }
+              ]
+            },
+            {
+              "name": "Adding Zero",
+              "keyIdea": "**a + 0 = a** — zero is the identity for addition.",
+              "example": "847 + 0 = 847",
+              "questions": [
+                {
+                  "text": "What is 0 + 99?",
+                  "answer": "99"
+                },
+                {
+                  "text": "What is 1,000,000 + 0?",
+                  "answer": "1,000,000"
+                },
+                {
+                  "text": "If x + 0 = 17, what is x?",
+                  "answer": "17"
+                }
+              ]
+            },
+            {
+              "name": "Any-Order Addition (Mental Math Strategy)",
+              "keyIdea": "Use commutative + associative properties to pair numbers that make easy sums.",
+              "example": "219 + 28 + 281 = (219 + 281) + 28 = 500 + 28 = 528",
+              "questions": [
+                {
+                  "text": "Compute 25 + 75 + 12.",
+                  "answer": "112"
+                },
+                {
+                  "text": "Compute 1 + 2 + 3 + … + 10 (pair ends: 1+10, 2+9…).",
+                  "answer": "55"
+                },
+                {
+                  "text": "Compute 48 + 52 + 37.",
+                  "answer": "137"
+                }
+              ]
+            },
+            {
+              "name": "Summing Consecutive Integers",
+              "keyIdea": "Pair smallest with largest; each pair has the same sum.",
+              "example": "1+2+…+20 → ten pairs each summing to 21 → 10×21 = 210",
+              "questions": [
+                {
+                  "text": "What is 1 + 2 + 3 + 4 + 5?",
+                  "answer": "15"
+                },
+                {
+                  "text": "What is 10 + 11 + 12 + 13 + 14 + 15?",
+                  "answer": "75"
+                },
+                {
+                  "text": "Ten pairs each sum to 25. What is the total?",
+                  "answer": "250"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.3 · Multiplication",
+          "topics": [
+            {
+              "name": "Commutative Property of Multiplication",
+              "keyIdea": "**a · b = b · a** (also written a×b or ab)",
+              "example": "4 × 7 = 7 × 4 = 28",
+              "questions": [
+                {
+                  "text": "Compute 6 × 5.",
+                  "answer": "30"
+                },
+                {
+                  "text": "Compute 5 × 6 × 2.",
+                  "answer": "60"
+                },
+                {
+                  "text": "Is 9 × 11 equal to 11 × 9?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Associative Property of Multiplication",
+              "keyIdea": "**(a · b) · c = a · (b · c)**",
+              "example": "(2 × 5) × 3 = 2 × (5 × 3) = 30",
+              "questions": [
+                {
+                  "text": "Compute (4 × 25) × 2.",
+                  "answer": "200"
+                },
+                {
+                  "text": "Compute 4 × (25 × 2).",
+                  "answer": "200"
+                },
+                {
+                  "text": "Compute 2 × 5 × 2 × 5.",
+                  "answer": "100"
+                }
+              ]
+            },
+            {
+              "name": "Multiplying by 1",
+              "keyIdea": "**a · 1 = a** — one is the identity for multiplication.",
+              "example": "999 × 1 = 999",
+              "questions": [
+                {
+                  "text": "What is 1 × 43?",
+                  "answer": "43"
+                },
+                {
+                  "text": "What is 0 × 1?",
+                  "answer": "0"
+                },
+                {
+                  "text": "If n × 1 = 8, what is n?",
+                  "answer": "8"
+                }
+              ]
+            },
+            {
+              "name": "Order of Operations",
+              "keyIdea": "Parentheses → powers → multiply/divide (left to right) → add/subtract (left to right).",
+              "example": "3 + 4 × 2 = 3 + 8 = 11 (not 14)",
+              "questions": [
+                {
+                  "text": "Compute 2 + 3 × 4.",
+                  "answer": "11"
+                },
+                {
+                  "text": "Compute (2 + 3) × 4.",
+                  "answer": "20"
+                },
+                {
+                  "text": "Compute 10 − 6 ÷ 2.",
+                  "answer": "7"
+                }
+              ]
+            },
+            {
+              "name": "Distributive Property (Multiplication over Addition)",
+              "keyIdea": "**a(b + c) = ab + ac** and **(b + c)a = ab + ac**",
+              "example": "7 × 103 = 7 × (100 + 3) = 700 + 21 = 721",
+              "questions": [
+                {
+                  "text": "Compute 5 × (10 + 2).",
+                  "answer": "60"
+                },
+                {
+                  "text": "Compute 9 × 11 using 9 × (10 + 1).",
+                  "answer": "99"
+                },
+                {
+                  "text": "Compute 4 × 25 + 4 × 75 (factor out 4).",
+                  "answer": "400"
+                }
+              ]
+            },
+            {
+              "name": "Expanding vs Factoring",
+              "keyIdea": "- **Expand:** a(b + c) → ab + ac - **Factor:** ab + ac → a(b + c)",
+              "example": "51 × 13 + 49 × 13 = (51 + 49) × 13 = 100 × 13 = 1300",
+              "questions": [
+                {
+                  "text": "Expand: 3(10 + 4).",
+                  "answer": "42"
+                },
+                {
+                  "text": "Factor: 6 × 7 + 6 × 3.",
+                  "answer": "60"
+                },
+                {
+                  "text": "Compute 25 × 17 + 75 × 17.",
+                  "answer": "2500"
+                }
+              ]
+            },
+            {
+              "name": "Multiplying by Zero",
+              "keyIdea": "**a · 0 = 0** for every number a. Multiplying by 0 \"destroys\" the number.",
+              "example": "1 × 2 × 3 × … × 9 × 0 = 0",
+              "questions": [
+                {
+                  "text": "What is 999 × 0?",
+                  "answer": "0"
+                },
+                {
+                  "text": "What is 0 × (−5)?",
+                  "answer": "0"
+                },
+                {
+                  "text": "What is 1 × 2 × 3 × 0 × 4?",
+                  "answer": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.4 · Negation",
+          "topics": [
+            {
+              "name": "Definition of Negation",
+              "keyIdea": "The negation of a, written **−a**, is the number you add to a to get 0: **a + (−a) = 0**",
+              "example": "−(−3) = 3 because 3 + (−3) = 0",
+              "questions": [
+                {
+                  "text": "What is −(7)?",
+                  "answer": "−7"
+                },
+                {
+                  "text": "What is −(−4)?",
+                  "answer": "4"
+                },
+                {
+                  "text": "What number added to 9 gives 0?",
+                  "answer": "−9"
+                }
+              ]
+            },
+            {
+              "name": "Negation of Zero and Negatives",
+              "keyIdea": "- **−0 = 0** - Negation of a negative is positive: **−(−a) = a**",
+              "example": "−(−5) = 5",
+              "questions": [
+                {
+                  "text": "What is −0?",
+                  "answer": "0"
+                },
+                {
+                  "text": "What is −(−12)?",
+                  "answer": "12"
+                },
+                {
+                  "text": "What is −(−(−3))?",
+                  "answer": "−3"
+                }
+              ]
+            },
+            {
+              "name": "Multiplying by −1",
+              "keyIdea": "**−a = (−1) · a** — negating equals multiplying by −1.",
+              "example": "−(8) = (−1)(8) = −8",
+              "questions": [
+                {
+                  "text": "What is (−1)(6)?",
+                  "answer": "−6"
+                },
+                {
+                  "text": "What is (−1)(−6)?",
+                  "answer": "6"
+                },
+                {
+                  "text": "What is −(15)?",
+                  "answer": "−15"
+                }
+              ]
+            },
+            {
+              "name": "Sign Rules for Multiplication",
+              "keyIdea": "- negative × positive = **negative** - positive × negative = **negative** - negative × negative = **positive**",
+              "example": "(−3)(−4) = 12",
+              "questions": [
+                {
+                  "text": "Compute (−2)(5).",
+                  "answer": "−10"
+                },
+                {
+                  "text": "Compute (−3)(−3).",
+                  "answer": "9"
+                },
+                {
+                  "text": "Compute (−1)(−1)(−1).",
+                  "answer": "−1"
+                }
+              ]
+            },
+            {
+              "name": "Negation Distributes over Addition",
+              "keyIdea": "**−(a + b) = (−a) + (−b)**",
+              "example": "−(3 + 5) = −3 + (−5) = −8",
+              "questions": [
+                {
+                  "text": "Compute −(4 + 6).",
+                  "answer": "−10"
+                },
+                {
+                  "text": "Compute −(10 + (−3)).",
+                  "answer": "−7"
+                },
+                {
+                  "text": "Compute −(7) + (−2).",
+                  "answer": "−9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.5 · Subtraction",
+          "topics": [
+            {
+              "name": "Definition of Subtraction",
+              "keyIdea": "**a − b = a + (−b)** — subtracting means adding the opposite.",
+              "example": "10 − 3 = 10 + (−3) = 7",
+              "questions": [
+                {
+                  "text": "Rewrite 8 − 5 as an addition.",
+                  "answer": "8+(−5)"
+                },
+                {
+                  "text": "What is 12 − 7?",
+                  "answer": "5"
+                },
+                {
+                  "text": "What is 5 − 5?",
+                  "answer": "0"
+                }
+              ]
+            },
+            {
+              "name": "Subtraction as Reverse of Addition",
+              "keyIdea": "If **a + b = c**, then **c − a = b** and **c − b = a**.",
+              "example": "3 + 4 = 7 → 7 − 3 = 4 and 7 − 4 = 3",
+              "questions": [
+                {
+                  "text": "If 6 + 9 = 15, what is 15 − 6?",
+                  "answer": "9"
+                },
+                {
+                  "text": "If 2 + 8 = 10, what is 10 − 8?",
+                  "answer": "2"
+                },
+                {
+                  "text": "Fill the blank: 5 + ___ = 13 → 13 − 5 = ?",
+                  "answer": "8"
+                }
+              ]
+            },
+            {
+              "name": "Negation vs Subtraction (Warning)",
+              "keyIdea": "Same symbol (−), different operations!",
+              "example": "−5 is negation; 8 − 5 is subtraction.",
+              "questions": [
+                {
+                  "text": "How many numbers does negation use?",
+                  "answer": "1"
+                },
+                {
+                  "text": "How many numbers does subtraction use?",
+                  "answer": "2"
+                },
+                {
+                  "text": "Is −3 a negation or a subtraction?",
+                  "answer": "Negation"
+                }
+              ]
+            },
+            {
+              "name": "Subtraction with Zero",
+              "keyIdea": "- **0 − a = −a** (subtracting from zero) - **a − a = 0** (self-subtraction) - **a − 0 = a** (subtracting zero)",
+              "example": "0 − 7 = −7; 17 − 17 = 0; 17 − 0 = 17",
+              "questions": [
+                {
+                  "text": "What is 0 − 9?",
+                  "answer": "−9"
+                },
+                {
+                  "text": "What is 25 − 25?",
+                  "answer": "0"
+                },
+                {
+                  "text": "What is 100 − 0?",
+                  "answer": "100"
+                }
+              ]
+            },
+            {
+              "name": "Subtraction with Negatives",
+              "keyIdea": "- **a − (−b) = a + b** (subtracting a negative) - **(−a) − b = −(a + b)** (subtracting from a negative) - **−(a − b) = b − a** (negation of subtraction)",
+              "example": "5 − (−3) = 5 + 3 = 8",
+              "questions": [
+                {
+                  "text": "Compute 10 − (−4).",
+                  "answer": "14"
+                },
+                {
+                  "text": "Compute (−6) − 2.",
+                  "answer": "−8"
+                },
+                {
+                  "text": "Compute 7 − (−7).",
+                  "answer": "14"
+                }
+              ]
+            },
+            {
+              "name": "Subtraction is NOT Commutative",
+              "keyIdea": "**a − b ≠ b − a** in general. In fact, **b − a = −(a − b)**.",
+              "example": "5 − 3 = 2, but 3 − 5 = −2",
+              "questions": [
+                {
+                  "text": "Compute 8 − 3 and 3 − 8. Are they equal?",
+                  "answer": "5 & −5; No"
+                },
+                {
+                  "text": "If 10 − 4 = 6, what is 4 − 10?",
+                  "answer": "−6"
+                },
+                {
+                  "text": "Is 1 − 0 equal to 0 − 1?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Subtraction is NOT Associative",
+              "keyIdea": "**(a − b) − c ≠ a − (b − c)** in general. Cannot regroup freely!",
+              "example": "(10 − 5) − 2 = 3, but 10 − (5 − 2) = 7",
+              "questions": [
+                {
+                  "text": "Compute (20 − 8) − 3.",
+                  "answer": "9"
+                },
+                {
+                  "text": "Compute 20 − (8 − 3).",
+                  "answer": "15"
+                },
+                {
+                  "text": "Are the results in #1 and #2 equal?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Subtraction-to-Addition Strategy",
+              "keyIdea": "1. Change all subtractions to additions 2. Rearrange using commutative & associative properties 3. (Optional) Convert back to subtractions",
+              "example": "15 − 8 − 5 + 8 − 7 = 15 + (−8) + (−5) + 8 + (−7) → group: (15 + (−5)) + (8 + (−8)) + (−7) = 10 − 7 = 3",
+              "questions": [
+                {
+                  "text": "Compute 20 − 5 − 5.",
+                  "answer": "10"
+                },
+                {
+                  "text": "Compute 100 − 30 − 20 − 10.",
+                  "answer": "40"
+                },
+                {
+                  "text": "Compute 50 − 20 + 20 − 50.",
+                  "answer": "0"
+                }
+              ]
+            },
+            {
+              "name": "Mental Math with Subtraction (Grouping)",
+              "keyIdea": "Pair numbers being added with numbers being subtracted to cancel.",
+              "example": "268 − 168 + 1375 − 1275 + 6179 − 6079 = (268−168) + (1375−1275) + (6179−6079) = 100 + 100 + 100 = 300",
+              "questions": [
+                {
+                  "text": "Compute 45 − 15 + 55 − 35.",
+                  "answer": "50"
+                },
+                {
+                  "text": "Compute 99 − 49 + 51 − 1.",
+                  "answer": "100"
+                },
+                {
+                  "text": "Compute 200 − 50 − 50 − 50 − 50.",
+                  "answer": "0"
+                }
+              ]
+            },
+            {
+              "name": "Distributive Property over Subtraction",
+              "keyIdea": "**a(b − c) = ab − ac** and **(b − c)a = ba − ca**",
+              "example": "64(100 − 2) = 6400 − 128 = 6272",
+              "questions": [
+                {
+                  "text": "Compute 5(10 − 2).",
+                  "answer": "40"
+                },
+                {
+                  "text": "Compute 10(15 − 5).",
+                  "answer": "100"
+                },
+                {
+                  "text": "Expand: 3(20 − 7).",
+                  "answer": "39"
+                }
+              ]
+            },
+            {
+              "name": "Clever Use of Distributive Property",
+              "keyIdea": "Rewrite numbers near round values to use distribution.",
+              "example": "99 × 37 = (100 − 1) × 37 = 3700 − 37 = 3663",
+              "questions": [
+                {
+                  "text": "Compute 98 × 5 using (100 − 2) × 5.",
+                  "answer": "490"
+                },
+                {
+                  "text": "Compute 101 × 6 using (100 + 1) × 6.",
+                  "answer": "606"
+                },
+                {
+                  "text": "Compute 25 × 39 using 25 × (40 − 1).",
+                  "answer": "975"
+                }
+              ]
+            },
+            {
+              "name": "Section Review / Challenge",
+              "keyIdea": "Combine all subtraction rules: definition, zero rules, negative rules, grouping strategy, distributive property.",
+              "example": "Temperature drop: high 5°F, low −3°F → difference = 5 − (−3) = 8 degrees",
+              "questions": [
+                {
+                  "text": "The high was 12° and the low was −5°. By how many degrees did the high exceed the low?",
+                  "answer": "17°"
+                },
+                {
+                  "text": "Compute 1000 − 999 + 998 − 997.",
+                  "answer": "2"
+                },
+                {
+                  "text": "Compute 50 × 98 mentally using distribution.",
+                  "answer": "4900"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.6 · Reciprocals",
+          "topics": [
+            {
+              "name": "Definition of Reciprocal",
+              "keyIdea": "For a ≠ 0, the reciprocal of a (written **1/a**) satisfies **a · (1/a) = 1**.",
+              "example": "Reciprocal of 4 is 1/4 because 4 × 1/4 = 1",
+              "questions": [
+                {
+                  "text": "What is the reciprocal of 5?",
+                  "answer": "1/5"
+                },
+                {
+                  "text": "What is the reciprocal of 1/3?",
+                  "answer": "3"
+                },
+                {
+                  "text": "What is 6 × (1/6)?",
+                  "answer": "1"
+                }
+              ]
+            },
+            {
+              "name": "Zero Has No Reciprocal",
+              "keyIdea": "**1/0 is undefined** because 0 × anything = 0, never 1.",
+              "example": "No number times 0 equals 1.",
+              "questions": [
+                {
+                  "text": "Does 0 have a reciprocal?",
+                  "answer": "No"
+                },
+                {
+                  "text": "What is 0 × 999?",
+                  "answer": "0"
+                },
+                {
+                  "text": "Can any number times 0 equal 1?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Reciprocal Properties",
+              "keyIdea": "- Reciprocal of 1 is 1 - **1/(1/a) = a** (reciprocal of reciprocal) - **1/(ab) = (1/a)(1/b)** (reciprocal of product) - **1/(−a) = −(1/a)** (reciprocal of negation)",
+              "example": "1/(1/5) = 5; 1/(3×7) = (1/3)(1/7)",
+              "questions": [
+                {
+                  "text": "What is 1/(1/8)?",
+                  "answer": "8"
+                },
+                {
+                  "text": "What is (1/2)(1/5)?",
+                  "answer": "1/10"
+                },
+                {
+                  "text": "What is the reciprocal of −4?",
+                  "answer": "−1/4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.7 · Division",
+          "topics": [
+            {
+              "name": "Definition of Division",
+              "keyIdea": "For b ≠ 0: **a ÷ b = a · (1/b)**",
+              "example": "10 ÷ 2 = 10 × (1/2) = 5",
+              "questions": [
+                {
+                  "text": "Rewrite 12 ÷ 3 as multiplication by a reciprocal.",
+                  "answer": "12×(1/3)"
+                },
+                {
+                  "text": "What is 15 ÷ 5?",
+                  "answer": "3"
+                },
+                {
+                  "text": "What is 1 ÷ 4 as a fraction?",
+                  "answer": "1/4"
+                }
+              ]
+            },
+            {
+              "name": "Division by Zero is Undefined",
+              "keyIdea": "Never divide by 0. Check denominator before dividing!",
+              "example": "7 ÷ 0 has no answer.",
+              "questions": [
+                {
+                  "text": "Is 5 ÷ 0 defined?",
+                  "answer": "No"
+                },
+                {
+                  "text": "What is 0 ÷ 5?",
+                  "answer": "0"
+                },
+                {
+                  "text": "What is 8 ÷ 1?",
+                  "answer": "8"
+                }
+              ]
+            },
+            {
+              "name": "Basic Division Facts",
+              "keyIdea": "- **0 ÷ a = 0** (a ≠ 0) - **a ÷ a = 1** (a ≠ 0) - **1 ÷ a = 1/a** (a ≠ 0)",
+              "example": "0 ÷ 7 = 0; 9 ÷ 9 = 1; 1 ÷ 5 = 1/5",
+              "questions": [
+                {
+                  "text": "What is 0 ÷ 100?",
+                  "answer": "0"
+                },
+                {
+                  "text": "What is 12 ÷ 12?",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is 1 ÷ 8?",
+                  "answer": "1/8"
+                }
+              ]
+            },
+            {
+              "name": "Division with Negatives",
+              "keyIdea": "Same sign rules as multiplication:",
+              "example": "(−10) ÷ 2 = −5; (−10) ÷ (−2) = 5",
+              "questions": [
+                {
+                  "text": "Compute (−20) ÷ 4.",
+                  "answer": "−5"
+                },
+                {
+                  "text": "Compute 20 ÷ (−4).",
+                  "answer": "−5"
+                },
+                {
+                  "text": "Compute (−20) ÷ (−4).",
+                  "answer": "5"
+                }
+              ]
+            },
+            {
+              "name": "Division is NOT Commutative or Associative",
+              "keyIdea": "Cannot swap or regroup division freely. Use division-to-multiplication strategy instead.",
+              "example": "12 ÷ 4 ≠ 4 ÷ 12",
+              "questions": [
+                {
+                  "text": "Is 10 ÷ 2 equal to 2 ÷ 10?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Compute (24 ÷ 6) ÷ 2.",
+                  "answer": "2"
+                },
+                {
+                  "text": "Compute 24 ÷ (6 ÷ 2). Same as #2?",
+                  "answer": "No (12 vs 24)"
+                }
+              ]
+            },
+            {
+              "name": "Division-to-Multiplication Strategy",
+              "keyIdea": "1. Change divisions to multiplications by reciprocals 2. Rearrange using commutative & associative properties 3. (Optional) Convert back to division",
+              "example": "(6 ÷ 2) ÷ (3 ÷ 2) → multiply by reciprocals and simplify",
+              "questions": [
+                {
+                  "text": "Compute 100 ÷ 4 ÷ 5 using reciprocals.",
+                  "answer": "5"
+                },
+                {
+                  "text": "Compute (1/2) ÷ (1/4).",
+                  "answer": "2"
+                },
+                {
+                  "text": "Compute 8 ÷ 2 × 2 ÷ 8.",
+                  "answer": "1"
+                }
+              ]
+            },
+            {
+              "name": "Cancel Common Factors",
+              "keyIdea": "**(ac) ÷ (bc) = a ÷ b** when b and c are nonzero.",
+              "example": "(6 × 7) ÷ (3 × 7) = 6 ÷ 3 = 2",
+              "questions": [
+                {
+                  "text": "Compute (5 × 8) ÷ (5 × 2).",
+                  "answer": "4"
+                },
+                {
+                  "text": "Compute (12 × 3) ÷ (4 × 3).",
+                  "answer": "3"
+                },
+                {
+                  "text": "Simplify: (9 × 11) ÷ (3 × 11).",
+                  "answer": "3"
+                }
+              ]
+            },
+            {
+              "name": "Division Distributes over Addition (by a number)",
+              "keyIdea": "**(a + b) ÷ c = (a ÷ c) + (b ÷ c)** when c ≠ 0",
+              "example": "(12 + 8) ÷ 2 = 6 + 4 = 10",
+              "questions": [
+                {
+                  "text": "Compute (10 + 20) ÷ 5.",
+                  "answer": "6"
+                },
+                {
+                  "text": "Compute (6 ÷ 2) + (8 ÷ 2).",
+                  "answer": "7"
+                },
+                {
+                  "text": "Compute (15 + 25) ÷ 5.",
+                  "answer": "8"
+                }
+              ]
+            },
+            {
+              "name": "Dividing by a Sum Does NOT Distribute",
+              "keyIdea": "**a ÷ (b + c) ≠ (a ÷ b) + (a ÷ c)** in general!",
+              "example": "12 ÷ (2 + 4) = 2, but (12 ÷ 2) + (12 ÷ 4) = 6 + 3 = 9",
+              "questions": [
+                {
+                  "text": "Compute 24 ÷ (3 + 3).",
+                  "answer": "2"
+                },
+                {
+                  "text": "Compute (24 ÷ 3) + (24 ÷ 3).",
+                  "answer": "16"
+                },
+                {
+                  "text": "Are #1 and #2 equal?",
+                  "answer": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.8 · Summary",
+          "topics": [
+            {
+              "name": "The 9 Core Properties (Assumptions)",
+              "keyIdea": "All other arithmetic rules follow from these:",
+              "example": "",
+              "questions": [
+                {
+                  "text": "Which property says 3 + 0 = 3?",
+                  "answer": "Adding zero"
+                },
+                {
+                  "text": "Which property lets you compute 7 × 103 as 7×100 + 7×3?",
+                  "answer": "Distributive"
+                },
+                {
+                  "text": "Name one operation that is NOT commutative.",
+                  "answer": "Subtraction (or division)"
+                }
+              ]
+            },
+            {
+              "name": "Key Warnings",
+              "keyIdea": "- Subtraction: not commutative, not associative - Division: not commutative, not associative - Cannot divide by zero - Can divide a **sum by** a number, but cannot divide a number **by a sum**",
+              "example": "",
+              "questions": [
+                {
+                  "text": "Is (5 − 3) − 1 equal to 5 − (3 − 1)?",
+                  "answer": "No (1 vs 3)"
+                },
+                {
+                  "text": "Is 8 ÷ 4 equal to 4 ÷ 8?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 12 ÷ (2 + 4) equal to (12 ÷ 2) + (12 ÷ 4)?",
+                  "answer": "No (2 vs 9)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Exponents",
+      "sections": [
+        {
+          "title": "2.1 Squares",
+          "topics": [
+            {
+              "name": "Powers & Exponent Notation",
+              "keyIdea": "aⁿ = a multiplied n times. Base = bottom, exponent = top.",
+              "example": "2⁶ = 64",
+              "questions": [
+                {
+                  "text": "What is 2⁴?",
+                  "answer": "16"
+                },
+                {
+                  "text": "What is 3²?",
+                  "answer": "9"
+                },
+                {
+                  "text": "In 5³, what is the exponent?",
+                  "answer": "3"
+                }
+              ]
+            },
+            {
+              "name": "Squares & Perfect Squares",
+              "keyIdea": "n² = n·n. Perfect square = square of an integer.",
+              "example": "12² = 144",
+              "questions": [
+                {
+                  "text": "What is 11²?",
+                  "answer": "121"
+                },
+                {
+                  "text": "What is 20²?",
+                  "answer": "400"
+                },
+                {
+                  "text": "Is 45 a perfect square?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Order of Operations with Powers",
+              "keyIdea": "Powers after parentheses, before × and ÷.",
+              "example": "3²·7 = 63",
+              "questions": [
+                {
+                  "text": "Compute 2³·5.",
+                  "answer": "40"
+                },
+                {
+                  "text": "Compute 4² + 3².",
+                  "answer": "25"
+                },
+                {
+                  "text": "Compute 10 − 2².",
+                  "answer": "6"
+                }
+              ]
+            },
+            {
+              "name": "Square of Negation",
+              "keyIdea": "(−a)² = a²",
+              "example": "(−6)² = 36",
+              "questions": [
+                {
+                  "text": "What is (−9)²?",
+                  "answer": "81"
+                },
+                {
+                  "text": "What is (−1)²?",
+                  "answer": "1"
+                },
+                {
+                  "text": "Is (−4)² positive?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "(−a)² vs −a²",
+              "keyIdea": "(−2)² = 4 but −2² = −4. Parentheses matter!",
+              "example": "Compare (−3)² and −3²",
+              "questions": [
+                {
+                  "text": "What is −5²?",
+                  "answer": "−25"
+                },
+                {
+                  "text": "What is (−5)²?",
+                  "answer": "25"
+                },
+                {
+                  "text": "Are they equal?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Square of a Product",
+              "keyIdea": "(ab)² = a²b²",
+              "example": "(2·5)² = 100",
+              "questions": [
+                {
+                  "text": "Compute (3·4)².",
+                  "answer": "144"
+                },
+                {
+                  "text": "Compute (10·2)².",
+                  "answer": "400"
+                },
+                {
+                  "text": "Is (2·3)² = 2²·3²?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Square of a Quotient",
+              "keyIdea": "(a/b)² = a²/b²",
+              "example": "(6/3)² = 4",
+              "questions": [
+                {
+                  "text": "Compute (10/2)².",
+                  "answer": "25"
+                },
+                {
+                  "text": "What is (1/5)²?",
+                  "answer": "1/25"
+                },
+                {
+                  "text": "What is (8/4)²?",
+                  "answer": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2.2 Higher Exponents",
+          "topics": [
+            {
+              "name": "Cubes & Higher Powers",
+              "keyIdea": "a³ = a·a·a. 2⁵ = 32.",
+              "example": "3³ = 27",
+              "questions": [
+                {
+                  "text": "What is 2³?",
+                  "answer": "8"
+                },
+                {
+                  "text": "What is 4²?",
+                  "answer": "16"
+                },
+                {
+                  "text": "What is 10⁴?",
+                  "answer": "10000"
+                }
+              ]
+            },
+            {
+              "name": "a¹ = a",
+              "keyIdea": "Any number to the 1st power is itself.",
+              "example": "50¹ = 50",
+              "questions": [
+                {
+                  "text": "What is 7¹?",
+                  "answer": "7"
+                },
+                {
+                  "text": "What is (−3)¹?",
+                  "answer": "−3"
+                },
+                {
+                  "text": "What is 0¹?",
+                  "answer": "0"
+                }
+              ]
+            },
+            {
+              "name": "Power of Product / Quotient",
+              "keyIdea": "(ab)ⁿ = aⁿbⁿ; (a/b)ⁿ = aⁿ/bⁿ",
+              "example": "(2·3)² = 36",
+              "questions": [
+                {
+                  "text": "Compute (5·2)³.",
+                  "answer": "1000"
+                },
+                {
+                  "text": "What is (2/1)⁴?",
+                  "answer": "16"
+                },
+                {
+                  "text": "What is (10/5)²?",
+                  "answer": "4"
+                }
+              ]
+            },
+            {
+              "name": "2³ vs 3² Warning",
+              "keyIdea": "Exponentiation is NOT commutative.",
+              "example": "2³=8, 3²=9",
+              "questions": [
+                {
+                  "text": "Is 2⁵ = 5²?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Compute both.",
+                  "answer": "32 vs 25"
+                },
+                {
+                  "text": "Equal?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Cube of Negation",
+              "keyIdea": "(−a)³ = −a³ (odd power keeps sign)",
+              "example": "(−2)³ = −8",
+              "questions": [
+                {
+                  "text": "What is (−3)³?",
+                  "answer": "−27"
+                },
+                {
+                  "text": "What is (−1)⁵?",
+                  "answer": "−1"
+                },
+                {
+                  "text": "Sign of (−2)³?",
+                  "answer": "Negative"
+                }
+              ]
+            },
+            {
+              "name": "Even/Odd Exponent Signs",
+              "keyIdea": "Negative base: even exp → +; odd exp → −",
+              "example": "(−2)⁴=16, (−2)³=−8",
+              "questions": [
+                {
+                  "text": "Sign of (−5)²?",
+                  "answer": "Positive"
+                },
+                {
+                  "text": "Sign of (−5)³?",
+                  "answer": "Negative"
+                },
+                {
+                  "text": "Is (−1)¹⁰⁰ positive?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Product of Powers",
+              "keyIdea": "aᵐ · aⁿ = aᵐ⁺ⁿ",
+              "example": "2³·2² = 2⁵ = 32",
+              "questions": [
+                {
+                  "text": "Simplify 3²·3³.",
+                  "answer": "3⁵=243"
+                },
+                {
+                  "text": "Simplify 5·5².",
+                  "answer": "5³=125"
+                },
+                {
+                  "text": "What is 2⁴·2⁴?",
+                  "answer": "2⁸=256"
+                }
+              ]
+            },
+            {
+              "name": "Quotient of Powers",
+              "keyIdea": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+              "example": "2⁵÷2² = 8",
+              "questions": [
+                {
+                  "text": "Simplify 3⁴÷3².",
+                  "answer": "9"
+                },
+                {
+                  "text": "Simplify 10⁵÷10⁵.",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is 2⁶÷2²?",
+                  "answer": "16"
+                }
+              ]
+            },
+            {
+              "name": "Power of a Power",
+              "keyIdea": "(aᵐ)ⁿ = aᵐⁿ",
+              "example": "(2²)³ = 2⁶ = 64",
+              "questions": [
+                {
+                  "text": "Simplify (3²)².",
+                  "answer": "81"
+                },
+                {
+                  "text": "Simplify (2³)².",
+                  "answer": "64"
+                },
+                {
+                  "text": "What is (10¹)⁵?",
+                  "answer": "100000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2.3 Zero as an Exponent",
+          "topics": [
+            {
+              "name": "Zero Exponent",
+              "keyIdea": "a⁰ = 1 for every number a.",
+              "example": "999⁰ = 1",
+              "questions": [
+                {
+                  "text": "What is 7⁰?",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is (−4)⁰?",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is 10⁰?",
+                  "answer": "1"
+                }
+              ]
+            },
+            {
+              "name": "Why a⁰ = 1",
+              "keyIdea": "Pattern: divide by base each step down.",
+              "example": "2³→2²→2¹→2⁰: 8,4,2,1",
+              "questions": [
+                {
+                  "text": "3²=9, 3¹=?",
+                  "answer": "3"
+                },
+                {
+                  "text": "3⁰=?",
+                  "answer": "1"
+                },
+                {
+                  "text": "2⁰=?",
+                  "answer": "1"
+                }
+              ]
+            },
+            {
+              "name": "Computing with a⁰",
+              "keyIdea": "Replace a⁰ with 1 anywhere.",
+              "example": "2⁰ + 5⁰ = 2",
+              "questions": [
+                {
+                  "text": "What is 3⁰·8?",
+                  "answer": "8"
+                },
+                {
+                  "text": "What is 6⁰ + 6¹?",
+                  "answer": "7"
+                },
+                {
+                  "text": "What is 1⁰·1⁰?",
+                  "answer": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2.4 Negative Exponents",
+          "topics": [
+            {
+              "name": "Negative Exponents",
+              "keyIdea": "a⁻ⁿ = 1/aⁿ (a ≠ 0)",
+              "example": "2⁻³ = 1/8",
+              "questions": [
+                {
+                  "text": "What is 10⁻²?",
+                  "answer": "1/100"
+                },
+                {
+                  "text": "What is 5⁻¹?",
+                  "answer": "1/5"
+                },
+                {
+                  "text": "What is 2⁻¹?",
+                  "answer": "1/2"
+                }
+              ]
+            },
+            {
+              "name": "a⁻¹ = Reciprocal",
+              "keyIdea": "Negative exponent = flip the fraction.",
+              "example": "4⁻¹ = 1/4",
+              "questions": [
+                {
+                  "text": "What is 3⁻¹?",
+                  "answer": "1/3"
+                },
+                {
+                  "text": "What is (1/2)⁻¹?",
+                  "answer": "2"
+                },
+                {
+                  "text": "What is 10⁻¹?",
+                  "answer": "1/10"
+                }
+              ]
+            },
+            {
+              "name": "Negative Exp Rules Still Work",
+              "keyIdea": "aᵐ·aⁿ = aᵐ⁺ⁿ for all integers m,n.",
+              "example": "2⁻²·2³ = 2",
+              "questions": [
+                {
+                  "text": "Simplify 3²·3⁻².",
+                  "answer": "1"
+                },
+                {
+                  "text": "Simplify 5⁻¹·5¹.",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is 2⁻³·2³?",
+                  "answer": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2.5 Summary",
+          "topics": [
+            {
+              "name": "Exponent Laws Cheat Sheet",
+              "keyIdea": "Product: aᵐaⁿ=aᵐ⁺ⁿ; Quotient: aᵐ/aⁿ=aᵐ⁻ⁿ; Power: (aᵐ)ⁿ=aᵐⁿ; (ab)ⁿ=aⁿbⁿ; a⁰=1; a⁻ⁿ=1/aⁿ",
+              "example": "2³·2⁻¹=4",
+              "questions": [
+                {
+                  "text": "Simplify 4²·4⁻².",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is 3⁰?",
+                  "answer": "1"
+                },
+                {
+                  "text": "What is 2⁻⁴?",
+                  "answer": "1/16"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Number Theory",
+      "sections": [
+        {
+          "title": "3.1 Multiples",
+          "topics": [
+            {
+              "name": "Multiples",
+              "keyIdea": "b is a multiple of a if b = ak for some integer k.",
+              "example": "15 is a multiple of 5",
+              "questions": [
+                {
+                  "text": "Is 21 a multiple of 7?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 20 a multiple of 6?",
+                  "answer": "No (remainder 2)"
+                },
+                {
+                  "text": "List 3 multiples of 4.",
+                  "answer": "4,8,12"
+                }
+              ]
+            },
+            {
+              "name": "Common Multiples",
+              "keyIdea": "A common multiple of a and b is a multiple of both.",
+              "example": "LCM(2,3)=6 is a common multiple",
+              "questions": [
+                {
+                  "text": "Name a common multiple of 2 and 5.",
+                  "answer": "10"
+                },
+                {
+                  "text": "Is 30 a multiple of 6?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 30 a multiple of 7?",
+                  "answer": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.2 Divisibility Tests",
+          "topics": [
+            {
+              "name": "Divisibility by 2",
+              "keyIdea": "Last digit even → divisible by 2.",
+              "example": "124 is divisible by 2",
+              "questions": [
+                {
+                  "text": "Is 357 divisible by 2?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 1000 divisible by 2?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 91 divisible by 2?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Divisibility by 5",
+              "keyIdea": "Last digit 0 or 5 → divisible by 5.",
+              "example": "235 ends in 5",
+              "questions": [
+                {
+                  "text": "Is 440 divisible by 5?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 123 divisible by 5?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 505 divisible by 5?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Divisibility by 10",
+              "keyIdea": "Last digit 0 → divisible by 10.",
+              "example": "890",
+              "questions": [
+                {
+                  "text": "Is 75 divisible by 10?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 200 divisible by 10?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 1001 divisible by 10?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Divisibility by 3",
+              "keyIdea": "Sum of digits divisible by 3 → number is.",
+              "example": "123: 1+2+3=6 ✓",
+              "questions": [
+                {
+                  "text": "Is 111 divisible by 3?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 124 divisible by 3?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 999 divisible by 3?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Divisibility by 9",
+              "keyIdea": "Sum of digits divisible by 9 → number is.",
+              "example": "729: 7+2+9=18 ✓",
+              "questions": [
+                {
+                  "text": "Is 81 divisible by 9?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 100 divisible by 9?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 999 divisible by 9?",
+                  "answer": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.3 Prime Numbers",
+          "topics": [
+            {
+              "name": "Prime Numbers",
+              "keyIdea": "Integer > 1 with exactly two divisors: 1 and itself.",
+              "example": "7 is prime; 6 = 2×3 is not",
+              "questions": [
+                {
+                  "text": "Is 11 prime?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 1 prime?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 9 prime?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Composite Numbers",
+              "keyIdea": "Integer > 1 that is not prime.",
+              "example": "12 = 2²×3",
+              "questions": [
+                {
+                  "text": "Is 15 composite?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 2 composite?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 4 composite?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "2 is the Only Even Prime",
+              "keyIdea": "All other even numbers divisible by 2.",
+              "example": "2, 3, 5, 7, 11...",
+              "questions": [
+                {
+                  "text": "Is 2 prime?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 4 prime?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Name next prime after 7.",
+                  "answer": "11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.4 Prime Factorization",
+          "topics": [
+            {
+              "name": "Prime Factorization",
+              "keyIdea": "Every integer > 1 = product of primes (unique).",
+              "example": "12 = 2² × 3",
+              "questions": [
+                {
+                  "text": "Factor 18.",
+                  "answer": "2×3²"
+                },
+                {
+                  "text": "Factor 30.",
+                  "answer": "2×3×5"
+                },
+                {
+                  "text": "Factor 49.",
+                  "answer": "7²"
+                }
+              ]
+            },
+            {
+              "name": "Factor Trees",
+              "keyIdea": "Keep splitting composites until all primes.",
+              "example": "36 = 2² × 3²",
+              "questions": [
+                {
+                  "text": "Prime factorization of 24?",
+                  "answer": "2³×3"
+                },
+                {
+                  "text": "Of 45?",
+                  "answer": "3²×5"
+                },
+                {
+                  "text": "Of 100?",
+                  "answer": "2²×5²"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.5 Least Common Multiple",
+          "topics": [
+            {
+              "name": "Least Common Multiple (LCM)",
+              "keyIdea": "Smallest positive common multiple of two numbers.",
+              "example": "LCM(4,6)=12",
+              "questions": [
+                {
+                  "text": "LCM(3,5)?",
+                  "answer": "15"
+                },
+                {
+                  "text": "LCM(2,8)?",
+                  "answer": "8"
+                },
+                {
+                  "text": "LCM(6,9)?",
+                  "answer": "18"
+                }
+              ]
+            },
+            {
+              "name": "LCM via Prime Factorization",
+              "keyIdea": "Take each prime to the highest power appearing.",
+              "example": "LCM(12,18)=2²×3²=36",
+              "questions": [
+                {
+                  "text": "LCM(4,10)?",
+                  "answer": "20"
+                },
+                {
+                  "text": "LCM(6,15)?",
+                  "answer": "30"
+                },
+                {
+                  "text": "LCM(8,12)?",
+                  "answer": "24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.6 Divisors",
+          "topics": [
+            {
+              "name": "Divisors (Factors)",
+              "keyIdea": "d divides n if n = dk for integer k.",
+              "example": "Divisors of 12: 1,2,3,4,6,12",
+              "questions": [
+                {
+                  "text": "How many divisors of 10?",
+                  "answer": "4"
+                },
+                {
+                  "text": "Is 4 a divisor of 20?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 4 a divisor of 18?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Counting Divisors",
+              "keyIdea": "From prime factorization p^a × q^b → (a+1)(b+1) divisors.",
+              "example": "12=2²×3 → 6 divisors",
+              "questions": [
+                {
+                  "text": "Divisors of 8?",
+                  "answer": "4"
+                },
+                {
+                  "text": "Divisors of 9?",
+                  "answer": "3"
+                },
+                {
+                  "text": "Divisors of 6?",
+                  "answer": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.7 Greatest Common Divisor",
+          "topics": [
+            {
+              "name": "Greatest Common Divisor (GCD)",
+              "keyIdea": "Largest integer dividing both numbers.",
+              "example": "GCD(12,18)=6",
+              "questions": [
+                {
+                  "text": "GCD(8,12)?",
+                  "answer": "4"
+                },
+                {
+                  "text": "GCD(9,15)?",
+                  "answer": "3"
+                },
+                {
+                  "text": "GCD(7,11)?",
+                  "answer": "1"
+                }
+              ]
+            },
+            {
+              "name": "GCD via Prime Factorization",
+              "keyIdea": "Take each common prime to the lowest power.",
+              "example": "GCD(24,36)=12",
+              "questions": [
+                {
+                  "text": "GCD(18,30)?",
+                  "answer": "6"
+                },
+                {
+                  "text": "GCD(16,24)?",
+                  "answer": "8"
+                },
+                {
+                  "text": "GCD(5,10)?",
+                  "answer": "5"
+                }
+              ]
+            },
+            {
+              "name": "Relatively Prime",
+              "keyIdea": "GCD = 1 means no common prime factors.",
+              "example": "GCD(8,15)=1",
+              "questions": [
+                {
+                  "text": "Are 9 and 14 relatively prime?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "GCD(6,35)?",
+                  "answer": "1"
+                },
+                {
+                  "text": "GCD(12,18)?",
+                  "answer": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.8 Summary",
+          "topics": [
+            {
+              "name": "Number Theory Summary",
+              "keyIdea": "Multiples, divisibility rules, primes, LCM, GCD.",
+              "example": "LCM×GCD = product (for two numbers)",
+              "questions": [
+                {
+                  "text": "Is 2 prime?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "LCM(4,6)?",
+                  "answer": "12"
+                },
+                {
+                  "text": "GCD(4,6)?",
+                  "answer": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Fractions",
+      "sections": [
+        {
+          "title": "4.1 What is a Fraction?",
+          "topics": [
+            {
+              "name": "What is a Fraction?",
+              "keyIdea": "a/b = a parts of size 1/b. b = denominator, a = numerator.",
+              "example": "3/4 = three quarter-pieces",
+              "questions": [
+                {
+                  "text": "What does 5/8 mean?",
+                  "answer": "5 eighths"
+                },
+                {
+                  "text": "In 7/3, what is numerator?",
+                  "answer": "7"
+                },
+                {
+                  "text": "What is denominator of 2/9?",
+                  "answer": "9"
+                }
+              ]
+            },
+            {
+              "name": "Fractions on Number Line",
+              "keyIdea": "a/b is a point; proper if a<b, improper if a≥b.",
+              "example": "1/2 is halfway from 0 to 1",
+              "questions": [
+                {
+                  "text": "Is 3/4 proper?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 7/4 proper?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 5/5 proper?",
+                  "answer": "No"
+                }
+              ]
+            },
+            {
+              "name": "Equivalent Fractions",
+              "keyIdea": "Multiply/divide top and bottom by same nonzero number.",
+              "example": "1/2 = 2/4 = 3/6",
+              "questions": [
+                {
+                  "text": "Equivalent to 2/3?",
+                  "answer": "4/6"
+                },
+                {
+                  "text": "Is 3/5 = 6/10?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Simplify 4/8.",
+                  "answer": "1/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.2 Multiplying Fractions",
+          "topics": [
+            {
+              "name": "Multiplying Fractions",
+              "keyIdea": "Multiply numerators; multiply denominators.",
+              "example": "2/3 × 4/5 = 8/15",
+              "questions": [
+                {
+                  "text": "Compute 1/2 × 1/3.",
+                  "answer": "1/6"
+                },
+                {
+                  "text": "Compute 3/4 × 2/3.",
+                  "answer": "1/2"
+                },
+                {
+                  "text": "Compute 2/5 × 5/2.",
+                  "answer": "1"
+                }
+              ]
+            },
+            {
+              "name": "Cancel Before Multiplying",
+              "keyIdea": "Cross-cancel common factors to simplify first.",
+              "example": "4/9 × 3/8 = 1/6",
+              "questions": [
+                {
+                  "text": "Compute 6/7 × 7/12.",
+                  "answer": "1/2"
+                },
+                {
+                  "text": "Compute 5/6 × 3/10.",
+                  "answer": "1/4"
+                },
+                {
+                  "text": "Compute 2/3 × 9/4.",
+                  "answer": "3/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.3 Dividing by a Fraction",
+          "topics": [
+            {
+              "name": "Dividing by a Fraction",
+              "keyIdea": "a/b ÷ c/d = a/b × d/c (multiply by reciprocal).",
+              "example": "1/2 ÷ 1/4 = 2",
+              "questions": [
+                {
+                  "text": "Compute 3/4 ÷ 1/2.",
+                  "answer": "3/2"
+                },
+                {
+                  "text": "Compute 2/3 ÷ 4.",
+                  "answer": "1/6"
+                },
+                {
+                  "text": "Compute 5 ÷ 1/5.",
+                  "answer": "25"
+                }
+              ]
+            },
+            {
+              "name": "Reciprocal",
+              "keyIdea": "Reciprocal of a/b is b/a.",
+              "example": "Reciprocal of 3/7 is 7/3",
+              "questions": [
+                {
+                  "text": "Reciprocal of 2/5?",
+                  "answer": "5/2"
+                },
+                {
+                  "text": "Reciprocal of 4?",
+                  "answer": "1/4"
+                },
+                {
+                  "text": "Reciprocal of 1/8?",
+                  "answer": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.4 Raising Fractions to Powers",
+          "topics": [
+            {
+              "name": "Fractions to Powers",
+              "keyIdea": "(a/b)ⁿ = aⁿ/bⁿ",
+              "example": "(2/3)² = 4/9",
+              "questions": [
+                {
+                  "text": "Compute (1/2)³.",
+                  "answer": "1/8"
+                },
+                {
+                  "text": "Compute (3/4)².",
+                  "answer": "9/16"
+                },
+                {
+                  "text": "Compute (5/2)².",
+                  "answer": "25/4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.5 Simplest Form of a Fraction",
+          "topics": [
+            {
+              "name": "Simplest Form",
+              "keyIdea": "No common factors in numerator and denominator (GCD=1).",
+              "example": "6/8 → 3/4",
+              "questions": [
+                {
+                  "text": "Simplify 10/15.",
+                  "answer": "2/3"
+                },
+                {
+                  "text": "Simplify 9/12.",
+                  "answer": "3/4"
+                },
+                {
+                  "text": "Simplify 7/7.",
+                  "answer": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.6 Comparing Fractions",
+          "topics": [
+            {
+              "name": "Comparing Fractions",
+              "keyIdea": "Common denominator or cross-multiply.",
+              "example": "3/4 vs 2/3: 9/12 vs 8/12",
+              "questions": [
+                {
+                  "text": "Which is bigger: 2/5 or 1/2?",
+                  "answer": "1/2"
+                },
+                {
+                  "text": "Which is bigger: 3/7 or 4/7?",
+                  "answer": "4/7"
+                },
+                {
+                  "text": "Compare 5/6 and 7/8.",
+                  "answer": "7/8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.7 Adding and Subtracting Fractions",
+          "topics": [
+            {
+              "name": "Adding Same Denominator",
+              "keyIdea": "Add numerators; keep denominator.",
+              "example": "2/7 + 3/7 = 5/7",
+              "questions": [
+                {
+                  "text": "Compute 1/8 + 5/8.",
+                  "answer": "6/8=3/4"
+                },
+                {
+                  "text": "Compute 3/10 + 2/10.",
+                  "answer": "5/10=1/2"
+                },
+                {
+                  "text": "Compute 4/9 + 4/9.",
+                  "answer": "8/9"
+                }
+              ]
+            },
+            {
+              "name": "Adding Different Denominators",
+              "keyIdea": "Find LCD, convert, then add.",
+              "example": "1/2 + 1/3 = 3/6 + 2/6 = 5/6",
+              "questions": [
+                {
+                  "text": "Compute 1/4 + 1/4.",
+                  "answer": "1/2"
+                },
+                {
+                  "text": "Compute 1/2 + 1/4.",
+                  "answer": "3/4"
+                },
+                {
+                  "text": "Compute 1/3 + 1/6.",
+                  "answer": "1/2"
+                }
+              ]
+            },
+            {
+              "name": "Subtracting Fractions",
+              "keyIdea": "Same rules as addition.",
+              "example": "3/4 − 1/4 = 1/2",
+              "questions": [
+                {
+                  "text": "Compute 5/6 − 1/6.",
+                  "answer": "4/6=2/3"
+                },
+                {
+                  "text": "Compute 1 − 1/3.",
+                  "answer": "2/3"
+                },
+                {
+                  "text": "Compute 3/5 − 1/5.",
+                  "answer": "2/5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.8 Mixed Numbers",
+          "topics": [
+            {
+              "name": "Mixed Numbers",
+              "keyIdea": "Whole + fraction: 2 1/3 = 2 + 1/3 = 7/3",
+              "example": "1 1/2 = 3/2",
+              "questions": [
+                {
+                  "text": "Convert 2 1/4 to improper.",
+                  "answer": "9/4"
+                },
+                {
+                  "text": "Convert 3 1/2 to improper.",
+                  "answer": "7/2"
+                },
+                {
+                  "text": "Convert 5/2 to mixed.",
+                  "answer": "2 1/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4.9 Summary",
+          "topics": [
+            {
+              "name": "Fractions Summary",
+              "keyIdea": "×: multiply tops/bottoms; ÷: multiply by reciprocal; +/−: common denominator.",
+              "example": "1/2 + 1/3 = 5/6",
+              "questions": [
+                {
+                  "text": "1/2 × 2/3?",
+                  "answer": "1/3"
+                },
+                {
+                  "text": "1/2 ÷ 1/4?",
+                  "answer": "2"
+                },
+                {
+                  "text": "1/3 + 1/6?",
+                  "answer": "1/2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Linear Equations",
+      "sections": [
+        {
+          "title": "5.1 Expressions",
+          "topics": [
+            {
+              "name": "Expressions vs Equations",
+              "keyIdea": "Expression: no = sign. Equation: has = sign.",
+              "example": "3x+2 is expression; 3x+2=11 is equation",
+              "questions": [
+                {
+                  "text": "Is 5x an expression?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is x=5 an equation?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Is 2+3 an expression?",
+                  "answer": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Evaluating Expressions",
+              "keyIdea": "Replace variable with number, then compute.",
+              "example": "If x=3: 2x+1 = 7",
+              "questions": [
+                {
+                  "text": "If x=4: x+5?",
+                  "answer": "9"
+                },
+                {
+                  "text": "If n=2: 3n?",
+                  "answer": "6"
+                },
+                {
+                  "text": "If a=5: a²?",
+                  "answer": "25"
+                }
+              ]
+            },
+            {
+              "name": "Like Terms",
+              "keyIdea": "Same variable part → can combine.",
+              "example": "3x + 5x = 8x",
+              "questions": [
+                {
+                  "text": "Simplify 2x + 7x.",
+                  "answer": "9x"
+                },
+                {
+                  "text": "Simplify 4n − n.",
+                  "answer": "3n"
+                },
+                {
+                  "text": "Can you add 3x + 5y?",
+                  "answer": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5.2 Solving Linear Equations I",
+          "topics": [
+            {
+              "name": "One-Step Equations (+/−)",
+              "keyIdea": "Use inverse operation to isolate x.",
+              "example": "x + 5 = 12 → x = 7",
+              "questions": [
+                {
+                  "text": "Solve x + 3 = 10.",
+                  "answer": "7"
+                },
+                {
+                  "text": "Solve x − 4 = 6.",
+                  "answer": "10"
+                },
+                {
+                  "text": "Solve n + 0 = 8.",
+                  "answer": "8"
+                }
+              ]
+            },
+            {
+              "name": "One-Step Equations (×/÷)",
+              "keyIdea": "Divide/multiply both sides.",
+              "example": "3x = 15 → x = 5",
+              "questions": [
+                {
+                  "text": "Solve 2x = 14.",
+                  "answer": "7"
+                },
+                {
+                  "text": "Solve x/4 = 3.",
+                  "answer": "12"
+                },
+                {
+                  "text": "Solve 5n = 0.",
+                  "answer": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5.3 Solving Linear Equations II",
+          "topics": [
+            {
+              "name": "Two-Step Equations",
+              "keyIdea": "Undo +/− first, then ×/÷.",
+              "example": "2x + 3 = 11 → x = 4",
+              "questions": [
+                {
+                  "text": "Solve 3x − 5 = 10.",
+                  "answer": "5"
+                },
+                {
+                  "text": "Solve 4n + 2 = 18.",
+                  "answer": "4"
+                },
+                {
+                  "text": "Solve 2x + 1 = 9.",
+                  "answer": "4"
+                }
+              ]
+            },
+            {
+              "name": "Variables on Both Sides",
+              "keyIdea": "Move all x terms to one side.",
+              "example": "5x = 3x + 8 → x = 4",
+              "questions": [
+                {
+                  "text": "If 2x = x + 7, x=?",
+                  "answer": "7"
+                },
+                {
+                  "text": "If 3n = n + 10, n=?",
+                  "answer": "5"
+                },
+                {
+                  "text": "If 5x = 2x + 9, x=?",
+                  "answer": "3"
+                }
+              ]
+            },
+            {
+              "name": "Distributive Property in Equations",
+              "keyIdea": "Expand first if needed.",
+              "example": "2(x+3)=10 → x=2",
+              "questions": [
+                {
+                  "text": "Solve 3(x+1)=12.",
+                  "answer": "3"
+                },
+                {
+                  "text": "Solve 2(x−1)=8.",
+                  "answer": "5"
+                },
+                {
+                  "text": "Solve 5(x+2)=25.",
+                  "answer": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5.4 Word Problems",
+          "topics": [
+            {
+              "name": "Word Problems → Equations",
+              "keyIdea": "Define variable, write equation, solve.",
+              "example": "Age: Jane is x, Bob is x+3",
+              "questions": [
+                {
+                  "text": "Sum of a number and 8 is 15. Find it.",
+                  "answer": "7"
+                },
+                {
+                  "text": "Twice a number is 20.",
+                  "answer": "10"
+                },
+                {
+                  "text": "A number minus 5 is 12.",
+                  "answer": "17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5.5 Inequalities",
+          "topics": [
+            {
+              "name": "Inequalities",
+              "keyIdea": "Same solving steps as equations, but flip sign when × or ÷ by negative.",
+              "example": "x + 3 > 7 → x > 4",
+              "questions": [
+                {
+                  "text": "Solve x − 2 > 5.",
+                  "answer": "x>7"
+                },
+                {
+                  "text": "Solve 2x < 10.",
+                  "answer": "x<5"
+                },
+                {
+                  "text": "Is x=3 a solution to x>2?",
+                  "answer": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5.6 Summary",
+          "topics": [
+            {
+              "name": "Equations Summary",
+              "keyIdea": "Isolate variable using inverse operations.",
+              "example": "3x − 1 = 8 → x = 3",
+              "questions": [
+                {
+                  "text": "Solve x + 9 = 15.",
+                  "answer": "6"
+                },
+                {
+                  "text": "Solve 4x = 20.",
+                  "answer": "5"
+                },
+                {
+                  "text": "Solve 2x + 4 = 12.",
+                  "answer": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Decimals",
+      "sections": [
+        {
+          "title": "6.1 Arithmetic with Decimals",
+          "topics": [
+            {
+              "name": "Decimal Place Value",
+              "keyIdea": "Each place is power of 10.",
+              "example": "3.45 = 3 + 4/10 + 5/100",
+              "questions": [
+                {
+                  "text": "What digit is in tenths place of 2.37?",
+                  "answer": "3"
+                },
+                {
+                  "text": "Value of 5 in 1.05?",
+                  "answer": "0.05"
+                },
+                {
+                  "text": "What is 0.1 + 0.2?",
+                  "answer": "0.3"
+                }
+              ]
+            },
+            {
+              "name": "Adding/Subtracting Decimals",
+              "keyIdea": "Line up decimal points.",
+              "example": "1.2 + 3.45 = 4.65",
+              "questions": [
+                {
+                  "text": "Compute 2.5 + 1.3.",
+                  "answer": "3.8"
+                },
+                {
+                  "text": "Compute 5.0 − 2.4.",
+                  "answer": "2.6"
+                },
+                {
+                  "text": "Compute 0.07 + 0.03.",
+                  "answer": "0.10"
+                }
+              ]
+            },
+            {
+              "name": "Multiplying Decimals",
+              "keyIdea": "Multiply as integers, count total decimal places.",
+              "example": "0.2 × 0.3 = 0.06",
+              "questions": [
+                {
+                  "text": "Compute 0.5 × 0.4.",
+                  "answer": "0.20"
+                },
+                {
+                  "text": "Compute 1.2 × 10.",
+                  "answer": "12"
+                },
+                {
+                  "text": "Compute 0.01 × 5.",
+                  "answer": "0.05"
+                }
+              ]
+            },
+            {
+              "name": "Dividing Decimals",
+              "keyIdea": "Move decimal to make divisor whole.",
+              "example": "0.6 ÷ 0.2 = 3",
+              "questions": [
+                {
+                  "text": "Compute 1.5 ÷ 0.5.",
+                  "answer": "3"
+                },
+                {
+                  "text": "Compute 4.8 ÷ 2.",
+                  "answer": "2.4"
+                },
+                {
+                  "text": "Compute 0.9 ÷ 0.3.",
+                  "answer": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6.2 Rounding",
+          "topics": [
+            {
+              "name": "Rounding",
+              "keyIdea": "Look at next digit: ≥5 round up, <5 round down.",
+              "example": "3.47 to nearest tenth → 3.5",
+              "questions": [
+                {
+                  "text": "Round 2.34 to nearest tenth.",
+                  "answer": "2.3"
+                },
+                {
+                  "text": "Round 5.678 to nearest hundredth.",
+                  "answer": "5.68"
+                },
+                {
+                  "text": "Round 99.5 to nearest integer.",
+                  "answer": "100"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6.3 Decimals and Fractions",
+          "topics": [
+            {
+              "name": "Decimals ↔ Fractions",
+              "keyIdea": "0.25 = 25/100 = 1/4",
+              "example": "0.5 = 1/2",
+              "questions": [
+                {
+                  "text": "Write 0.75 as fraction.",
+                  "answer": "3/4"
+                },
+                {
+                  "text": "Write 0.2 as fraction.",
+                  "answer": "1/5"
+                },
+                {
+                  "text": "Write 1/4 as decimal.",
+                  "answer": "0.25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6.4 Repeating Decimals",
+          "topics": [
+            {
+              "name": "Repeating Decimals",
+              "keyIdea": "1/3 = 0.333... = 0.3̄",
+              "example": "1/6 = 0.1666...",
+              "questions": [
+                {
+                  "text": "Write 1/9 as decimal.",
+                  "answer": "0.111..."
+                },
+                {
+                  "text": "Is 0.5 repeating?",
+                  "answer": "No (terminates)"
+                },
+                {
+                  "text": "1/8 as decimal?",
+                  "answer": "0.125"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6.5 Summary",
+          "topics": [
+            {
+              "name": "Decimals Summary",
+              "keyIdea": "Place value, align decimals for +/−.",
+              "example": "0.1 × 0.1 = 0.01",
+              "questions": [
+                {
+                  "text": "0.3 + 0.7?",
+                  "answer": "1.0"
+                },
+                {
+                  "text": "0.25 as fraction?",
+                  "answer": "1/4"
+                },
+                {
+                  "text": "Round 4.56 to tenth.",
+                  "answer": "4.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ratios and Proportions",
+      "sections": [
+        {
+          "title": "7.1 What is a Ratio?",
+          "topics": [
+            {
+              "name": "Ratios",
+              "keyIdea": "a:b compares two quantities. Can simplify like fractions.",
+              "example": "2:3 means 2 parts to 3 parts",
+              "questions": [
+                {
+                  "text": "Simplify ratio 4:6.",
+                  "answer": "2:3"
+                },
+                {
+                  "text": "Simplify 10:15.",
+                  "answer": "2:3"
+                },
+                {
+                  "text": "Ratio of 8 to 12?",
+                  "answer": "2:3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7.2 Multi-way Ratios",
+          "topics": [
+            {
+              "name": "Multi-way Ratios",
+              "keyIdea": "a:b:c can be scaled together.",
+              "example": "2:3:5 means 2+3+5=10 parts",
+              "questions": [
+                {
+                  "text": "If 2:3:5 and total 100, smallest part?",
+                  "answer": "20"
+                },
+                {
+                  "text": "Simplify 6:9:12.",
+                  "answer": "2:3:4"
+                },
+                {
+                  "text": "Ratio 1:2:3, total 24, middle?",
+                  "answer": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7.3 Proportions",
+          "topics": [
+            {
+              "name": "Proportions",
+              "keyIdea": "a/b = c/d → cross multiply: ad = bc",
+              "example": "2/3 = 4/6 ✓",
+              "questions": [
+                {
+                  "text": "If 2/5 = x/15, x=?",
+                  "answer": "6"
+                },
+                {
+                  "text": "If 3/4 = 9/x, x=?",
+                  "answer": "12"
+                },
+                {
+                  "text": "Is 1/2 = 3/5?",
+                  "answer": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7.4 Conversions",
+          "topics": [
+            {
+              "name": "Unit Conversions",
+              "keyIdea": "Multiply by conversion factor = 1.",
+              "example": "100 cm = 1 m",
+              "questions": [
+                {
+                  "text": "How many cm in 2 m?",
+                  "answer": "200"
+                },
+                {
+                  "text": "How many feet in 3 yards (3 ft/yd)?",
+                  "answer": "9"
+                },
+                {
+                  "text": "1000 m = ? km?",
+                  "answer": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7.5 Speed",
+          "topics": [
+            {
+              "name": "Speed",
+              "keyIdea": "Speed = distance ÷ time",
+              "example": "60 miles in 2 hours → 30 mph",
+              "questions": [
+                {
+                  "text": "120 km in 3 hours?",
+                  "answer": "40 km/h"
+                },
+                {
+                  "text": "30 m in 5 sec?",
+                  "answer": "6 m/s"
+                },
+                {
+                  "text": "Distance at 10 m/s for 4 s?",
+                  "answer": "40 m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7.6 Other Rates",
+          "topics": [
+            {
+              "name": "Other Rates",
+              "keyIdea": "Rate = quantity ÷ time (or per unit).",
+              "example": "$24 for 6 items → $4 each",
+              "questions": [
+                {
+                  "text": "$45 for 9 books?",
+                  "answer": "$5"
+                },
+                {
+                  "text": "6 pages in 2 min?",
+                  "answer": "3 pg/min"
+                },
+                {
+                  "text": "3 gallons for 5 miles?",
+                  "answer": "0.6 gal/mi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7.7 Summary",
+          "topics": [
+            {
+              "name": "Ratios Summary",
+              "keyIdea": "Simplify ratios; use cross-multiply for proportions.",
+              "example": "3/4 = 6/8",
+              "questions": [
+                {
+                  "text": "Simplify 15:25.",
+                  "answer": "3:5"
+                },
+                {
+                  "text": "2/3 = ?/12.",
+                  "answer": "8"
+                },
+                {
+                  "text": "60 mi/2 hr speed?",
+                  "answer": "30 mph"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Percents",
+      "sections": [
+        {
+          "title": "8.1 What is a Percent?",
+          "topics": [
+            {
+              "name": "Percent Means Per Hundred",
+              "keyIdea": "x% = x/100",
+              "example": "25% = 0.25 = 1/4",
+              "questions": [
+                {
+                  "text": "Write 50% as decimal.",
+                  "answer": "0.50"
+                },
+                {
+                  "text": "Write 10% as fraction.",
+                  "answer": "1/10"
+                },
+                {
+                  "text": "Write 0.05 as percent.",
+                  "answer": "5%"
+                }
+              ]
+            },
+            {
+              "name": "Percent of a Number",
+              "keyIdea": "x% of n = (x/100)·n",
+              "example": "20% of 50 = 10",
+              "questions": [
+                {
+                  "text": "10% of 80?",
+                  "answer": "8"
+                },
+                {
+                  "text": "25% of 40?",
+                  "answer": "10"
+                },
+                {
+                  "text": "50% of 18?",
+                  "answer": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8.2 Word Problems",
+          "topics": [
+            {
+              "name": "Percent Word Problems",
+              "keyIdea": "Part = percent × whole.",
+              "example": "What is 15% of 200? → 30",
+              "questions": [
+                {
+                  "text": "15% of 60?",
+                  "answer": "9"
+                },
+                {
+                  "text": "What percent is 12 of 48?",
+                  "answer": "25%"
+                },
+                {
+                  "text": "30 is 20% of what?",
+                  "answer": "150"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8.3 Percent Increase and Decrease",
+          "topics": [
+            {
+              "name": "Percent Increase/Decrease",
+              "keyIdea": "New = original ± (percent × original)",
+              "example": "20% increase on 50 → 60",
+              "questions": [
+                {
+                  "text": "10% increase on 100?",
+                  "answer": "110"
+                },
+                {
+                  "text": "20% decrease on 50?",
+                  "answer": "40"
+                },
+                {
+                  "text": "Price $80, 25% off?",
+                  "answer": "$60"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "8.4 Summary",
+          "topics": [
+            {
+              "name": "Percents Summary",
+              "keyIdea": "Percent = per hundred; convert to decimal to compute.",
+              "example": "75% = 0.75",
+              "questions": [
+                {
+                  "text": "30% of 50?",
+                  "answer": "15"
+                },
+                {
+                  "text": "Write 1/5 as percent.",
+                  "answer": "20%"
+                },
+                {
+                  "text": "100% of 7?",
+                  "answer": "7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Square Roots",
+      "sections": [
+        {
+          "title": "9.1 From Squares to Square Roots",
+          "topics": [
+            {
+              "name": "Square Roots",
+              "keyIdea": "√a is the nonnegative number whose square is a.",
+              "example": "√9 = 3 because 3² = 9",
+              "questions": [
+                {
+                  "text": "√16?",
+                  "answer": "4"
+                },
+                {
+                  "text": "√1?",
+                  "answer": "1"
+                },
+                {
+                  "text": "√0?",
+                  "answer": "0"
+                }
+              ]
+            },
+            {
+              "name": "Perfect Square Roots",
+              "keyIdea": "√(n²) = |n| for perfect squares.",
+              "example": "√36 = 6",
+              "questions": [
+                {
+                  "text": "√49?",
+                  "answer": "7"
+                },
+                {
+                  "text": "√81?",
+                  "answer": "9"
+                },
+                {
+                  "text": "√100?",
+                  "answer": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "9.2 Square Roots of Non-square Integers",
+          "topics": [
+            {
+              "name": "Square Roots of Non-Squares",
+              "keyIdea": "√2, √3, etc. are irrational (not exact integers).",
+              "example": "√2 ≈ 1.414...",
+              "questions": [
+                {
+                  "text": "Is √5 an integer?",
+                  "answer": "No"
+                },
+                {
+                  "text": "√4 = ?",
+                  "answer": "2"
+                },
+                {
+                  "text": "Between what integers is √10?",
+                  "answer": "3 and 4"
+                }
+              ]
+            },
+            {
+              "name": "Estimating Square Roots",
+              "keyIdea": "Find nearest perfect squares.",
+              "example": "√50 is between √49=7 and √64=8",
+              "questions": [
+                {
+                  "text": "√20 between which integers?",
+                  "answer": "4 and 5"
+                },
+                {
+                  "text": "√90 between?",
+                  "answer": "9 and 10"
+                },
+                {
+                  "text": "Is √15 > 4?",
+                  "answer": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "9.3 Arithmetic with Square Roots",
+          "topics": [
+            {
+              "name": "Simplifying √",
+              "keyIdea": "√(a²b) = a√b for a,b positive.",
+              "example": "√72 = √(36·2) = 6√2",
+              "questions": [
+                {
+                  "text": "Simplify √12.",
+                  "answer": "2√3"
+                },
+                {
+                  "text": "Simplify √50.",
+                  "answer": "5√2"
+                },
+                {
+                  "text": "Simplify √8.",
+                  "answer": "2√2"
+                }
+              ]
+            },
+            {
+              "name": "√a · √b = √(ab)",
+              "keyIdea": "Multiply under the root.",
+              "example": "√2 · √8 = √16 = 4",
+              "questions": [
+                {
+                  "text": "√3 · √3?",
+                  "answer": "3"
+                },
+                {
+                  "text": "√2 · √18?",
+                  "answer": "6"
+                },
+                {
+                  "text": "√5 · √20?",
+                  "answer": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "9.4 Summary",
+          "topics": [
+            {
+              "name": "Square Roots Summary",
+              "keyIdea": "√ is inverse of squaring; simplify by factoring perfect squares.",
+              "example": "√(16·2) = 4√2",
+              "questions": [
+                {
+                  "text": "√25?",
+                  "answer": "5"
+                },
+                {
+                  "text": "Simplify √27.",
+                  "answer": "3√3"
+                },
+                {
+                  "text": "√9 · √4?",
+                  "answer": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "totalQuestions": 426
+  }
+}

@@ -75,15 +75,15 @@
               "example": "3 + 7 = 7 + 3 = 10",
               "questions": [
                 {
-                  "text": "Compute 9 + 6 mentally.",
-                  "answer": "15"
+                  "text": "Compute 47 + 58 + 43 mentally (pair first).",
+                  "answer": "148"
                 },
                 {
-                  "text": "Compute 6 + 9 + 4 mentally (reorder!).",
-                  "answer": "19"
+                  "text": "Compute 125 + 875 + 256 by regrouping.",
+                  "answer": "1256"
                 },
                 {
-                  "text": "Is 15 + 8 equal to 8 + 15?",
+                  "text": "Is 234 + 567 equal to 567 + 234?",
                   "answer": "Yes"
                 }
               ]
@@ -94,16 +94,16 @@
               "example": "(2 + 3) + 4 = 2 + (3 + 4) = 9",
               "questions": [
                 {
-                  "text": "Compute (5 + 5) + 3.",
-                  "answer": "13"
+                  "text": "Compute (25 + 75) + 48.",
+                  "answer": "148"
                 },
                 {
-                  "text": "Compute 5 + (5 + 3).",
-                  "answer": "13"
+                  "text": "Compute 37 + (63 + 25).",
+                  "answer": "125"
                 },
                 {
-                  "text": "Compute 12 + 8 + 5 by pairing 12+8 first.",
-                  "answer": "25"
+                  "text": "Compute 16 + 49 + 84 + 51 by pairing.",
+                  "answer": "200"
                 }
               ]
             },
@@ -113,16 +113,16 @@
               "example": "847 + 0 = 847",
               "questions": [
                 {
-                  "text": "What is 0 + 99?",
-                  "answer": "99"
+                  "text": "What is 0 + (−17)?",
+                  "answer": "−17"
                 },
                 {
-                  "text": "What is 1,000,000 + 0?",
-                  "answer": "1,000,000"
+                  "text": "Compute 999 + 0 + 1.",
+                  "answer": "1000"
                 },
                 {
-                  "text": "If x + 0 = 17, what is x?",
-                  "answer": "17"
+                  "text": "If x + 0 = −5, what is x?",
+                  "answer": "−5"
                 }
               ]
             },
@@ -132,16 +132,16 @@
               "example": "219 + 28 + 281 = (219 + 281) + 28 = 500 + 28 = 528",
               "questions": [
                 {
-                  "text": "Compute 25 + 75 + 12.",
-                  "answer": "112"
+                  "text": "Compute 168 + 32 + 95 + 5.",
+                  "answer": "300"
                 },
                 {
                   "text": "Compute 1 + 2 + 3 + … + 10 (pair ends: 1+10, 2+9…).",
                   "answer": "55"
                 },
                 {
-                  "text": "Compute 48 + 52 + 37.",
-                  "answer": "137"
+                  "text": "Compute 48 + 52 + 137.",
+                  "answer": "237"
                 }
               ]
             },
@@ -151,16 +151,16 @@
               "example": "1+2+…+20 → ten pairs each summing to 21 → 10×21 = 210",
               "questions": [
                 {
-                  "text": "What is 1 + 2 + 3 + 4 + 5?",
-                  "answer": "15"
+                  "text": "What is 1 + 2 + 3 + … + 10?",
+                  "answer": "55"
                 },
                 {
-                  "text": "What is 10 + 11 + 12 + 13 + 14 + 15?",
-                  "answer": "75"
+                  "text": "What is 21 + 22 + … + 30?",
+                  "answer": "255"
                 },
                 {
-                  "text": "Ten pairs each sum to 25. What is the total?",
-                  "answer": "250"
+                  "text": "Eight pairs each sum to 31. What is the total?",
+                  "answer": "248"
                 }
               ]
             }
@@ -175,15 +175,15 @@
               "example": "4 × 7 = 7 × 4 = 28",
               "questions": [
                 {
-                  "text": "Compute 6 × 5.",
-                  "answer": "30"
+                  "text": "Compute 25 × 16 mentally (use reordering).",
+                  "answer": "400"
                 },
                 {
-                  "text": "Compute 5 × 6 × 2.",
-                  "answer": "60"
+                  "text": "Compute 4 × 25 × 8 by regrouping.",
+                  "answer": "800"
                 },
                 {
-                  "text": "Is 9 × 11 equal to 11 × 9?",
+                  "text": "Is 13 × 17 equal to 17 × 13?",
                   "answer": "Yes"
                 }
               ]
@@ -194,16 +194,16 @@
               "example": "(2 × 5) × 3 = 2 × (5 × 3) = 30",
               "questions": [
                 {
-                  "text": "Compute (4 × 25) × 2.",
-                  "answer": "200"
-                },
-                {
-                  "text": "Compute 4 × (25 × 2).",
-                  "answer": "200"
+                  "text": "Compute (25 × 4) × 5.",
+                  "answer": "500"
                 },
                 {
                   "text": "Compute 2 × 5 × 2 × 5.",
                   "answer": "100"
+                },
+                {
+                  "text": "Compute 125 × 8 × 5 using grouping.",
+                  "answer": "5000"
                 }
               ]
             },
@@ -213,16 +213,16 @@
               "example": "999 × 1 = 999",
               "questions": [
                 {
-                  "text": "What is 1 × 43?",
+                  "text": "Simplify 1 × 43 × 1 × 1.",
                   "answer": "43"
                 },
                 {
-                  "text": "What is 0 × 1?",
-                  "answer": "0"
+                  "text": "If n × 1 × n = 64 and n is positive, what is n?",
+                  "answer": "8"
                 },
                 {
-                  "text": "If n × 1 = 8, what is n?",
-                  "answer": "8"
+                  "text": "What is (−1) × 1 × (−1)?",
+                  "answer": "1"
                 }
               ]
             },
@@ -240,8 +240,8 @@
                   "answer": "20"
                 },
                 {
-                  "text": "Compute 10 − 6 ÷ 2.",
-                  "answer": "7"
+                  "text": "Compute 48 ÷ 6 + 2² × 3.",
+                  "answer": "20"
                 }
               ]
             },
@@ -251,16 +251,24 @@
               "example": "7 × 103 = 7 × (100 + 3) = 700 + 21 = 721",
               "questions": [
                 {
-                  "text": "Compute 5 × (10 + 2).",
-                  "answer": "60"
+                  "text": "Compute 98 × 7 using 7 × (100 − 2).",
+                  "answer": "686"
                 },
                 {
-                  "text": "Compute 9 × 11 using 9 × (10 + 1).",
-                  "answer": "99"
+                  "text": "Compute 15 × 102 without long multiplication.",
+                  "answer": "1530"
                 },
                 {
-                  "text": "Compute 4 × 25 + 4 × 75 (factor out 4).",
-                  "answer": "400"
+                  "text": "Compute 6 × 105 + 6 × 95 by factoring.",
+                  "answer": "1200"
+                },
+                {
+                  "text": "Expand: 8(40 + 3).",
+                  "answer": "344"
+                },
+                {
+                  "text": "Compute 24 × 11 mentally using distribution.",
+                  "answer": "264"
                 }
               ]
             },
@@ -270,16 +278,51 @@
               "example": "51 × 13 + 49 × 13 = (51 + 49) × 13 = 100 × 13 = 1300",
               "questions": [
                 {
-                  "text": "Expand: 3(10 + 4).",
-                  "answer": "42"
+                  "text": "Factor and compute: 37 × 6 + 63 × 6.",
+                  "answer": "600"
                 },
                 {
-                  "text": "Factor: 6 × 7 + 6 × 3.",
-                  "answer": "60"
-                },
-                {
-                  "text": "Compute 25 × 17 + 75 × 17.",
+                  "text": "Factor and compute: 19 × 25 + 81 × 25.",
                   "answer": "2500"
+                },
+                {
+                  "text": "Expand: 12(30 − 4).",
+                  "answer": "312"
+                },
+                {
+                  "text": "Compute 999 × 8 using (1000 − 1) × 8.",
+                  "answer": "7992"
+                },
+                {
+                  "text": "Factor: 15 × 14 + 15 × 6.",
+                  "answer": "300"
+                }
+              ]
+            },
+            {
+              "name": "Distributive Property (Longer Sums)",
+              "keyIdea": "Factor a common number from a sum of any length: ab + ac + ad = a(b + c + d).",
+              "example": "12 × 7 + 12 × 3 + 12 × 10 = 12 × 20 = 240",
+              "questions": [
+                {
+                  "text": "Compute 5 × 13 + 5 × 7 + 5 × 20.",
+                  "answer": "200"
+                },
+                {
+                  "text": "Compute 25 × 16 + 25 × 4 + 25 × 8.",
+                  "answer": "700"
+                },
+                {
+                  "text": "Factor: 7 × 11 + 7 × 9 + 7 × 15.",
+                  "answer": "245"
+                },
+                {
+                  "text": "Compute 99 × 12 + 99 × 88 mentally.",
+                  "answer": "9900"
+                },
+                {
+                  "text": "Expand: 3(10 + 20 + 30).",
+                  "answer": "180"
                 }
               ]
             },
@@ -289,16 +332,16 @@
               "example": "1 × 2 × 3 × … × 9 × 0 = 0",
               "questions": [
                 {
-                  "text": "What is 999 × 0?",
+                  "text": "What is 999 × 0 × 999?",
                   "answer": "0"
                 },
                 {
-                  "text": "What is 0 × (−5)?",
+                  "text": "What is 0 × (−5) × 12?",
                   "answer": "0"
                 },
                 {
-                  "text": "What is 1 × 2 × 3 × 0 × 4?",
-                  "answer": "0"
+                  "text": "If a × b × c = 0 and a, b, c are integers, what must be true?",
+                  "answer": "At least one factor is 0"
                 }
               ]
             }
@@ -413,16 +456,16 @@
               "example": "10 − 3 = 10 + (−3) = 7",
               "questions": [
                 {
-                  "text": "Rewrite 8 − 5 as an addition.",
-                  "answer": "8+(−5)"
+                  "text": "Rewrite 15 − (−3) as an addition.",
+                  "answer": "15+(3)"
                 },
                 {
-                  "text": "What is 12 − 7?",
+                  "text": "What is 103 − 97?",
+                  "answer": "6"
+                },
+                {
+                  "text": "What is (−4) − (−9)?",
                   "answer": "5"
-                },
-                {
-                  "text": "What is 5 − 5?",
-                  "answer": "0"
                 }
               ]
             },
@@ -584,16 +627,24 @@
               "example": "64(100 − 2) = 6400 − 128 = 6272",
               "questions": [
                 {
-                  "text": "Compute 5(10 − 2).",
-                  "answer": "40"
+                  "text": "Compute 15(100 − 2) mentally.",
+                  "answer": "1470"
                 },
                 {
-                  "text": "Compute 10(15 − 5).",
-                  "answer": "100"
+                  "text": "Compute 8 × 995 using 8 × (1000 − 5).",
+                  "answer": "7960"
                 },
                 {
-                  "text": "Expand: 3(20 − 7).",
-                  "answer": "39"
+                  "text": "Expand: 12(50 − 7).",
+                  "answer": "516"
+                },
+                {
+                  "text": "Compute 25 × 48 using 25 × (50 − 2).",
+                  "answer": "1200"
+                },
+                {
+                  "text": "Factor and compute: 6 × 87 − 6 × 37.",
+                  "answer": "300"
                 }
               ]
             },
@@ -603,16 +654,24 @@
               "example": "99 × 37 = (100 − 1) × 37 = 3700 − 37 = 3663",
               "questions": [
                 {
-                  "text": "Compute 98 × 5 using (100 − 2) × 5.",
-                  "answer": "490"
+                  "text": "Compute 998 × 6 using (1000 − 2) × 6.",
+                  "answer": "5988"
                 },
                 {
-                  "text": "Compute 101 × 6 using (100 + 1) × 6.",
-                  "answer": "606"
+                  "text": "Compute 101 × 43 using (100 + 1) × 43.",
+                  "answer": "4343"
                 },
                 {
-                  "text": "Compute 25 × 39 using 25 × (40 − 1).",
-                  "answer": "975"
+                  "text": "Compute 25 × 396 using 25 × (400 − 4).",
+                  "answer": "9900"
+                },
+                {
+                  "text": "Compute 999 × 15 mentally.",
+                  "answer": "14985"
+                },
+                {
+                  "text": "Compute 103 × 27 using distribution.",
+                  "answer": "2781"
                 }
               ]
             },
@@ -626,12 +685,20 @@
                   "answer": "17°"
                 },
                 {
-                  "text": "Compute 1000 − 999 + 998 − 997.",
-                  "answer": "2"
+                  "text": "Compute 1000 − 999 + 998 − 997 + 996 − 995.",
+                  "answer": "3"
                 },
                 {
-                  "text": "Compute 50 × 98 mentally using distribution.",
-                  "answer": "4900"
+                  "text": "Compute 125 × 992 using distribution.",
+                  "answer": "124000"
+                },
+                {
+                  "text": "Compute 75 × 104 − 75 × 4 by factoring.",
+                  "answer": "7500"
+                },
+                {
+                  "text": "Compute (−3)² − 2³ × 5 mentally.",
+                  "answer": "−31"
                 }
               ]
             }
@@ -646,15 +713,15 @@
               "example": "Reciprocal of 4 is 1/4 because 4 × 1/4 = 1",
               "questions": [
                 {
-                  "text": "What is the reciprocal of 5?",
-                  "answer": "1/5"
+                  "text": "What is the reciprocal of 2/7?",
+                  "answer": "7/2"
                 },
                 {
-                  "text": "What is the reciprocal of 1/3?",
-                  "answer": "3"
+                  "text": "What is (3/4) × (4/3)?",
+                  "answer": "1"
                 },
                 {
-                  "text": "What is 6 × (1/6)?",
+                  "text": "What is 12 × (1/12)?",
                   "answer": "1"
                 }
               ]
@@ -708,16 +775,16 @@
               "example": "10 ÷ 2 = 10 × (1/2) = 5",
               "questions": [
                 {
-                  "text": "Rewrite 12 ÷ 3 as multiplication by a reciprocal.",
-                  "answer": "12×(1/3)"
+                  "text": "Rewrite 144 ÷ 12 as multiplication by a reciprocal.",
+                  "answer": "144×(1/12)"
                 },
                 {
-                  "text": "What is 15 ÷ 5?",
-                  "answer": "3"
+                  "text": "What is 168 ÷ 14?",
+                  "answer": "12"
                 },
                 {
-                  "text": "What is 1 ÷ 4 as a fraction?",
-                  "answer": "1/4"
+                  "text": "What is 9 ÷ 12 as a fraction in simplest form?",
+                  "answer": "3/4"
                 }
               ]
             },
@@ -841,16 +908,24 @@
               "example": "(12 + 8) ÷ 2 = 6 + 4 = 10",
               "questions": [
                 {
-                  "text": "Compute (10 + 20) ÷ 5.",
-                  "answer": "6"
+                  "text": "Compute (48 + 72) ÷ 12.",
+                  "answer": "10"
+                },
+                {
+                  "text": "Compute (135 + 45) ÷ 15.",
+                  "answer": "12"
                 },
                 {
                   "text": "Compute (6 ÷ 2) + (8 ÷ 2).",
                   "answer": "7"
                 },
                 {
-                  "text": "Compute (15 + 25) ÷ 5.",
-                  "answer": "8"
+                  "text": "Compute (99 + 1) ÷ 5.",
+                  "answer": "20"
+                },
+                {
+                  "text": "Use distribution to compute (250 + 150) ÷ 20.",
+                  "answer": "20"
                 }
               ]
             },
@@ -860,16 +935,24 @@
               "example": "12 ÷ (2 + 4) = 2, but (12 ÷ 2) + (12 ÷ 4) = 6 + 3 = 9",
               "questions": [
                 {
-                  "text": "Compute 24 ÷ (3 + 3).",
-                  "answer": "2"
+                  "text": "Compute 60 ÷ (5 + 5).",
+                  "answer": "6"
                 },
                 {
-                  "text": "Compute (24 ÷ 3) + (24 ÷ 3).",
-                  "answer": "16"
+                  "text": "Compute (60 ÷ 5) + (60 ÷ 5).",
+                  "answer": "24"
                 },
                 {
-                  "text": "Are #1 and #2 equal?",
-                  "answer": "No"
+                  "text": "Compute 100 ÷ (10 + 15) and compare to (100 ÷ 10) + (100 ÷ 15). Are they equal?",
+                  "answer": "4; No"
+                },
+                {
+                  "text": "Compute 36 ÷ (3 + 3).",
+                  "answer": "6"
+                },
+                {
+                  "text": "Why can't you split 24 ÷ (2 + 4) as (24 ÷ 2) + (24 ÷ 4)?",
+                  "answer": "No (4 vs 18)"
                 }
               ]
             }
@@ -933,16 +1016,16 @@
               "example": "2⁶ = 64",
               "questions": [
                 {
-                  "text": "What is 2⁴?",
-                  "answer": "16"
+                  "text": "What is 2⁶?",
+                  "answer": "64"
                 },
                 {
-                  "text": "What is 3²?",
-                  "answer": "9"
+                  "text": "What is 7³?",
+                  "answer": "343"
                 },
                 {
-                  "text": "In 5³, what is the exponent?",
-                  "answer": "3"
+                  "text": "In 5⁴, what is the exponent?",
+                  "answer": "4"
                 }
               ]
             },
@@ -952,15 +1035,15 @@
               "example": "12² = 144",
               "questions": [
                 {
-                  "text": "What is 11²?",
-                  "answer": "121"
+                  "text": "What is 13²?",
+                  "answer": "169"
                 },
                 {
-                  "text": "What is 20²?",
-                  "answer": "400"
+                  "text": "What is 15²?",
+                  "answer": "225"
                 },
                 {
-                  "text": "Is 45 a perfect square?",
+                  "text": "Is 50 a perfect square?",
                   "answer": "No"
                 }
               ]
@@ -971,16 +1054,16 @@
               "example": "3²·7 = 63",
               "questions": [
                 {
-                  "text": "Compute 2³·5.",
-                  "answer": "40"
+                  "text": "Compute 2⁵ − 2³.",
+                  "answer": "24"
                 },
                 {
-                  "text": "Compute 4² + 3².",
-                  "answer": "25"
+                  "text": "Compute 3²·2³.",
+                  "answer": "72"
                 },
                 {
-                  "text": "Compute 10 − 2².",
-                  "answer": "6"
+                  "text": "Compute 10 − 2²·3.",
+                  "answer": "2"
                 }
               ]
             },
@@ -990,12 +1073,12 @@
               "example": "(−6)² = 36",
               "questions": [
                 {
-                  "text": "What is (−9)²?",
-                  "answer": "81"
+                  "text": "What is (−12)²?",
+                  "answer": "144"
                 },
                 {
-                  "text": "What is (−1)²?",
-                  "answer": "1"
+                  "text": "What is (−7)²?",
+                  "answer": "49"
                 },
                 {
                   "text": "Is (−4)² positive?",
@@ -1032,8 +1115,8 @@
                   "answer": "144"
                 },
                 {
-                  "text": "Compute (10·2)².",
-                  "answer": "400"
+                  "text": "Compute (5·6)².",
+                  "answer": "900"
                 },
                 {
                   "text": "Is (2·3)² = 2²·3²?",
@@ -1047,16 +1130,16 @@
               "example": "(6/3)² = 4",
               "questions": [
                 {
-                  "text": "Compute (10/2)².",
-                  "answer": "25"
+                  "text": "Compute (12/3)².",
+                  "answer": "16"
                 },
                 {
-                  "text": "What is (1/5)²?",
-                  "answer": "1/25"
+                  "text": "What is (3/5)²?",
+                  "answer": "9/25"
                 },
                 {
-                  "text": "What is (8/4)²?",
-                  "answer": "4"
+                  "text": "Compute (2/3)² + (1/3)².",
+                  "answer": "5/9"
                 }
               ]
             }
@@ -1071,16 +1154,16 @@
               "example": "3³ = 27",
               "questions": [
                 {
-                  "text": "What is 2³?",
-                  "answer": "8"
+                  "text": "What is 2⁵?",
+                  "answer": "32"
                 },
                 {
-                  "text": "What is 4²?",
-                  "answer": "16"
+                  "text": "What is 5³?",
+                  "answer": "125"
                 },
                 {
-                  "text": "What is 10⁴?",
-                  "answer": "10000"
+                  "text": "What is 3⁴?",
+                  "answer": "81"
                 }
               ]
             },
@@ -1090,16 +1173,16 @@
               "example": "50¹ = 50",
               "questions": [
                 {
-                  "text": "What is 7¹?",
+                  "text": "What is (−8)¹?",
+                  "answer": "−8"
+                },
+                {
+                  "text": "What is 1¹⁰⁰?",
+                  "answer": "1"
+                },
+                {
+                  "text": "If 2ˣ=2⁷, what is x?",
                   "answer": "7"
-                },
-                {
-                  "text": "What is (−3)¹?",
-                  "answer": "−3"
-                },
-                {
-                  "text": "What is 0¹?",
-                  "answer": "0"
                 }
               ]
             },
@@ -1113,12 +1196,12 @@
                   "answer": "1000"
                 },
                 {
-                  "text": "What is (2/1)⁴?",
-                  "answer": "16"
+                  "text": "What is (3/2)³?",
+                  "answer": "27/8"
                 },
                 {
-                  "text": "What is (10/5)²?",
-                  "answer": "4"
+                  "text": "What is (10/5)⁴?",
+                  "answer": "16"
                 }
               ]
             },
@@ -1247,15 +1330,15 @@
               "example": "999⁰ = 1",
               "questions": [
                 {
-                  "text": "What is 7⁰?",
+                  "text": "Compute 2⁴·2⁻⁴.",
                   "answer": "1"
                 },
                 {
-                  "text": "What is (−4)⁰?",
-                  "answer": "1"
+                  "text": "Compute 5⁰·5³.",
+                  "answer": "125"
                 },
                 {
-                  "text": "What is 10⁰?",
+                  "text": "What is (−7)⁰?",
                   "answer": "1"
                 }
               ]
@@ -1266,15 +1349,15 @@
               "example": "2³→2²→2¹→2⁰: 8,4,2,1",
               "questions": [
                 {
-                  "text": "3²=9, 3¹=?",
-                  "answer": "3"
+                  "text": "5³=125, 5²=?",
+                  "answer": "25"
                 },
                 {
-                  "text": "3⁰=?",
-                  "answer": "1"
+                  "text": "5¹=?",
+                  "answer": "5"
                 },
                 {
-                  "text": "2⁰=?",
+                  "text": "5⁰=?",
                   "answer": "1"
                 }
               ]
@@ -1285,16 +1368,16 @@
               "example": "2⁰ + 5⁰ = 2",
               "questions": [
                 {
-                  "text": "What is 3⁰·8?",
-                  "answer": "8"
-                },
-                {
-                  "text": "What is 6⁰ + 6¹?",
+                  "text": "Compute 3²·3⁻²·7.",
                   "answer": "7"
                 },
                 {
-                  "text": "What is 1⁰·1⁰?",
-                  "answer": "1"
+                  "text": "Compute 4⁰ + 2³ − 1.",
+                  "answer": "8"
+                },
+                {
+                  "text": "Compute 10⁰·6².",
+                  "answer": "36"
                 }
               ]
             }
@@ -1889,16 +1972,16 @@
               "example": "2/3 × 4/5 = 8/15",
               "questions": [
                 {
-                  "text": "Compute 1/2 × 1/3.",
-                  "answer": "1/6"
+                  "text": "Compute 3/5 × 10/9.",
+                  "answer": "2/3"
                 },
                 {
-                  "text": "Compute 3/4 × 2/3.",
-                  "answer": "1/2"
+                  "text": "Compute 7/8 × 16/21.",
+                  "answer": "2/3"
                 },
                 {
-                  "text": "Compute 2/5 × 5/2.",
-                  "answer": "1"
+                  "text": "Compute 5/6 × 9/10.",
+                  "answer": "3/4"
                 }
               ]
             },
@@ -1908,16 +1991,16 @@
               "example": "4/9 × 3/8 = 1/6",
               "questions": [
                 {
-                  "text": "Compute 6/7 × 7/12.",
-                  "answer": "1/2"
+                  "text": "Compute 15/14 × 7/25.",
+                  "answer": "3/10"
                 },
                 {
-                  "text": "Compute 5/6 × 3/10.",
-                  "answer": "1/4"
+                  "text": "Compute 8/15 × 25/16.",
+                  "answer": "5/6"
                 },
                 {
-                  "text": "Compute 2/3 × 9/4.",
-                  "answer": "3/2"
+                  "text": "Compute 9/20 × 10/27.",
+                  "answer": "1/6"
                 }
               ]
             }
@@ -2163,15 +2246,15 @@
               "example": "3x+2 is expression; 3x+2=11 is equation",
               "questions": [
                 {
-                  "text": "Is 5x an expression?",
+                  "text": "Is 5x−2 an expression?",
                   "answer": "Yes"
                 },
                 {
-                  "text": "Is x=5 an equation?",
+                  "text": "Is 2x+1=9 an equation?",
                   "answer": "Yes"
                 },
                 {
-                  "text": "Is 2+3 an expression?",
+                  "text": "Is 3(x+4) an expression?",
                   "answer": "Yes"
                 }
               ]
@@ -2182,16 +2265,16 @@
               "example": "If x=3: 2x+1 = 7",
               "questions": [
                 {
-                  "text": "If x=4: x+5?",
-                  "answer": "9"
+                  "text": "If x=−2: 3x−1?",
+                  "answer": "−7"
                 },
                 {
-                  "text": "If n=2: 3n?",
-                  "answer": "6"
+                  "text": "If n=−3: 2n²?",
+                  "answer": "18"
                 },
                 {
-                  "text": "If a=5: a²?",
-                  "answer": "25"
+                  "text": "If a=−4: 2a²−3?",
+                  "answer": "29"
                 }
               ]
             },
@@ -2201,12 +2284,12 @@
               "example": "3x + 5x = 8x",
               "questions": [
                 {
-                  "text": "Simplify 2x + 7x.",
-                  "answer": "9x"
+                  "text": "Simplify 7x − 2x + 5.",
+                  "answer": "5x+5"
                 },
                 {
-                  "text": "Simplify 4n − n.",
-                  "answer": "3n"
+                  "text": "Simplify 4n + 3 − n + 8.",
+                  "answer": "3n+11"
                 },
                 {
                   "text": "Can you add 3x + 5y?",
@@ -2225,16 +2308,16 @@
               "example": "x + 5 = 12 → x = 7",
               "questions": [
                 {
-                  "text": "Solve x + 3 = 10.",
-                  "answer": "7"
+                  "text": "Solve x + 23 = 41.",
+                  "answer": "18"
                 },
                 {
-                  "text": "Solve x − 4 = 6.",
-                  "answer": "10"
+                  "text": "Solve x − 18 = −5.",
+                  "answer": "13"
                 },
                 {
-                  "text": "Solve n + 0 = 8.",
-                  "answer": "8"
+                  "text": "Solve n − 11 = 26.",
+                  "answer": "37"
                 }
               ]
             },
@@ -2244,15 +2327,15 @@
               "example": "3x = 15 → x = 5",
               "questions": [
                 {
-                  "text": "Solve 2x = 14.",
-                  "answer": "7"
+                  "text": "Solve 3x = 84.",
+                  "answer": "28"
                 },
                 {
-                  "text": "Solve x/4 = 3.",
-                  "answer": "12"
+                  "text": "Solve x/5 = −4.",
+                  "answer": "−20"
                 },
                 {
-                  "text": "Solve 5n = 0.",
+                  "text": "Solve 7n = 0.",
                   "answer": "0"
                 }
               ]
@@ -2306,16 +2389,54 @@
               "example": "2(x+3)=10 → x=2",
               "questions": [
                 {
-                  "text": "Solve 3(x+1)=12.",
-                  "answer": "3"
+                  "text": "Solve 4(x+3)=20.",
+                  "answer": "2"
                 },
                 {
-                  "text": "Solve 2(x−1)=8.",
-                  "answer": "5"
+                  "text": "Solve 3(x−2)=15.",
+                  "answer": "7"
                 },
                 {
                   "text": "Solve 5(x+2)=25.",
                   "answer": "3"
+                }
+              ]
+            },
+            {
+              "name": "Distribution on Both Sides",
+              "keyIdea": "Expand both sides, then solve.",
+              "example": "2(x+1)=x+8 → x=6",
+              "questions": [
+                {
+                  "text": "If 3(x+2)=x+14, x=?",
+                  "answer": "4"
+                },
+                {
+                  "text": "If 4(x−1)=2x+6, x=?",
+                  "answer": "5"
+                },
+                {
+                  "text": "If 2(x+4)=x+13, x=?",
+                  "answer": "5"
+                }
+              ]
+            },
+            {
+              "name": "Factoring Before Solving",
+              "keyIdea": "Factor out a common term first.",
+              "example": "3x+3=12 → 3(x+1)=12",
+              "questions": [
+                {
+                  "text": "If 5x+15=30, x=?",
+                  "answer": "3"
+                },
+                {
+                  "text": "If 4x−8=12, x=?",
+                  "answer": "5"
+                },
+                {
+                  "text": "If 6x+18=42, x=?",
+                  "answer": "4"
                 }
               ]
             }
@@ -2330,16 +2451,16 @@
               "example": "Age: Jane is x, Bob is x+3",
               "questions": [
                 {
-                  "text": "Sum of a number and 8 is 15. Find it.",
-                  "answer": "7"
+                  "text": "Three times a number minus 7 is 20. Find it.",
+                  "answer": "9"
                 },
                 {
-                  "text": "Twice a number is 20.",
-                  "answer": "10"
+                  "text": "Twice a number plus 5 is 31.",
+                  "answer": "13"
                 },
                 {
-                  "text": "A number minus 5 is 12.",
-                  "answer": "17"
+                  "text": "A number minus 18 is −3.",
+                  "answer": "15"
                 }
               ]
             }
@@ -2378,16 +2499,16 @@
               "example": "3x − 1 = 8 → x = 3",
               "questions": [
                 {
-                  "text": "Solve x + 9 = 15.",
-                  "answer": "6"
+                  "text": "Solve 2x − 9 = 15.",
+                  "answer": "12"
                 },
                 {
-                  "text": "Solve 4x = 20.",
+                  "text": "Solve 5x = 35.",
+                  "answer": "7"
+                },
+                {
+                  "text": "Solve 3x + 11 = 26.",
                   "answer": "5"
-                },
-                {
-                  "text": "Solve 2x + 4 = 12.",
-                  "answer": "4"
                 }
               ]
             }
@@ -2408,16 +2529,16 @@
               "example": "3.45 = 3 + 4/10 + 5/100",
               "questions": [
                 {
-                  "text": "What digit is in tenths place of 2.37?",
-                  "answer": "3"
+                  "text": "What digit is in hundredths place of 12.507?",
+                  "answer": "0"
                 },
                 {
-                  "text": "Value of 5 in 1.05?",
-                  "answer": "0.05"
+                  "text": "Value of 8 in 4.083?",
+                  "answer": "0.008"
                 },
                 {
-                  "text": "What is 0.1 + 0.2?",
-                  "answer": "0.3"
+                  "text": "What is 0.25 + 0.75?",
+                  "answer": "1.00"
                 }
               ]
             },
@@ -2427,16 +2548,16 @@
               "example": "1.2 + 3.45 = 4.65",
               "questions": [
                 {
-                  "text": "Compute 2.5 + 1.3.",
-                  "answer": "3.8"
+                  "text": "Compute 12.6 + 3.85.",
+                  "answer": "16.45"
                 },
                 {
-                  "text": "Compute 5.0 − 2.4.",
-                  "answer": "2.6"
+                  "text": "Compute 15.0 − 7.48.",
+                  "answer": "7.52"
                 },
                 {
-                  "text": "Compute 0.07 + 0.03.",
-                  "answer": "0.10"
+                  "text": "Compute 0.125 + 0.875.",
+                  "answer": "1.00"
                 }
               ]
             },
@@ -2446,16 +2567,16 @@
               "example": "0.2 × 0.3 = 0.06",
               "questions": [
                 {
-                  "text": "Compute 0.5 × 0.4.",
+                  "text": "Compute 1.25 × 0.4.",
+                  "answer": "0.50"
+                },
+                {
+                  "text": "Compute 0.15 × 20.",
+                  "answer": "3.00"
+                },
+                {
+                  "text": "Compute 2.5 × 0.08.",
                   "answer": "0.20"
-                },
-                {
-                  "text": "Compute 1.2 × 10.",
-                  "answer": "12"
-                },
-                {
-                  "text": "Compute 0.01 × 5.",
-                  "answer": "0.05"
                 }
               ]
             },
@@ -2465,16 +2586,16 @@
               "example": "0.6 ÷ 0.2 = 3",
               "questions": [
                 {
-                  "text": "Compute 1.5 ÷ 0.5.",
-                  "answer": "3"
+                  "text": "Compute 3.6 ÷ 0.9.",
+                  "answer": "4"
                 },
                 {
-                  "text": "Compute 4.8 ÷ 2.",
-                  "answer": "2.4"
+                  "text": "Compute 7.2 ÷ 1.2.",
+                  "answer": "6"
                 },
                 {
-                  "text": "Compute 0.9 ÷ 0.3.",
-                  "answer": "3"
+                  "text": "Compute 0.84 ÷ 0.07.",
+                  "answer": "12"
                 }
               ]
             }
@@ -2561,16 +2682,16 @@
               "example": "0.1 × 0.1 = 0.01",
               "questions": [
                 {
-                  "text": "0.3 + 0.7?",
-                  "answer": "1.0"
+                  "text": "Compute 2.4 + 3.75.",
+                  "answer": "6.15"
                 },
                 {
-                  "text": "0.25 as fraction?",
-                  "answer": "1/4"
+                  "text": "Write 0.375 as fraction.",
+                  "answer": "3/8"
                 },
                 {
-                  "text": "Round 4.56 to tenth.",
-                  "answer": "4.6"
+                  "text": "Round 6.847 to hundredth.",
+                  "answer": "6.85"
                 }
               ]
             }
@@ -2765,16 +2886,16 @@
               "example": "25% = 0.25 = 1/4",
               "questions": [
                 {
-                  "text": "Write 50% as decimal.",
-                  "answer": "0.50"
+                  "text": "Write 12.5% as decimal.",
+                  "answer": "0.125"
                 },
                 {
-                  "text": "Write 10% as fraction.",
-                  "answer": "1/10"
+                  "text": "Write 35% as fraction.",
+                  "answer": "7/20"
                 },
                 {
-                  "text": "Write 0.05 as percent.",
-                  "answer": "5%"
+                  "text": "Write 0.08 as percent.",
+                  "answer": "8%"
                 }
               ]
             },
@@ -2784,16 +2905,16 @@
               "example": "20% of 50 = 10",
               "questions": [
                 {
-                  "text": "10% of 80?",
-                  "answer": "8"
+                  "text": "15% of 240?",
+                  "answer": "36"
                 },
                 {
-                  "text": "25% of 40?",
-                  "answer": "10"
+                  "text": "35% of 80?",
+                  "answer": "28"
                 },
                 {
-                  "text": "50% of 18?",
-                  "answer": "9"
+                  "text": "125% of 16?",
+                  "answer": "20"
                 }
               ]
             }
@@ -2856,16 +2977,16 @@
               "example": "75% = 0.75",
               "questions": [
                 {
-                  "text": "30% of 50?",
-                  "answer": "15"
+                  "text": "18% of 250?",
+                  "answer": "45"
                 },
                 {
-                  "text": "Write 1/5 as percent.",
-                  "answer": "20%"
+                  "text": "Write 3/8 as percent.",
+                  "answer": "37.5%"
                 },
                 {
-                  "text": "100% of 7?",
-                  "answer": "7"
+                  "text": "80 is 32% of what?",
+                  "answer": "250"
                 }
               ]
             }
@@ -2886,12 +3007,12 @@
               "example": "√9 = 3 because 3² = 9",
               "questions": [
                 {
-                  "text": "√16?",
-                  "answer": "4"
+                  "text": "√144?",
+                  "answer": "12"
                 },
                 {
-                  "text": "√1?",
-                  "answer": "1"
+                  "text": "√225?",
+                  "answer": "15"
                 },
                 {
                   "text": "√0?",
@@ -2905,16 +3026,16 @@
               "example": "√36 = 6",
               "questions": [
                 {
-                  "text": "√49?",
-                  "answer": "7"
+                  "text": "√169?",
+                  "answer": "13"
                 },
                 {
-                  "text": "√81?",
-                  "answer": "9"
+                  "text": "√196?",
+                  "answer": "14"
                 },
                 {
-                  "text": "√100?",
-                  "answer": "10"
+                  "text": "√256?",
+                  "answer": "16"
                 }
               ]
             }
@@ -2929,16 +3050,16 @@
               "example": "√2 ≈ 1.414...",
               "questions": [
                 {
-                  "text": "Is √5 an integer?",
+                  "text": "Is √50 an integer?",
                   "answer": "No"
                 },
                 {
-                  "text": "√4 = ?",
-                  "answer": "2"
+                  "text": "√121 = ?",
+                  "answer": "11"
                 },
                 {
-                  "text": "Between what integers is √10?",
-                  "answer": "3 and 4"
+                  "text": "Between what integers is √72?",
+                  "answer": "8 and 9"
                 }
               ]
             },
@@ -2948,15 +3069,15 @@
               "example": "√50 is between √49=7 and √64=8",
               "questions": [
                 {
-                  "text": "√20 between which integers?",
-                  "answer": "4 and 5"
+                  "text": "√45 between which integers?",
+                  "answer": "6 and 7"
                 },
                 {
-                  "text": "√90 between?",
-                  "answer": "9 and 10"
+                  "text": "√150 between?",
+                  "answer": "12 and 13"
                 },
                 {
-                  "text": "Is √15 > 4?",
+                  "text": "Is √18 > 4.5?",
                   "answer": "No"
                 }
               ]
@@ -3015,16 +3136,16 @@
               "example": "√(16·2) = 4√2",
               "questions": [
                 {
-                  "text": "√25?",
-                  "answer": "5"
+                  "text": "√289?",
+                  "answer": "17"
                 },
                 {
-                  "text": "Simplify √27.",
-                  "answer": "3√3"
+                  "text": "Simplify √48.",
+                  "answer": "4√3"
                 },
                 {
-                  "text": "√9 · √4?",
-                  "answer": "6"
+                  "text": "√16 · √12?",
+                  "answer": "8√3"
                 }
               ]
             }
@@ -3034,6 +3155,6 @@
     }
   ],
   "meta": {
-    "totalQuestions": 426
+    "totalQuestions": 451
   }
 }

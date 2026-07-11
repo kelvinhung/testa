@@ -22,10 +22,7 @@ const els = {
   answerPanel: $("answerPanel"),
   answerLabel: $("answerLabel"),
   answerText: $("answerText"),
-  btnRandom: $("btnRandom"),
-  btnExplain: $("btnExplain"),
   btnAnswer: $("btnAnswer"),
-  btnSimilar: $("btnSimilar"),
   statsLine: $("statsLine"),
 };
 
@@ -114,60 +111,45 @@ function pickRandom(exclude = null) {
   return candidate;
 }
 
-function pickSimilar() {
-  if (!current) return pickRandom();
-
-  if (subject === "math") {
-    const siblings = current.topicQuestions
-      .map((q, qi) => ({ ...q, questionIndex: qi }))
-      .filter((q) => q.questionIndex !== current.questionIndex);
-    if (!siblings.length) return pickRandom(current);
-    const pick = siblings[Math.floor(Math.random() * siblings.length)];
-    return {
-      ...current,
-      question: pick.text,
-      answer: pick.answer || "(see ebook)",
-      questionIndex: pick.questionIndex,
-    };
-  }
-
-  const siblings = current.gradeWords
-    .map((w, wi) => ({ ...w, wordIndex: wi }))
-    .filter((w) => w.wordIndex !== current.wordIndex);
-  if (!siblings.length) return pickRandom(current);
-  const pick = siblings[Math.floor(Math.random() * siblings.length)];
-  return {
-    ...current,
-    word: pick.word,
-    definition: pick.definition,
-    examples: pick.examples,
-    question: `What does "${pick.word}" mean?`,
-    answer: pick.definition,
-    keyIdea: pick.definition,
-    example: pick.examples.join(" "),
-    wordIndex: pick.wordIndex,
-  };
-}
-
 function hidePanels() {
   els.explainPanel.classList.add("hidden");
   els.answerPanel.classList.add("hidden");
-  els.btnExplain.classList.remove("active");
   els.btnAnswer.classList.remove("active");
-  els.btnExplain.querySelector(".btn-short").textContent = "Explain";
   els.btnAnswer.querySelector(".btn-short").textContent = "Answer";
+  els.exampleText.textContent = "";
+  els.answerText.textContent = "";
 }
 
 function updateExplainLabels() {
   if (subject === "english") {
     els.explainLabel1.textContent = "Definition";
     els.explainLabel2.textContent = "Example sentences";
-    els.answerLabel.textContent = "Definition";
+    els.answerLabel.textContent = "Example sentences";
   } else {
     els.explainLabel1.textContent = "Key idea";
     els.explainLabel2.textContent = "Example";
     els.answerLabel.textContent = "Answer";
   }
+}
+
+function showReveal() {
+  els.keyIdea.textContent = current.keyIdea || "—";
+
+  if (subject === "english") {
+    if (current.examples?.length) {
+      els.answerText.innerHTML = current.examples.map((s) => `• ${s}`).join("<br>");
+    } else {
+      els.answerText.textContent = "—";
+    }
+  } else {
+    els.exampleText.textContent = current.example || "—";
+    els.answerText.textContent = current.answer || "—";
+  }
+
+  els.explainPanel.classList.remove("hidden");
+  els.answerPanel.classList.remove("hidden");
+  els.btnAnswer.classList.add("active");
+  els.btnAnswer.querySelector(".btn-short").textContent = "Next";
 }
 
 function renderQuestion(entry) {
@@ -192,40 +174,14 @@ function renderQuestion(entry) {
   }
 }
 
-function toggleExplain() {
+function handleAnswer() {
   if (!current) return;
 
-  const showing = !els.explainPanel.classList.contains("hidden");
-  if (showing) {
-    els.explainPanel.classList.add("hidden");
-    els.btnExplain.classList.remove("active");
-    els.btnExplain.querySelector(".btn-short").textContent = "Explain";
+  const revealed = !els.explainPanel.classList.contains("hidden");
+  if (revealed) {
+    renderQuestion(pickRandom(current));
   } else {
-    els.keyIdea.textContent = current.keyIdea || "—";
-    if (subject === "english" && current.examples?.length) {
-      els.exampleText.innerHTML = current.examples.map((s) => `• ${s}`).join("<br>");
-    } else {
-      els.exampleText.textContent = current.example || "—";
-    }
-    els.explainPanel.classList.remove("hidden");
-    els.btnExplain.classList.add("active");
-    els.btnExplain.querySelector(".btn-short").textContent = "Hide";
-  }
-}
-
-function toggleAnswer() {
-  if (!current) return;
-
-  const showing = !els.answerPanel.classList.contains("hidden");
-  if (showing) {
-    els.answerPanel.classList.add("hidden");
-    els.btnAnswer.classList.remove("active");
-    els.btnAnswer.querySelector(".btn-short").textContent = "Answer";
-  } else {
-    els.answerText.textContent = current.answer || "—";
-    els.answerPanel.classList.remove("hidden");
-    els.btnAnswer.classList.add("active");
-    els.btnAnswer.querySelector(".btn-short").textContent = "Hide";
+    showReveal();
   }
 }
 
@@ -276,10 +232,7 @@ function setSubject(next) {
 function init() {
   els.btnMath.addEventListener("click", () => setSubject("math"));
   els.btnEnglish.addEventListener("click", () => setSubject("english"));
-  els.btnRandom.addEventListener("click", () => renderQuestion(pickRandom(current)));
-  els.btnSimilar.addEventListener("click", () => renderQuestion(pickSimilar()));
-  els.btnExplain.addEventListener("click", toggleExplain);
-  els.btnAnswer.addEventListener("click", toggleAnswer);
+  els.btnAnswer.addEventListener("click", handleAnswer);
   els.filterSelect.addEventListener("change", () => renderQuestion(pickRandom()));
 }
 

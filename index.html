@@ -14,12 +14,6 @@
       <button type="button" class="subject-btn" id="btnEnglish" role="tab" aria-selected="false">English</button>
     </div>
 
-    <section class="filters" aria-label="Filters">
-      <select id="filterSelect" class="select-large" aria-label="Filter">
-        <option value="all">All chapters</option>
-      </select>
-    </section>
-
     <main class="card" id="questionCard">
       <div class="meta" id="metaLine">Loading…</div>
       <h2 class="question" id="questionText">Pick a question to start.</h2>
@@ -42,18 +36,12 @@
     </main>
 
     <nav class="actions" aria-label="Practice actions">
-      <button type="button" class="btn btn-primary" id="btnRandom" title="New random question">
-        <span class="btn-short">Random</span>
-      </button>
-      <button type="button" class="btn btn-secondary" id="btnExplain" title="Explain">
-        <span class="btn-short">Explain</span>
-      </button>
-      <button type="button" class="btn btn-secondary" id="btnAnswer" title="Show answer">
+      <button type="button" class="btn btn-primary" id="btnAnswer" title="Show explanation and answer">
         <span class="btn-short">Answer</span>
       </button>
-      <button type="button" class="btn btn-accent" id="btnSimilar" title="Try similar question">
-        <span class="btn-short">Similar</span>
-      </button>
+      <select id="filterSelect" class="select-large" aria-label="Filter">
+        <option value="all">All chapters</option>
+      </select>
     </nav>
 
     <footer class="footer">

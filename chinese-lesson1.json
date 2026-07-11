@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "lesson": 1,
+    "title": "Lesson 1 · 你好",
+    "totalItems": 15
+  },
+  "categories": [
+    { "id": "all", "label": "All" },
+    { "id": "pinyin", "label": "Pinyin 拼音" },
+    { "id": "vocabulary", "label": "Words 词汇" },
+    { "id": "dialogue", "label": "Text 课文" }
+  ],
+  "items": [
+    {
+      "id": "py-review",
+      "category": "pinyin",
+      "prompt": "课前复习 · Pre-class Review",
+      "label1": "声母 · 韵母",
+      "labelAnswer": "拼一拼",
+      "hideMeaning": true,
+      "pinyin": "声母  b  p  m  f\n韵母  a  o  e",
+      "hanzi": "bà   pá   mǎ\nfà   me",
+      "english": "Initials (声母), finals (韵母), and blends (拼一拼).",
+      "speakSequence": ["bà", "pá", "mǎ", "fà", "me"]
+    },
+    { "id": "w-zhe", "category": "vocabulary", "prompt": "this", "pinyin": "zhè", "hanzi": "这", "english": "this", "speak": "这" },
+    { "id": "w-na", "category": "vocabulary", "prompt": "that", "pinyin": "nà", "hanzi": "那", "english": "that", "speak": "那" },
+    { "id": "w-mama", "category": "vocabulary", "prompt": "mother", "pinyin": "māma", "hanzi": "妈妈", "english": "mother", "speak": "妈妈" },
+    { "id": "w-baba", "category": "vocabulary", "prompt": "father", "pinyin": "bàba", "hanzi": "爸爸", "english": "father", "speak": "爸爸" },
+    { "id": "w-bu", "category": "vocabulary", "prompt": "no; not", "pinyin": "bù", "hanzi": "不", "english": "no; not", "speak": "不" },
+    { "id": "w-shi", "category": "vocabulary", "prompt": "to be", "pinyin": "shì", "hanzi": "是", "english": "to be", "speak": "是" },
+    { "id": "w-duibuqi", "category": "vocabulary", "prompt": "sorry; excuse me", "pinyin": "duìbuqǐ", "hanzi": "对不起", "english": "sorry; excuse me", "speak": "对不起" },
+    { "id": "w-meiguanxi", "category": "vocabulary", "prompt": "it doesn't matter; you're welcome", "pinyin": "méi guānxi", "hanzi": "没关系", "english": "it doesn't matter; you're welcome", "speak": "没关系" },
+    { "id": "d-lucy1", "category": "dialogue", "prompt": "Is this Lucy?", "pinyin": "Zhè shì Lucy ma?", "hanzi": "这是Lucy吗？", "english": "Is this Lucy?", "speak": "这是Lucy吗" },
+    { "id": "d-lucy2", "category": "dialogue", "prompt": "Yes, this is Lucy.", "pinyin": "Shì, zhè shì Lucy.", "hanzi": "是，这是Lucy。", "english": "Yes, this is Lucy.", "speak": "是，这是Lucy" },
+    { "id": "d-lily1", "category": "dialogue", "prompt": "Is that Lily?", "pinyin": "Nà shì Lily ma?", "hanzi": "那是Lily吗？", "english": "Is that Lily?", "speak": "那是Lily吗" },
+    { "id": "d-lily2", "category": "dialogue", "prompt": "No, that is not Lily.", "pinyin": "Bù, nà búshì Lily.", "hanzi": "不，那不是Lily。", "english": "No, that is not Lily.", "speak": "不，那不是Lily" },
+    { "id": "d-mama", "category": "dialogue", "prompt": "This is my mother.", "pinyin": "Zhè shì wǒ māma.", "hanzi": "这是我妈妈。", "english": "This is my mother.", "speak": "这是我妈妈" },
+    { "id": "d-baba", "category": "dialogue", "prompt": "That is my father.", "pinyin": "Nà shì wǒ bàba.", "hanzi": "那是我爸爸。", "english": "That is my father.", "speak": "那是我爸爸" }
+  ]
+}

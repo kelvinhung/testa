@@ -11,6 +11,8 @@
   --accent-dark: #047857;
   --english: #7c3aed;
   --english-dark: #6d28d9;
+  --chinese: #dc2626;
+  --chinese-dark: #b91c1c;
   --border: #d8deea;
   --radius: 16px;
   --shadow: 0 4px 24px rgba(26, 31, 54, 0.08);
@@ -50,8 +52,8 @@ body {
 
 .subject-toggle {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.45rem;
 }
 
 .subject-btn {
@@ -84,12 +86,21 @@ body {
   box-shadow: 0 3px 12px rgba(124, 58, 237, 0.35);
 }
 
-/* Answer button + filter on one row */
+.subject-btn.active#btnChinese {
+  background: var(--chinese);
+  box-shadow: 0 3px 12px rgba(220, 38, 38, 0.35);
+}
+
+/* Answer + optional sound + filter */
 .actions {
   display: grid;
   grid-template-columns: 1fr minmax(7.5rem, 42%);
   gap: 0.45rem;
   align-items: stretch;
+}
+
+body.chinese-mode .actions {
+  grid-template-columns: 1fr auto minmax(6.5rem, 34%);
 }
 
 .actions .select-large {
@@ -150,6 +161,32 @@ body {
   text-transform: capitalize;
 }
 
+.question.chinese-prompt {
+  font-size: 1.55rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+body.chinese-mode .explain-block:first-child p,
+body.chinese-mode .answer-panel p {
+  white-space: pre-line;
+}
+
+body.chinese-mode .explain-panel .explain-block.hidden {
+  display: none;
+}
+
+body.chinese-mode .answer-panel p {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+body.chinese-mode .explain-block:first-child p {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
 .explain-panel,
 .answer-panel {
   margin-top: 0.85rem;
@@ -189,6 +226,18 @@ body.english-mode .answer-panel .explain-label {
   color: var(--english);
 }
 
+body.chinese-mode .explain-label {
+  color: var(--chinese);
+}
+
+body.chinese-mode .answer-panel .explain-label {
+  color: var(--chinese);
+}
+
+body.chinese-mode .explain-panel .explain-block:nth-child(2) {
+  display: block;
+}
+
 .answer-panel .explain-label {
   color: var(--accent);
 }
@@ -207,6 +256,38 @@ body.english-mode .answer-panel .explain-label {
 
 body.english-mode .btn-primary.active {
   background: var(--english-dark);
+}
+
+body.chinese-mode .btn-primary.active {
+  background: var(--chinese-dark);
+}
+
+.btn-sound {
+  background: #fef2f2;
+  color: var(--chinese);
+  border: 2px solid #fecaca;
+  min-width: 5.5rem;
+  padding: 0.5rem 0.65rem;
+}
+
+body.chinese-mode .btn-sound {
+  display: flex;
+}
+
+.btn-sound.hidden {
+  display: none;
+}
+
+.btn-sound:active {
+  background: #fee2e2;
+}
+
+body.chinese-mode .btn-primary {
+  background: var(--chinese);
+}
+
+body.chinese-mode .btn-primary:active {
+  background: var(--chinese-dark);
 }
 
 .btn {
@@ -314,8 +395,12 @@ body.english-mode .btn-secondary.active {
     font-size: 1.55rem;
   }
 
-  .question.word-prompt {
-    font-size: 2.25rem;
+  .question.chinese-prompt {
+    font-size: 1.75rem;
+  }
+
+  body.chinese-mode .answer-panel p {
+    font-size: 2.75rem;
   }
 
   .actions {

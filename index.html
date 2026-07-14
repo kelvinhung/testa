@@ -20,6 +20,8 @@
       <div class="meta" id="metaLine">Loading…</div>
       <h2 class="question" id="questionText">Pick a question to start.</h2>
 
+      <ul class="choices-list hidden" id="choicesList" aria-label="Answer choices"></ul>
+
       <div class="explain-panel hidden" id="explainPanel" aria-live="polite">
         <div class="explain-block">
           <span class="explain-label" id="explainLabel1">Key idea</span>
@@ -60,6 +62,10 @@
     </nav>
 
     <footer class="footer">
+      <div class="timer-bar">
+        <span id="timerLine" class="timer-line" title="Total time on this subject">Time 0:00</span>
+        <button type="button" class="btn-reset-timer" id="btnResetTimer" title="Reset this subject's timer">Reset</button>
+      </div>
       <span id="statsLine"></span>
     </footer>
   </div>

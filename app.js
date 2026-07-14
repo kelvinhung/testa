@@ -18,6 +18,7 @@ const els = {
   filterSelect: $("filterSelect"),
   metaLine: $("metaLine"),
   questionText: $("questionText"),
+  choicesList: $("choicesList"),
   explainPanel: $("explainPanel"),
   explainLabel1: $("explainLabel1"),
   explainLabel2: $("explainLabel2"),
@@ -30,7 +31,106 @@ const els = {
   chineseTableWrap: $("chineseTableWrap"),
   chineseTableBody: $("chineseTableBody"),
   statsLine: $("statsLine"),
+  timerLine: $("timerLine"),
+  btnResetTimer: $("btnResetTimer"),
 };
+
+const TIMER_STORAGE_KEY = "practiceTimeBySubject";
+const SUBJECTS = ["math", "english", "chinese", "bible"];
+
+/** @type {Record<string, number>} */
+let timeBySubject = loadTimeBySubject();
+let timerStartedAt = null;
+let timerInterval = null;
+
+function loadTimeBySubject() {
+  try {
+    const raw = localStorage.getItem(TIMER_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    const out = {};
+    for (const key of SUBJECTS) {
+      out[key] = Number(parsed[key]) || 0;
+    }
+    return out;
+  } catch {
+    return { math: 0, english: 0, chinese: 0, bible: 0 };
+  }
+}
+
+function saveTimeBySubject() {
+  localStorage.setItem(TIMER_STORAGE_KEY, JSON.stringify(timeBySubject));
+}
+
+function formatDuration(ms) {
+  const totalSec = Math.floor(Math.max(0, ms) / 1000);
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  if (h > 0) {
+    return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+  }
+  return `${m}:${String(s).padStart(2, "0")}`;
+}
+
+function flushActiveTimer() {
+  if (!timerStartedAt || !subject) return;
+  const now = Date.now();
+  timeBySubject[subject] = (timeBySubject[subject] || 0) + (now - timerStartedAt);
+  timerStartedAt = now;
+  saveTimeBySubject();
+}
+
+function currentSubjectElapsed() {
+  let ms = timeBySubject[subject] || 0;
+  if (timerStartedAt) ms += Date.now() - timerStartedAt;
+  return ms;
+}
+
+function updateTimerDisplay() {
+  if (!els.timerLine) return;
+  els.timerLine.textContent = `Time ${formatDuration(currentSubjectElapsed())}`;
+}
+
+function startSubjectTimer() {
+  flushActiveTimer();
+  timerStartedAt = document.hidden ? null : Date.now();
+  updateTimerDisplay();
+}
+
+function pauseSubjectTimer() {
+  flushActiveTimer();
+  timerStartedAt = null;
+  updateTimerDisplay();
+}
+
+function resumeSubjectTimer() {
+  if (!document.hidden && !timerStartedAt) {
+    timerStartedAt = Date.now();
+  }
+  updateTimerDisplay();
+}
+
+function resetCurrentSubjectTimer() {
+  timeBySubject[subject] = 0;
+  timerStartedAt = document.hidden ? null : Date.now();
+  saveTimeBySubject();
+  updateTimerDisplay();
+}
+
+function initTimer() {
+  startSubjectTimer();
+  timerInterval = setInterval(() => {
+    if (!document.hidden && timerStartedAt) updateTimerDisplay();
+  }, 1000);
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) pauseSubjectTimer();
+    else resumeSubjectTimer();
+  });
+
+  window.addEventListener("pagehide", flushActiveTimer);
+  window.addEventListener("beforeunload", flushActiveTimer);
+}
 
 const CHINESE_CATEGORY_LABELS = {
   pinyin: "Pinyin 拼音",
@@ -131,6 +231,7 @@ function buildBiblePool(filter) {
       keyIdea: item.verse,
       example: item.takeaway,
       answer: item.answer,
+      choices: item.choices || [],
     });
   }
   return pool;
@@ -178,6 +279,8 @@ function hidePanels() {
   els.explainPanel.classList.add("hidden");
   els.answerPanel.classList.add("hidden");
   els.chineseTableWrap.classList.add("hidden");
+  els.choicesList.classList.add("hidden");
+  els.choicesList.innerHTML = "";
   els.btnAnswer.classList.remove("active");
   if (subject !== "chinese") {
     els.btnAnswer.querySelector(".btn-short").textContent = "Answer";
@@ -187,6 +290,27 @@ function hidePanels() {
   els.keyIdea.textContent = "";
   els.chineseTableBody.innerHTML = "";
   els.exampleText.closest(".explain-block")?.classList.remove("hidden");
+}
+
+function showBibleChoices(entry) {
+  els.choicesList.innerHTML = "";
+  const choices = [...(entry.choices || [])];
+  if (!choices.length) {
+    els.choicesList.classList.add("hidden");
+    return;
+  }
+  // Shuffle so the correct answer isn't always first
+  for (let i = choices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [choices[i], choices[j]] = [choices[j], choices[i]];
+  }
+  for (const choice of choices) {
+    const li = document.createElement("li");
+    li.className = "choice-item";
+    li.textContent = choice;
+    els.choicesList.appendChild(li);
+  }
+  els.choicesList.classList.remove("hidden");
 }
 
 function splitChineseLines(text) {
@@ -281,6 +405,12 @@ function showReveal() {
     els.answerText.textContent = current.answer || "—";
   }
 
+  if (subject === "bible" && current.choices?.length) {
+    for (const li of els.choicesList.querySelectorAll(".choice-item")) {
+      li.classList.toggle("correct", li.textContent === current.answer);
+    }
+  }
+
   els.explainPanel.classList.remove("hidden");
   els.answerPanel.classList.remove("hidden");
   els.btnAnswer.classList.add("active");
@@ -320,6 +450,7 @@ function renderQuestion(entry) {
     els.questionText.textContent = entry.prompt;
     els.questionText.classList.remove("word-prompt", "chinese-prompt");
     els.questionText.classList.add("bible-prompt");
+    showBibleChoices(entry);
   } else {
     els.metaLine.textContent = `Ch ${entry.chapterId}: ${entry.chapterTitle} · ${entry.topicName}`;
     els.questionText.textContent = entry.question;
@@ -394,11 +525,13 @@ function populateFilter() {
 }
 
 function setSubject(next) {
+  flushActiveTimer();
   subject = next;
   updateSubjectUI();
   updateExplainLabels();
   populateFilter();
   renderQuestion(pickRandom());
+  startSubjectTimer();
 }
 
 function init() {
@@ -408,6 +541,8 @@ function init() {
   els.btnBible.addEventListener("click", () => setSubject("bible"));
   els.btnAnswer.addEventListener("click", handleAnswer);
   els.filterSelect.addEventListener("change", () => renderQuestion(pickRandom()));
+  els.btnResetTimer.addEventListener("click", resetCurrentSubjectTimer);
+  initTimer();
 }
 
 async function load() {

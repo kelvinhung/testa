@@ -231,7 +231,6 @@ function buildBiblePool(filter) {
       keyIdea: item.verse,
       example: item.takeaway,
       answer: item.answer,
-      choices: item.choices || [],
     });
   }
   return pool;
@@ -290,27 +289,6 @@ function hidePanels() {
   els.keyIdea.textContent = "";
   els.chineseTableBody.innerHTML = "";
   els.exampleText.closest(".explain-block")?.classList.remove("hidden");
-}
-
-function showBibleChoices(entry) {
-  els.choicesList.innerHTML = "";
-  const choices = [...(entry.choices || [])];
-  if (!choices.length) {
-    els.choicesList.classList.add("hidden");
-    return;
-  }
-  // Shuffle so the correct answer isn't always first
-  for (let i = choices.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [choices[i], choices[j]] = [choices[j], choices[i]];
-  }
-  for (const choice of choices) {
-    const li = document.createElement("li");
-    li.className = "choice-item";
-    li.textContent = choice;
-    els.choicesList.appendChild(li);
-  }
-  els.choicesList.classList.remove("hidden");
 }
 
 function splitChineseLines(text) {
@@ -405,12 +383,6 @@ function showReveal() {
     els.answerText.textContent = current.answer || "—";
   }
 
-  if (subject === "bible" && current.choices?.length) {
-    for (const li of els.choicesList.querySelectorAll(".choice-item")) {
-      li.classList.toggle("correct", li.textContent === current.answer);
-    }
-  }
-
   els.explainPanel.classList.remove("hidden");
   els.answerPanel.classList.remove("hidden");
   els.btnAnswer.classList.add("active");
@@ -450,7 +422,6 @@ function renderQuestion(entry) {
     els.questionText.textContent = entry.prompt;
     els.questionText.classList.remove("word-prompt", "chinese-prompt");
     els.questionText.classList.add("bible-prompt");
-    showBibleChoices(entry);
   } else {
     els.metaLine.textContent = `Ch ${entry.chapterId}: ${entry.chapterTitle} · ${entry.topicName}`;
     els.questionText.textContent = entry.question;

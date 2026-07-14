@@ -37,13 +37,7 @@
       "prompt": "A shepherd boy fought a giant with a sling. Who was he?",
       "verse": "1 Samuel 17 — David vs Goliath",
       "takeaway": "You don't need to be the biggest kid. God helps brave hearts.",
-      "answer": "David",
-      "choices": [
-        "David",
-        "Moses",
-        "Noah",
-        "Solomon"
-      ]
+      "answer": "David"
     },
     {
       "id": "b02",
@@ -51,13 +45,7 @@
       "prompt": "Finish it: \"Be strong and courageous… God will be with you ___ you go.\"",
       "verse": "Joshua 1:9",
       "takeaway": "Feeling nervous before a game, test, or new school? God goes with you.",
-      "answer": "wherever",
-      "choices": [
-        "wherever",
-        "whenever",
-        "however",
-        "whoever"
-      ]
+      "answer": "wherever"
     },
     {
       "id": "b03",
@@ -65,13 +53,7 @@
       "prompt": "Finish it: \"I can do all things through ___ who strengthens me.\"",
       "verse": "Philippians 4:13",
       "takeaway": "Hard days happen. Jesus gives strength when you feel done.",
-      "answer": "Christ",
-      "choices": [
-        "Christ",
-        "myself",
-        "luck",
-        "friends"
-      ]
+      "answer": "Christ"
     },
     {
       "id": "b04",
@@ -79,13 +61,7 @@
       "prompt": "Jesus stopped a huge storm with His words. True or false?",
       "verse": "Mark 4:39 — \"Quiet! Be still!\"",
       "takeaway": "When life feels wild, Jesus is still in charge.",
-      "answer": "True",
-      "choices": [
-        "True",
-        "False",
-        "Only once",
-        "His disciples did"
-      ]
+      "answer": "True"
     },
     {
       "id": "b05",
@@ -93,13 +69,7 @@
       "prompt": "Who got thrown into a lions' den for praying—and God kept him safe?",
       "verse": "Daniel 6",
       "takeaway": "Doing the right thing can be hard. God sees you.",
-      "answer": "Daniel",
-      "choices": [
-        "Daniel",
-        "David",
-        "Jonah",
-        "Peter"
-      ]
+      "answer": "Daniel"
     },
     {
       "id": "b06",
@@ -107,13 +77,7 @@
       "prompt": "True or false: You're too young to matter to God.",
       "verse": "1 Timothy 4:12 — Don't let anyone look down on you because you are young.",
       "takeaway": "At 12 you can already be kind, honest, and brave.",
-      "answer": "False",
-      "choices": [
-        "False",
-        "True",
-        "Only if you're 18",
-        "Only pastors"
-      ]
+      "answer": "False"
     },
     {
       "id": "b07",
@@ -121,13 +85,7 @@
       "prompt": "\"If God is for us, who can be against us?\" Where is that?",
       "verse": "Romans 8:31",
       "takeaway": "Mean comments don't get the final say. God is on your side.",
-      "answer": "Romans 8:31",
-      "choices": [
-        "Romans 8:31",
-        "John 3:16",
-        "Psalm 23:1",
-        "Genesis 1:1"
-      ]
+      "answer": "Romans 8:31"
     },
     {
       "id": "b08",
@@ -135,13 +93,7 @@
       "prompt": "When you don't know what to do, Proverbs says: Trust in the Lord… and don't lean only on your own ___.",
       "verse": "Proverbs 3:5-6",
       "takeaway": "Ask God for help. You don't have to figure everything out alone.",
-      "answer": "understanding",
-      "choices": [
-        "understanding",
-        "friends",
-        "phone",
-        "feelings"
-      ]
+      "answer": "understanding"
     },
     {
       "id": "b09",
@@ -149,13 +101,7 @@
       "prompt": "Psalm 139 says you are \"fearfully and ___ made.\"",
       "verse": "Psalm 139:14",
       "takeaway": "You are not a mistake. God made you on purpose.",
-      "answer": "wonderfully",
-      "choices": [
-        "wonderfully",
-        "accidentally",
-        "barely",
-        "quietly"
-      ]
+      "answer": "wonderfully"
     },
     {
       "id": "b10",
@@ -163,13 +109,7 @@
       "prompt": "Psalm 23 says even in a dark valley, \"I will fear no ___.\"",
       "verse": "Psalm 23:4",
       "takeaway": "Scary moments happen. God walks with you through them.",
-      "answer": "evil",
-      "choices": [
-        "evil",
-        "homework",
-        "friends",
-        "rain"
-      ]
+      "answer": "evil"
     },
     {
       "id": "b11",
@@ -177,13 +117,7 @@
       "prompt": "Joseph's brothers sold him. Years later, Joseph helped save many people. Did God waste Joseph's hard years?",
       "verse": "Genesis 50:20 — You meant harm, but God meant it for good.",
       "takeaway": "Bad days aren't the end of your story.",
-      "answer": "No — God used them for good",
-      "choices": [
-        "No — God used them for good",
-        "Yes — they were wasted",
-        "Maybe",
-        "Joseph forgot God"
-      ]
+      "answer": "No — God used them for good"
     },
     {
       "id": "b12",
@@ -191,13 +125,7 @@
       "prompt": "God told Gideon to fight with only 300 men. Why so few?",
       "verse": "Judges 7",
       "takeaway": "God likes to show that He is strong—even when we feel small.",
-      "answer": "So people would know God won",
-      "choices": [
-        "So people would know God won",
-        "Gideon was scared of crowds",
-        "They ran out of swords",
-        "300 was a lucky number"
-      ]
+      "answer": "So people would know God won"
     },
     {
       "id": "b13",
@@ -205,13 +133,7 @@
       "prompt": "Ephesians says: \"In your anger do not ___.\"",
       "verse": "Ephesians 4:26",
       "takeaway": "It's okay to feel mad. It's not okay to hurt people or stay bitter.",
-      "answer": "sin",
-      "choices": [
-        "sin",
-        "yell",
-        "sleep",
-        "text"
-      ]
+      "answer": "sin"
     },
     {
       "id": "b14",
@@ -219,13 +141,7 @@
       "prompt": "Proverbs says the tongue has the power of life and ___.",
       "verse": "Proverbs 18:21",
       "takeaway": "Words can build a friend up—or wreck their day. Choose life.",
-      "answer": "death",
-      "choices": [
-        "death",
-        "fun",
-        "money",
-        "sports"
-      ]
+      "answer": "death"
     },
     {
       "id": "b15",
@@ -233,13 +149,7 @@
       "prompt": "God has not given us a spirit of fear, but of power, love, and a ___ mind.",
       "verse": "2 Timothy 1:7",
       "takeaway": "Fear doesn't get to run your life.",
-      "answer": "sound",
-      "choices": [
-        "sound",
-        "worried",
-        "angry",
-        "lazy"
-      ]
+      "answer": "sound"
     },
     {
       "id": "b16",
@@ -247,13 +157,7 @@
       "prompt": "John 3:16 — God loved the world so much that He gave His one and only ___.",
       "verse": "John 3:16",
       "takeaway": "Jesus came because God loves you—for real.",
-      "answer": "Son",
-      "choices": [
-        "Son",
-        "angel",
-        "king",
-        "book"
-      ]
+      "answer": "Son"
     },
     {
       "id": "b17",
@@ -261,13 +165,7 @@
       "prompt": "\"Bad company corrupts good character.\" What does that mean for friends?",
       "verse": "1 Corinthians 15:33",
       "takeaway": "Friends shape you. Pick people who help you be better, not worse.",
-      "answer": "Friends who do wrong can pull you into wrong",
-      "choices": [
-        "Friends who do wrong can pull you into wrong",
-        "Friends never matter",
-        "Only popular friends count",
-        "You should have no friends"
-      ]
+      "answer": "Friends who do wrong can pull you into wrong"
     },
     {
       "id": "b18",
@@ -275,13 +173,7 @@
       "prompt": "Jesus said, \"I am with you ___.\"",
       "verse": "Matthew 28:20",
       "takeaway": "You're never alone—not at school, not at night, not when you're scared.",
-      "answer": "always",
-      "choices": [
-        "always",
-        "sometimes",
-        "on Sundays",
-        "if you're good"
-      ]
+      "answer": "always"
     },
     {
       "id": "b19",
@@ -289,13 +181,7 @@
       "prompt": "If you know the right thing and won't do it, James calls that ___.",
       "verse": "James 4:17",
       "takeaway": "Don't just know what's right—do it.",
-      "answer": "sin",
-      "choices": [
-        "sin",
-        "smart",
-        "brave",
-        "funny"
-      ]
+      "answer": "sin"
     },
     {
       "id": "b20",
@@ -303,13 +189,7 @@
       "prompt": "Those who hope in the Lord will renew their ___.",
       "verse": "Isaiah 40:31",
       "takeaway": "Tired? Ask God for fresh strength.",
-      "answer": "strength",
-      "choices": [
-        "strength",
-        "phones",
-        "money",
-        "fame"
-      ]
+      "answer": "strength"
     },
     {
       "id": "b21",
@@ -317,13 +197,7 @@
       "prompt": "Shadrach, Meshach, and Abednego got thrown in a fire for not bowing to a statue. Did they burn up?",
       "verse": "Daniel 3",
       "takeaway": "They stood for God even when it was scary—and God was with them.",
-      "answer": "No — God kept them safe",
-      "choices": [
-        "No — God kept them safe",
-        "Yes — they burned up",
-        "Only one survived",
-        "They escaped first"
-      ]
+      "answer": "No — God kept them safe"
     },
     {
       "id": "b22",
@@ -331,13 +205,7 @@
       "prompt": "The golden rule: Treat others the way you want them to ___ you.",
       "verse": "Matthew 7:12",
       "takeaway": "Before you tease or ignore someone, ask: Would I want that?",
-      "answer": "treat",
-      "choices": [
-        "treat",
-        "beat",
-        "ignore",
-        "copy"
-      ]
+      "answer": "treat"
     },
     {
       "id": "b23",
@@ -345,13 +213,7 @@
       "prompt": "Jeremiah said he was too young. God said: Don't say that—I am with you. True or false?",
       "verse": "Jeremiah 1:7-8",
       "takeaway": "God can use kids. Age is not a no.",
-      "answer": "True",
-      "choices": [
-        "True",
-        "False",
-        "Only for adults",
-        "Only for prophets"
-      ]
+      "answer": "True"
     },
     {
       "id": "b24",
@@ -359,13 +221,7 @@
       "prompt": "Hebrews says to run your race with your eyes fixed on ___.",
       "verse": "Hebrews 12:1-2",
       "takeaway": "When you want to quit, look to Jesus and keep going.",
-      "answer": "Jesus",
-      "choices": [
-        "Jesus",
-        "yourself",
-        "your team",
-        "your phone"
-      ]
+      "answer": "Jesus"
     },
     {
       "id": "b25",
@@ -373,13 +229,7 @@
       "prompt": "1 Peter 5:7 — Cast all your ___ on Him, because He cares for you.",
       "verse": "1 Peter 5:7",
       "takeaway": "Worried about school, friends, or home? Tell God. He cares.",
-      "answer": "worries",
-      "choices": [
-        "worries",
-        "games",
-        "homework only",
-        "money"
-      ]
+      "answer": "worries"
     },
     {
       "id": "b26",
@@ -387,13 +237,7 @@
       "prompt": "\"Do not fear, for I am with you… I will strengthen you.\" Which book?",
       "verse": "Isaiah 41:10",
       "takeaway": "God doesn't just say \"don't be scared\"—He helps you.",
-      "answer": "Isaiah",
-      "choices": [
-        "Isaiah",
-        "Jonah",
-        "Ruth",
-        "Acts"
-      ]
+      "answer": "Isaiah"
     },
     {
       "id": "b27",
@@ -401,13 +245,7 @@
       "prompt": "Philippians says: Don't worry about anything. Instead, ___ about everything.",
       "verse": "Philippians 4:6-7",
       "takeaway": "Turn worry into prayer. God gives peace.",
-      "answer": "pray",
-      "choices": [
-        "pray",
-        "complain",
-        "quit",
-        "hide"
-      ]
+      "answer": "pray"
     },
     {
       "id": "b28",
@@ -415,13 +253,7 @@
       "prompt": "Jesus said the most important commands are: Love God, and love your ___ as yourself.",
       "verse": "Matthew 22:37-39",
       "takeaway": "Faith isn't just church talk—it's how you treat people.",
-      "answer": "neighbor",
-      "choices": [
-        "neighbor",
-        "enemies only",
-        "pets",
-        "screens"
-      ]
+      "answer": "neighbor"
     },
     {
       "id": "b29",
@@ -429,13 +261,7 @@
       "prompt": "Noah built a huge boat when God told him to. Did people think that was weird?",
       "verse": "Genesis 6–7",
       "takeaway": "Obeying God matters more than looking cool.",
-      "answer": "Yes — but Noah obeyed anyway",
-      "choices": [
-        "Yes — but Noah obeyed anyway",
-        "No — everyone helped",
-        "Noah never built a boat",
-        "God changed His mind"
-      ]
+      "answer": "Yes — but Noah obeyed anyway"
     },
     {
       "id": "b30",
@@ -443,13 +269,7 @@
       "prompt": "\"A friend loves at all times.\" What kind of friend is that?",
       "verse": "Proverbs 17:17",
       "takeaway": "Real friends stick around on bad days, not just fun days.",
-      "answer": "A loyal friend",
-      "choices": [
-        "A loyal friend",
-        "A fair-weather friend",
-        "A famous friend",
-        "A rich friend"
-      ]
+      "answer": "A loyal friend"
     },
     {
       "id": "b31",
@@ -457,13 +277,7 @@
       "prompt": "\"The Lord is my light and my salvation—whom shall I ___?\"",
       "verse": "Psalm 27:1",
       "takeaway": "God is bigger than what scares you.",
-      "answer": "fear",
-      "choices": [
-        "fear",
-        "cheer",
-        "sleep",
-        "win"
-      ]
+      "answer": "fear"
     },
     {
       "id": "b32",
@@ -471,13 +285,7 @@
       "prompt": "Colossians says: Whatever you do, work at it with all your heart—as working for ___.",
       "verse": "Colossians 3:23",
       "takeaway": "Homework, chores, practice—do them for God, not just for grades or parents.",
-      "answer": "the Lord",
-      "choices": [
-        "the Lord",
-        "likes",
-        "grades",
-        "followers"
-      ]
+      "answer": "the Lord"
     },
     {
       "id": "b33",
@@ -485,13 +293,7 @@
       "prompt": "Jesus said: \"Come to me, all you who are weary… and I will give you ___.\"",
       "verse": "Matthew 11:28",
       "takeaway": "Burned out? Jesus invites you to rest with Him.",
-      "answer": "rest",
-      "choices": [
-        "rest",
-        "gold",
-        "power",
-        "revenge"
-      ]
+      "answer": "rest"
     },
     {
       "id": "b34",
@@ -499,13 +301,7 @@
       "prompt": "Ephesians says we are God's ___, created to do good things.",
       "verse": "Ephesians 2:10",
       "takeaway": "You're God's handiwork—not leftover scrap.",
-      "answer": "handiwork",
-      "choices": [
-        "handiwork",
-        "mistake",
-        "accident",
-        "copy"
-      ]
+      "answer": "handiwork"
     },
     {
       "id": "b35",
@@ -513,13 +309,7 @@
       "prompt": "\"Do not let any unwholesome talk come out of your mouths.\" What should your words do instead?",
       "verse": "Ephesians 4:29",
       "takeaway": "Build people up. Don't trash-talk.",
-      "answer": "Build others up",
-      "choices": [
-        "Build others up",
-        "Make fun of them",
-        "Stay silent always",
-        "Only talk about yourself"
-      ]
+      "answer": "Build others up"
     },
     {
       "id": "b36",
@@ -527,13 +317,7 @@
       "prompt": "Moses was scared to speak for God. Did God still use him?",
       "verse": "Exodus 3–4",
       "takeaway": "Feeling scared doesn't mean God can't use you.",
-      "answer": "Yes",
-      "choices": [
-        "Yes",
-        "No",
-        "Only Aaron spoke",
-        "God picked someone else"
-      ]
+      "answer": "Yes"
     },
     {
       "id": "b37",
@@ -541,13 +325,7 @@
       "prompt": "\"Be strong and courageous. Do not be afraid… God goes with you.\" That's from Deuteronomy. True or false?",
       "verse": "Deuteronomy 31:6",
       "takeaway": "God won't leave you hanging.",
-      "answer": "True",
-      "choices": [
-        "True",
-        "False",
-        "Only Joshua said that",
-        "It's from Proverbs"
-      ]
+      "answer": "True"
     },
     {
       "id": "b38",
@@ -555,13 +333,7 @@
       "prompt": "Jesus said: Don't worry about tomorrow. Why?",
       "verse": "Matthew 6:34",
       "takeaway": "Handle today's stuff with God. Don't carry tomorrow's stress early.",
-      "answer": "Tomorrow has enough trouble of its own",
-      "choices": [
-        "Tomorrow has enough trouble of its own",
-        "Tomorrow never comes",
-        "Worry makes you smarter",
-        "God only helps adults"
-      ]
+      "answer": "Tomorrow has enough trouble of its own"
     },
     {
       "id": "b39",
@@ -569,13 +341,7 @@
       "prompt": "\"This is the day the Lord has made; let us rejoice and be glad in it.\" Can a normal school day count?",
       "verse": "Psalm 118:24",
       "takeaway": "Yes—ordinary days are still gifts from God.",
-      "answer": "Yes",
-      "choices": [
-        "Yes",
-        "No — only Sundays",
-        "Only birthdays",
-        "Only Christmas"
-      ]
+      "answer": "Yes"
     },
     {
       "id": "b40",
@@ -583,13 +349,7 @@
       "prompt": "Jesus said: \"I am the way and the truth and the ___.\"",
       "verse": "John 14:6",
       "takeaway": "Following Jesus is the path that leads to real life.",
-      "answer": "life",
-      "choices": [
-        "life",
-        "law",
-        "luck",
-        "lightning"
-      ]
+      "answer": "life"
     }
   ]
 }

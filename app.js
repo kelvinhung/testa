@@ -1,12 +1,12 @@
-/** Math + English + Chinese practice */
+/** Math + English + Chinese + Bible practice */
 
 let mathData = null;
 let vocabData = null;
 let chineseData = null;
-let subject = "math"; // "math" | "english" | "chinese"
+let bibleData = null;
+let subject = "math"; // "math" | "english" | "chinese" | "bible"
 /** @type {object|null} */
 let current = null;
-let chineseVoice = null;
 
 const $ = (id) => document.getElementById(id);
 
@@ -14,6 +14,7 @@ const els = {
   btnMath: $("btnMath"),
   btnEnglish: $("btnEnglish"),
   btnChinese: $("btnChinese"),
+  btnBible: $("btnBible"),
   filterSelect: $("filterSelect"),
   metaLine: $("metaLine"),
   questionText: $("questionText"),
@@ -26,16 +27,23 @@ const els = {
   answerLabel: $("answerLabel"),
   answerText: $("answerText"),
   btnAnswer: $("btnAnswer"),
-  btnSound: $("btnSound"),
+  chineseTableWrap: $("chineseTableWrap"),
+  chineseTableBody: $("chineseTableBody"),
   statsLine: $("statsLine"),
 };
 
-const CHINESE_SPEECH_RATE = 0.6;
-
-const CATEGORY_LABELS = {
+const CHINESE_CATEGORY_LABELS = {
   pinyin: "Pinyin 拼音",
   vocabulary: "Words 词汇",
   dialogue: "Text 课文",
+};
+
+const BIBLE_CATEGORY_LABELS = {
+  courage: "Be Brave",
+  stories: "Epic Stories",
+  verses: "Power Verses",
+  "real-life": "Real Life",
+  identity: "Who You Are",
 };
 
 function buildMathPool(filter) {
@@ -101,8 +109,6 @@ function buildChinesePool(filter) {
       pinyin: item.pinyin,
       hanzi: item.hanzi,
       english: item.english,
-      speak: item.speak,
-      speakSequence: item.speakSequence,
       label1: item.label1,
       label2: item.label2,
       labelAnswer: item.labelAnswer,
@@ -113,10 +119,29 @@ function buildChinesePool(filter) {
   return pool;
 }
 
+function buildBiblePool(filter) {
+  const pool = [];
+  for (const item of bibleData.items) {
+    if (filter !== "all" && item.category !== filter) continue;
+    pool.push({
+      mode: "bible",
+      itemId: item.id,
+      category: item.category,
+      prompt: item.prompt,
+      keyIdea: item.verse,
+      example: item.takeaway,
+      answer: item.answer,
+    });
+  }
+  return pool;
+}
+
 function getPool() {
   if (subject === "math") return buildMathPool(els.filterSelect.value);
   if (subject === "english") return buildEnglishPool(els.filterSelect.value);
-  return buildChinesePool(els.filterSelect.value);
+  if (subject === "chinese") return buildChinesePool(els.filterSelect.value);
+  if (subject === "bible") return buildBiblePool(els.filterSelect.value);
+  return [];
 }
 
 function pickRandom(exclude = null) {
@@ -141,54 +166,18 @@ function pickRandom(exclude = null) {
         candidate.gradeId === exclude.gradeId &&
         candidate.wordIndex === exclude.wordIndex;
       if (!same) break;
-    } else {
-      if (candidate.itemId !== exclude.itemId) break;
+    } else if (candidate.itemId !== exclude.itemId) {
+      break;
     }
   } while (attempts < 40);
 
   return candidate;
 }
 
-function initChineseVoice() {
-  const pick = () => {
-    const voices = speechSynthesis.getVoices();
-    chineseVoice =
-      voices.find((v) => v.lang === "zh-CN") ||
-      voices.find((v) => v.lang.startsWith("zh")) ||
-      null;
-  };
-  pick();
-  speechSynthesis.addEventListener("voiceschanged", pick);
-}
-
-function speakChinese(text, entry = null) {
-  if (entry?.speakSequence?.length) {
-    speechSynthesis.cancel();
-    let i = 0;
-    const speakNext = () => {
-      if (i >= entry.speakSequence.length) return;
-      const utter = new SpeechSynthesisUtterance(entry.speakSequence[i++]);
-      utter.lang = "zh-CN";
-      utter.rate = CHINESE_SPEECH_RATE;
-      if (chineseVoice) utter.voice = chineseVoice;
-      utter.onend = speakNext;
-      speechSynthesis.speak(utter);
-    };
-    speakNext();
-    return;
-  }
-  if (!text) return;
-  speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "zh-CN";
-  utter.rate = CHINESE_SPEECH_RATE;
-  if (chineseVoice) utter.voice = chineseVoice;
-  speechSynthesis.speak(utter);
-}
-
 function hidePanels() {
   els.explainPanel.classList.add("hidden");
   els.answerPanel.classList.add("hidden");
+  els.chineseTableWrap.classList.add("hidden");
   els.btnAnswer.classList.remove("active");
   if (subject !== "chinese") {
     els.btnAnswer.querySelector(".btn-short").textContent = "Answer";
@@ -196,21 +185,42 @@ function hidePanels() {
   els.exampleText.textContent = "";
   els.answerText.textContent = "";
   els.keyIdea.textContent = "";
+  els.chineseTableBody.innerHTML = "";
   els.exampleText.closest(".explain-block")?.classList.remove("hidden");
 }
 
-function showChineseContent(entry) {
-  const meaningBlock = els.exampleText.closest(".explain-block");
-  els.explainLabel1.textContent = entry.label1 || "Pinyin";
-  els.explainLabel2.textContent = entry.label2 || "Meaning";
-  els.answerLabel.textContent = entry.labelAnswer || "Chinese";
-  meaningBlock.classList.toggle("hidden", Boolean(entry.hideMeaning));
+function splitChineseLines(text) {
+  return (text || "")
+    .split("\n")
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+}
 
-  els.keyIdea.textContent = entry.pinyin || "—";
-  els.exampleText.textContent = entry.english || "—";
-  els.answerText.textContent = entry.hanzi || "—";
-  els.explainPanel.classList.remove("hidden");
-  els.answerPanel.classList.remove("hidden");
+function showChineseContent(entry) {
+  const hanzi = splitChineseLines(entry.hanzi);
+  const pinyin = splitChineseLines(entry.pinyin);
+  const english = entry.hideMeaning ? [] : splitChineseLines(entry.english);
+  const rows = Math.max(hanzi.length, pinyin.length, english.length, 1);
+
+  els.chineseTableBody.innerHTML = "";
+  for (let i = 0; i < rows; i++) {
+    const tr = document.createElement("tr");
+    const cells = [
+      hanzi[i] || "—",
+      pinyin[i] || "—",
+      entry.hideMeaning ? "—" : english[i] || "—",
+    ];
+    for (const text of cells) {
+      const td = document.createElement("td");
+      td.textContent = text;
+      tr.appendChild(td);
+    }
+    els.chineseTableBody.appendChild(tr);
+  }
+
+  els.explainPanel.classList.add("hidden");
+  els.answerPanel.classList.add("hidden");
+  els.chineseTableWrap.classList.remove("hidden");
 }
 
 function setAnswerButtonLabel() {
@@ -228,9 +238,11 @@ function updateExplainLabels() {
     els.explainLabel2.textContent = "Example sentences";
     els.answerLabel.textContent = "Example sentences";
   } else if (subject === "chinese") {
-    els.explainLabel1.textContent = "Pinyin";
-    els.explainLabel2.textContent = "Meaning";
-    els.answerLabel.textContent = "Chinese";
+    // Table layout uses fixed Chinese / Pinyin / English headers
+  } else if (subject === "bible") {
+    els.explainLabel1.textContent = "Verse";
+    els.explainLabel2.textContent = "Why it matters";
+    els.answerLabel.textContent = "Answer";
   } else {
     els.explainLabel1.textContent = "Key idea";
     els.explainLabel2.textContent = "Example";
@@ -241,14 +253,17 @@ function updateExplainLabels() {
 function updateSubjectUI() {
   document.body.classList.toggle("english-mode", subject === "english");
   document.body.classList.toggle("chinese-mode", subject === "chinese");
+  document.body.classList.toggle("bible-mode", subject === "bible");
   els.btnMath.classList.toggle("active", subject === "math");
   els.btnEnglish.classList.toggle("active", subject === "english");
   els.btnChinese.classList.toggle("active", subject === "chinese");
+  els.btnBible.classList.toggle("active", subject === "bible");
   els.btnMath.setAttribute("aria-selected", subject === "math");
   els.btnEnglish.setAttribute("aria-selected", subject === "english");
   els.btnChinese.setAttribute("aria-selected", subject === "chinese");
-  els.btnSound.classList.toggle("hidden", subject !== "chinese");
+  els.btnBible.setAttribute("aria-selected", subject === "bible");
   els.questionText.classList.toggle("chinese-prompt", subject === "chinese");
+  els.questionText.classList.toggle("bible-prompt", subject === "bible");
   setAnswerButtonLabel();
 }
 
@@ -276,16 +291,16 @@ function renderQuestion(entry) {
   if (!entry) {
     els.metaLine.textContent = "No items";
     els.questionText.textContent = "Try another filter.";
-    els.questionText.classList.remove("word-prompt", "chinese-prompt");
+    els.questionText.classList.remove("word-prompt", "chinese-prompt", "bible-prompt");
     return;
   }
 
   current = entry;
 
   if (subject === "chinese") {
-    els.metaLine.textContent = `${entry.lessonTitle} · ${CATEGORY_LABELS[entry.category] || entry.category}`;
+    els.metaLine.textContent = `${entry.lessonTitle} · ${CHINESE_CATEGORY_LABELS[entry.category] || entry.category}`;
     els.questionText.textContent = entry.prompt;
-    els.questionText.classList.remove("word-prompt");
+    els.questionText.classList.remove("word-prompt", "bible-prompt");
     els.questionText.classList.add("chinese-prompt");
     showChineseContent(entry);
     els.btnAnswer.classList.remove("active");
@@ -299,11 +314,16 @@ function renderQuestion(entry) {
     els.metaLine.textContent = `${entry.gradeTitle} · Vocabulary`;
     els.questionText.textContent = entry.word;
     els.questionText.classList.add("word-prompt");
-    els.questionText.classList.remove("chinese-prompt");
+    els.questionText.classList.remove("chinese-prompt", "bible-prompt");
+  } else if (subject === "bible") {
+    els.metaLine.textContent = `Bible · ${BIBLE_CATEGORY_LABELS[entry.category] || entry.category}`;
+    els.questionText.textContent = entry.prompt;
+    els.questionText.classList.remove("word-prompt", "chinese-prompt");
+    els.questionText.classList.add("bible-prompt");
   } else {
     els.metaLine.textContent = `Ch ${entry.chapterId}: ${entry.chapterTitle} · ${entry.topicName}`;
     els.questionText.textContent = entry.question;
-    els.questionText.classList.remove("word-prompt", "chinese-prompt");
+    els.questionText.classList.remove("word-prompt", "chinese-prompt", "bible-prompt");
   }
 }
 
@@ -321,11 +341,6 @@ function handleAnswer() {
   } else {
     showReveal();
   }
-}
-
-function handleSound() {
-  if (subject !== "chinese" || !current) return;
-  speakChinese(current.speak || current.hanzi, current);
 }
 
 function populateFilter() {
@@ -357,7 +372,7 @@ function populateFilter() {
     }
     const total = vocabData.meta?.totalWords ?? getPool().length;
     els.statsLine.textContent = `${total} vocabulary words · 5th & 6th grade`;
-  } else {
+  } else if (subject === "chinese") {
     for (const cat of chineseData.categories) {
       const opt = document.createElement("option");
       opt.value = cat.id;
@@ -366,12 +381,20 @@ function populateFilter() {
     }
     const total = chineseData.items.length;
     els.statsLine.textContent = `${total} items · ${chineseData.meta.title}`;
+  } else {
+    for (const cat of bibleData.categories) {
+      const opt = document.createElement("option");
+      opt.value = cat.id;
+      opt.textContent = cat.label;
+      els.filterSelect.appendChild(opt);
+    }
+    const total = bibleData.items.length;
+    els.statsLine.textContent = `${total} cards · ${bibleData.meta.title}`;
   }
 }
 
 function setSubject(next) {
   subject = next;
-  speechSynthesis.cancel();
   updateSubjectUI();
   updateExplainLabels();
   populateFilter();
@@ -382,23 +405,26 @@ function init() {
   els.btnMath.addEventListener("click", () => setSubject("math"));
   els.btnEnglish.addEventListener("click", () => setSubject("english"));
   els.btnChinese.addEventListener("click", () => setSubject("chinese"));
+  els.btnBible.addEventListener("click", () => setSubject("bible"));
   els.btnAnswer.addEventListener("click", handleAnswer);
-  els.btnSound.addEventListener("click", handleSound);
   els.filterSelect.addEventListener("change", () => renderQuestion(pickRandom()));
-  initChineseVoice();
 }
 
 async function load() {
   try {
-    const [mathRes, vocabRes, chineseRes] = await Promise.all([
+    const [mathRes, vocabRes, chineseRes, bibleRes] = await Promise.all([
       fetch("flashcards.json"),
       fetch("vocabulary.json"),
       fetch("chinese-lesson1.json"),
+      fetch("bible.json"),
     ]);
-    if (!mathRes.ok || !vocabRes.ok || !chineseRes.ok) throw new Error("Failed to load data");
+    if (!mathRes.ok || !vocabRes.ok || !chineseRes.ok || !bibleRes.ok) {
+      throw new Error("Failed to load data");
+    }
     mathData = await mathRes.json();
     vocabData = await vocabRes.json();
     chineseData = await chineseRes.json();
+    bibleData = await bibleRes.json();
     init();
     setSubject("math");
   } catch (err) {

@@ -13,6 +13,7 @@
       <button type="button" class="subject-btn active" id="btnMath" role="tab" aria-selected="true">Math</button>
       <button type="button" class="subject-btn" id="btnEnglish" role="tab" aria-selected="false">English</button>
       <button type="button" class="subject-btn" id="btnChinese" role="tab" aria-selected="false">中文</button>
+      <button type="button" class="subject-btn" id="btnBible" role="tab" aria-selected="false">Bible</button>
     </div>
 
     <main class="card" id="questionCard">
@@ -34,14 +35,24 @@
         <span class="explain-label" id="answerLabel">Answer</span>
         <p id="answerText"></p>
       </div>
+
+      <div class="chinese-table-wrap hidden" id="chineseTableWrap" aria-live="polite">
+        <table class="chinese-table" id="chineseTable">
+          <thead>
+            <tr>
+              <th>Chinese</th>
+              <th>Pinyin</th>
+              <th>English</th>
+            </tr>
+          </thead>
+          <tbody id="chineseTableBody"></tbody>
+        </table>
+      </div>
     </main>
 
     <nav class="actions" aria-label="Practice actions">
       <button type="button" class="btn btn-primary" id="btnAnswer" title="Show explanation and answer">
         <span class="btn-short">Answer</span>
-      </button>
-      <button type="button" class="btn btn-sound hidden" id="btnSound" title="Play Mandarin pronunciation" aria-label="Play sound">
-        <span class="btn-short">🔊 Sound</span>
       </button>
       <select id="filterSelect" class="select-large" aria-label="Filter">
         <option value="all">All chapters</option>

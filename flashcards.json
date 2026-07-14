@@ -269,6 +269,14 @@
                 {
                   "text": "Compute 24 × 11 mentally using distribution.",
                   "answer": "264"
+                },
+                {
+                  "text": "Factor and compute: 8 × 125 + 2 × 125.",
+                  "answer": "1250"
+                },
+                {
+                  "text": "Expand: 11(35 + 6).",
+                  "answer": "451"
                 }
               ]
             },
@@ -296,6 +304,14 @@
                 {
                   "text": "Factor: 15 × 14 + 15 × 6.",
                   "answer": "300"
+                },
+                {
+                  "text": "Factor and compute: 44 × 5 + 56 × 5.",
+                  "answer": "500"
+                },
+                {
+                  "text": "Expand: 20(25 − 9).",
+                  "answer": "320"
                 }
               ]
             },
@@ -323,6 +339,41 @@
                 {
                   "text": "Expand: 3(10 + 20 + 30).",
                   "answer": "180"
+                }
+              ]
+            },
+            {
+              "name": "Factoring to Simplify (Reverse Distribution)",
+              "keyIdea": "Spot a common factor and pull it out: ab + ac = a(b + c) or ab − ac = a(b − c).",
+              "example": "23 × 17 + 77 × 17 = (23 + 77) × 17 = 100 × 17 = 1700",
+              "questions": [
+                {
+                  "text": "Factor and compute: 14 × 8 + 86 × 8.",
+                  "answer": "800"
+                },
+                {
+                  "text": "Factor and compute: 22 × 17 − 12 × 17.",
+                  "answer": "170"
+                },
+                {
+                  "text": "Factor and compute: 9 × 103 − 9 × 3.",
+                  "answer": "900"
+                },
+                {
+                  "text": "Expand: 15(20 + 7).",
+                  "answer": "405"
+                },
+                {
+                  "text": "Expand: 6(100 − 13).",
+                  "answer": "522"
+                },
+                {
+                  "text": "Factor: 31 × 4 + 69 × 4.",
+                  "answer": "400"
+                },
+                {
+                  "text": "Expand then compute: 25(40 − 8).",
+                  "answer": "800"
                 }
               ]
             },
@@ -926,6 +977,14 @@
                 {
                   "text": "Use distribution to compute (250 + 150) ÷ 20.",
                   "answer": "20"
+                },
+                {
+                  "text": "Compute (84 + 36) ÷ 6.",
+                  "answer": "20"
+                },
+                {
+                  "text": "Compute (15 ÷ 5) + (25 ÷ 5).",
+                  "answer": "8"
                 }
               ]
             },
@@ -953,6 +1012,14 @@
                 {
                   "text": "Why can't you split 24 ÷ (2 + 4) as (24 ÷ 2) + (24 ÷ 4)?",
                   "answer": "No (4 vs 18)"
+                },
+                {
+                  "text": "Compute 48 ÷ (4 + 4) and (48 ÷ 4) + (48 ÷ 4). Equal?",
+                  "answer": "6; No"
+                },
+                {
+                  "text": "Compute 72 ÷ (6 + 3).",
+                  "answer": "8"
                 }
               ]
             }
@@ -1282,6 +1349,63 @@
               ]
             },
             {
+              "name": "Adding Powers (Same Base)",
+              "keyIdea": "aᵐ + aⁿ ≠ aᵐ⁺ⁿ — evaluate each power, then add!",
+              "example": "2³+2⁵=8+32=40",
+              "questions": [
+                {
+                  "text": "Compute 2³ + 2⁵.",
+                  "answer": "40"
+                },
+                {
+                  "text": "Compute 3² + 3³.",
+                  "answer": "36"
+                },
+                {
+                  "text": "Compute 2⁴ + 2².",
+                  "answer": "20"
+                }
+              ]
+            },
+            {
+              "name": "Multiplying Powers (Same Base)",
+              "keyIdea": "aᵐ · aⁿ = aᵐ⁺ⁿ — add the exponents.",
+              "example": "2³·2⁵ = 2⁸ = 256",
+              "questions": [
+                {
+                  "text": "Compute 2³ · 2⁵.",
+                  "answer": "256"
+                },
+                {
+                  "text": "Compute 3² · 3³.",
+                  "answer": "243"
+                },
+                {
+                  "text": "Compute 5 · 5³.",
+                  "answer": "625"
+                }
+              ]
+            },
+            {
+              "name": "Same Base: + vs ×",
+              "keyIdea": "Adding powers ≠ combining exponents; multiplying adds exponents.",
+              "example": "2³·2²=2⁵ but 2³+2²=12",
+              "questions": [
+                {
+                  "text": "Is 2³ + 2⁵ = 2⁸?",
+                  "answer": "No"
+                },
+                {
+                  "text": "Is 2³ · 2⁵ = 2⁸?",
+                  "answer": "Yes"
+                },
+                {
+                  "text": "Compute 2² · 2⁴.",
+                  "answer": "64"
+                }
+              ]
+            },
+            {
               "name": "Quotient of Powers",
               "keyIdea": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
               "example": "2⁵÷2² = 8",
@@ -1464,6 +1588,25 @@
                 {
                   "text": "What is 2⁻⁴?",
                   "answer": "1/16"
+                }
+              ]
+            },
+            {
+              "name": "Powers Review: + vs ×",
+              "keyIdea": "Same base: multiply → add exponents; add → evaluate separately.",
+              "example": "2³·2⁵=2⁸; 2³+2⁵=40",
+              "questions": [
+                {
+                  "text": "Compute 2³ + 2⁵.",
+                  "answer": "40"
+                },
+                {
+                  "text": "Compute 2³ · 2⁵.",
+                  "answer": "256"
+                },
+                {
+                  "text": "Compute 4² · 4³.",
+                  "answer": "1024"
                 }
               ]
             }
@@ -2439,6 +2582,25 @@
                   "answer": "4"
                 }
               ]
+            },
+            {
+              "name": "Expand vs Factor Practice",
+              "keyIdea": "Switch direction: expand or factor as needed.",
+              "example": "3(x+4)=3x+12",
+              "questions": [
+                {
+                  "text": "Expand: 7(x+2).",
+                  "answer": "7x+14"
+                },
+                {
+                  "text": "Factor: 5x+15.",
+                  "answer": "5(x+3)"
+                },
+                {
+                  "text": "Expand and solve: 2(x+5)=18.",
+                  "answer": "x=4"
+                }
+              ]
             }
           ]
         },
@@ -3155,6 +3317,6 @@
     }
   ],
   "meta": {
-    "totalQuestions": 451
+    "totalQuestions": 481
   }
 }

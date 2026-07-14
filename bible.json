@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Bible",
+    "totalItems": 24
+  },
+  "categories": [
+    { "id": "all", "label": "All" },
+    { "id": "courage", "label": "Be Brave" },
+    { "id": "stories", "label": "Epic Stories" },
+    { "id": "verses", "label": "Power Verses" },
+    { "id": "real-life", "label": "Real Life" },
+    { "id": "identity", "label": "Who You Are" }
+  ],
+  "items": [
+    {
+      "id": "b-david",
+      "category": "stories",
+      "prompt": "A kid with no armor walked up to a giant who'd been mocking everyone. Who was he?",
+      "verse": "1 Samuel 17:45 — \"You come against me with sword and spear, but I come against you in the name of the Lord Almighty.\"",
+      "takeaway": "David didn't win because he was bigger. He stepped up because God was with him—and that changes everything when you're scared.",
+      "answer": "David"
+    },
+    {
+      "id": "b-joshua",
+      "category": "courage",
+      "prompt": "Fill in the blank: \"Be strong and courageous. Do not be afraid… the Lord your God will be with you ___ you go.\"",
+      "verse": "Joshua 1:9",
+      "takeaway": "God said this right before Joshua had to lead people into hard, unknown territory. Courage isn't pretending you're not afraid—it's moving forward anyway with God.",
+      "answer": "wherever"
+    },
+    {
+      "id": "b-phil413",
+      "category": "verses",
+      "prompt": "Finish this power line: \"I can do all things through ___ who strengthens me.\"",
+      "verse": "Philippians 4:13",
+      "takeaway": "This isn't a sports hype quote—Paul wrote it while he was stuck in prison. Real strength comes from Christ, not from pretending life is easy.",
+      "answer": "Christ"
+    },
+    {
+      "id": "b-storm",
+      "category": "stories",
+      "prompt": "Jesus' friends thought they were going to die in a storm. What did Jesus do?",
+      "verse": "Mark 4:39 — He got up, rebuked the wind and said to the waves, \"Quiet! Be still!\" Then the wind died down and it was completely calm.",
+      "takeaway": "The storm was real. Their fear was real. Jesus wasn't panicking—and he's still in control when life feels chaotic.",
+      "answer": "He calmed the storm"
+    },
+    {
+      "id": "b-daniel",
+      "category": "stories",
+      "prompt": "Who got thrown into a lions' den for praying—and walked out alive the next morning?",
+      "verse": "Daniel 6:22 — \"My God sent his angel, and he shut the mouths of the lions. They have not hurt me.\"",
+      "takeaway": "Daniel didn't cheat or hide his faith to fit in. Standing for what's right can cost you—but God is bigger than the lions.",
+      "answer": "Daniel"
+    },
+    {
+      "id": "b-timothy",
+      "category": "identity",
+      "prompt": "True or false: \"You're too young to make a difference for God.\"",
+      "verse": "1 Timothy 4:12 — \"Don't let anyone look down on you because you are young, but set an example… in speech, in conduct, in love, in faith.\"",
+      "takeaway": "Age isn't a disqualifier. How you live—honestly, bravely, kindly—can influence people older than you.",
+      "answer": "False — you can set an example now"
+    },
+    {
+      "id": "b-romans831",
+      "category": "verses",
+      "prompt": "If God is for you, who can actually win against you?",
+      "verse": "Romans 8:31 — \"If God is for us, who can be against us?\"",
+      "takeaway": "Not \"life will be easy.\" It means the final score isn't decided by bullies, bad grades, or bad days. God doesn't abandon his team.",
+      "answer": "No one ultimately — God is for you"
+    },
+    {
+      "id": "b-proverbs",
+      "category": "real-life",
+      "prompt": "You're confused about a big decision. What does Proverbs say to do instead of leaning only on your own gut?",
+      "verse": "Proverbs 3:5-6 — \"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.\"",
+      "takeaway": "Trust + action. Ask God, listen, make a wise move. You don't have to figure out your whole future in one stressed-out night.",
+      "answer": "Trust God and submit your ways to him"
+    },
+    {
+      "id": "b-ephesians",
+      "category": "identity",
+      "prompt": "When you feel like you're not enough, what does Ephesians 2:10 call you?",
+      "verse": "Ephesians 2:10 — \"We are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.\"",
+      "takeaway": "Handiwork = masterpiece, not accident. You weren't a mistake, and your life has purpose—even on boring Tuesdays.",
+      "answer": "God's handiwork (masterpiece)"
+    },
+    {
+      "id": "b-psalm23",
+      "category": "verses",
+      "prompt": "Even walking through the \"valley of the shadow of death,\" what does the psalmist say he won't fear?",
+      "verse": "Psalm 23:4 — \"Even though I walk through the darkest valley, I will fear no evil, for you are with me.\"",
+      "takeaway": "It doesn't say you'll skip hard times. It says you're not walking through them alone.",
+      "answer": "Evil / the dark valley — because God is with him"
+    },
+    {
+      "id": "b-joseph",
+      "category": "stories",
+      "prompt": "Sold by his own brothers, falsely accused, thrown in prison—years later he became a leader who saved nations. Who?",
+      "verse": "Genesis 50:20 — \"You intended to harm me, but God intended it for good.\"",
+      "takeaway": "Your worst chapter isn't the whole book. God can turn betrayal and setbacks into something bigger than you can see right now.",
+      "answer": "Joseph"
+    },
+    {
+      "id": "b-gideon",
+      "category": "courage",
+      "prompt": "Gideon felt weak and outnumbered. God told him to cut his army from 32,000 down to 300. Why?",
+      "verse": "Judges 7:2 — \"You have too many men. I cannot deliver Midian into their hands, or Israel would boast against me, 'My own strength has saved me.'\"",
+      "takeaway": "God often wins through the unlikely so nobody can say \"I did this alone.\" Your weakness isn't always a disqualifier.",
+      "answer": "So Israel would know God gave the victory, not their own strength"
+    },
+    {
+      "id": "b-anger",
+      "category": "real-life",
+      "prompt": "You're furious at someone. What does Ephesians 4:26 say about anger?",
+      "verse": "Ephesians 4:26 — \"In your anger do not sin: Do not let the sun go down while you are still angry.\"",
+      "takeaway": "Anger happens. Sin doesn't have to. Deal with it instead of letting it turn into bitterness that eats you from the inside.",
+      "answer": "Don't sin in your anger; don't stay angry forever"
+    },
+    {
+      "id": "b-words",
+      "category": "real-life",
+      "prompt": "Your words can build someone up or wreck them. What does Proverbs 18:21 compare the tongue to?",
+      "verse": "Proverbs 18:21 — \"The tongue has the power of life and death.\"",
+      "takeaway": "Roasts, gossip, and \"just joking\" comments hit harder than you think. You can be the kid who speaks life instead.",
+      "answer": "Life and death — your words have real power"
+    },
+    {
+      "id": "b-fear",
+      "category": "courage",
+      "prompt": "Finish it: \"For God has not given us a spirit of fear, but of power, love, and a ___ mind.\"",
+      "verse": "2 Timothy 1:7",
+      "takeaway": "Anxiety isn't your identity. Fear doesn't get the last word. God gives you what you need to think clearly and act with love.",
+      "answer": "sound (self-disciplined)"
+    },
+    {
+      "id": "b-john316",
+      "category": "verses",
+      "prompt": "Why did God send Jesus, according to John 3:16?",
+      "verse": "John 3:16 — \"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.\"",
+      "takeaway": "The whole story starts with love—not with God waiting for you to mess up so he can punish you.",
+      "answer": "Because he loved the world — so we could have eternal life through faith"
+    },
+    {
+      "id": "b-friends",
+      "category": "real-life",
+      "prompt": "Bad friends can drag you down. What does 1 Corinthians 15:33 warn?",
+      "verse": "1 Corinthians 15:33 — \"Bad company corrupts good character.\"",
+      "takeaway": "Who you hang with shapes who you become. Choose friends who pull you toward courage and honesty, not just trouble.",
+      "answer": "Bad company corrupts good character"
+    },
+    {
+      "id": "b-matthew28",
+      "category": "courage",
+      "prompt": "Jesus' last words in Matthew include \"Go and make disciples.\" What promise comes with that mission?",
+      "verse": "Matthew 28:20 — \"Surely I am with you always, to the very end of the age.\"",
+      "takeaway": "You're not sent out alone. Whatever you're called to do—speak up, help someone, lead by example—Jesus goes with you.",
+      "answer": "I am with you always"
+    },
+    {
+      "id": "b-james",
+      "category": "real-life",
+      "prompt": "You know what the right thing is but keep putting it off. James 4:17 calls that what?",
+      "verse": "James 4:17 — \"If anyone, then, knows the good they ought to do and doesn't do it, it is sin for them.\"",
+      "takeaway": "It's not just about breaking rules—it's about ignoring the good you already know you should do. Action beats excuses.",
+      "answer": "Sin — knowing good and not doing it"
+    },
+    {
+      "id": "b-isaiah4031",
+      "category": "verses",
+      "prompt": "When you're running on empty, who does Isaiah say will \"soar on wings like eagles\"?",
+      "verse": "Isaiah 40:31 — \"Those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary.\"",
+      "takeaway": "Burnout is real. Hoping in God isn't magic energy drink—it's trusting him enough to rest, wait, and keep going.",
+      "answer": "Those who hope in the Lord"
+    },
+    {
+      "id": "b-shadrach",
+      "category": "stories",
+      "prompt": "Three guys refused to bow to a golden statue and got thrown into a blazing furnace. What happened?",
+      "verse": "Daniel 3:25 — The king looked in and said, \"Look! I see four men walking around in the fire, unbound and unharmed… and the fourth looks like a son of the gods.\"",
+      "takeaway": "They didn't compromise to avoid pain. God showed up in the fire—not always by removing it, but by being in it with them.",
+      "answer": "They survived — God was with them in the fire"
+    },
+    {
+      "id": "b-golden-rule",
+      "category": "real-life",
+      "prompt": "What's the \"golden rule\" Jesus gave in Matthew 7:12?",
+      "verse": "Matthew 7:12 — \"Do to others whatever you would like them to do to you.\"",
+      "takeaway": "Simple test before you post, tease, or ignore someone: Would I want this done to me? That's the standard.",
+      "answer": "Treat others how you want to be treated"
+    },
+    {
+      "id": "b-jeremiah",
+      "category": "identity",
+      "prompt": "Jeremiah thought he was too young when God called him. What did God say about his age?",
+      "verse": "Jeremiah 1:7-8 — \"Do not say, 'I am too young.' You must go to everyone I send you to and say whatever I command you. Do not be afraid of them, for I am with you.\"",
+      "takeaway": "God doesn't wait until you're \"old enough\" on paper. He equips you for what he calls you to—and stays with you.",
+      "answer": "Don't say you're too young — God is with you"
+    },
+    {
+      "id": "b-hebrews122",
+      "category": "courage",
+      "prompt": "Hebrews 12:1 says to throw off everything that slows you down and run with what?",
+      "verse": "Hebrews 12:1-2 — \"Let us run with perseverance the race marked out for us, fixing our eyes on Jesus… who endured the cross… so we will not grow weary.\"",
+      "takeaway": "Life is a long race, not one sprint. Drop the distractions and keep your eyes on Jesus when you want to quit.",
+      "answer": "Perseverance — fixing your eyes on Jesus"
+    }
+  ]
+}

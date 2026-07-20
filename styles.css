@@ -454,21 +454,21 @@ body.english-mode .btn-secondary.active {
   align-items: center;
 }
 
-.timer-bar {
+.progress-bar {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
 }
 
-.timer-line {
+.progress-line {
   font-variant-numeric: tabular-nums;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--text);
 }
 
-.btn-reset-timer {
+.btn-reset-progress {
   font-family: inherit;
   font-size: 0.75rem;
   font-weight: 700;
@@ -483,7 +483,7 @@ body.english-mode .btn-secondary.active {
   -webkit-tap-highlight-color: transparent;
 }
 
-.btn-reset-timer:active {
+.btn-reset-progress:active {
   transform: scale(0.97);
   background: var(--secondary);
 }

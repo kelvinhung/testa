@@ -5,146 +5,8 @@
       "title": "Properties of Arithmetic",
       "sections": [
         {
-          "title": "1.1 · Why Start with Arithmetic?",
-          "topics": [
-            {
-              "name": "Arithmetic → Algebra Bridge",
-              "keyIdea": "Prealgebra builds the bridge from arithmetic (specific numbers) to algebra (general rules with variables).",
-              "example": "Arithmetic shows 3+5=8; algebra shows a+b=b+a for *any* a and b.",
-              "questions": [
-                {
-                  "text": "Is 7+4 the same as 4+7?",
-                  "answer": "Yes"
-                },
-                {
-                  "text": "If a+b=10 and a=6, what is b?",
-                  "answer": "4"
-                },
-                {
-                  "text": "Name one thing algebra lets you do that arithmetic alone cannot.",
-                  "answer": "Write general rules, use variables, etc."
-                }
-              ]
-            },
-            {
-              "name": "Number Line & Integer Types",
-              "keyIdea": "Numbers live on an infinite number line. Integers have no fractional part.",
-              "example": "−3 is left of 0 (negative); 5 is right of 0 (positive); 0 is neither.",
-              "questions": [
-                {
-                  "text": "Is −1 positive, negative, or neither?",
-                  "answer": "Negative"
-                },
-                {
-                  "text": "Is 0 nonnegative?",
-                  "answer": "Yes"
-                },
-                {
-                  "text": "Name the integer one unit right of −4.",
-                  "answer": "−3"
-                }
-              ]
-            },
-            {
-              "name": "Positive / Negative / Nonnegative / Nonpositive",
-              "keyIdea": "- **Positive** → right of 0 - **Negative** → left of 0 - **Nonnegative** → 0 or positive - **Nonpositive** → 0 or negative",
-              "example": "−2 is negative and nonpositive, but not nonnegative.",
-              "questions": [
-                {
-                  "text": "Is −5 nonpositive?",
-                  "answer": "Yes"
-                },
-                {
-                  "text": "Is 0 positive?",
-                  "answer": "No"
-                },
-                {
-                  "text": "Is 8 nonnegative?",
-                  "answer": "Yes"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "title": "1.2 · Addition",
           "topics": [
-            {
-              "name": "Commutative Property of Addition",
-              "keyIdea": "Order doesn't matter: **a + b = b + a**",
-              "example": "3 + 7 = 7 + 3 = 10",
-              "questions": [
-                {
-                  "text": "Compute 47 + 58 + 43 mentally (pair first).",
-                  "answer": "148"
-                },
-                {
-                  "text": "Compute 125 + 875 + 256 by regrouping.",
-                  "answer": "1256"
-                },
-                {
-                  "text": "Is 234 + 567 equal to 567 + 234?",
-                  "answer": "Yes"
-                }
-              ]
-            },
-            {
-              "name": "Associative Property of Addition",
-              "keyIdea": "Grouping doesn't matter: **(a + b) + c = a + (b + c)**",
-              "example": "(2 + 3) + 4 = 2 + (3 + 4) = 9",
-              "questions": [
-                {
-                  "text": "Compute (25 + 75) + 48.",
-                  "answer": "148"
-                },
-                {
-                  "text": "Compute 37 + (63 + 25).",
-                  "answer": "125"
-                },
-                {
-                  "text": "Compute 16 + 49 + 84 + 51 by pairing.",
-                  "answer": "200"
-                }
-              ]
-            },
-            {
-              "name": "Adding Zero",
-              "keyIdea": "**a + 0 = a** — zero is the identity for addition.",
-              "example": "847 + 0 = 847",
-              "questions": [
-                {
-                  "text": "What is 0 + (−17)?",
-                  "answer": "−17"
-                },
-                {
-                  "text": "Compute 999 + 0 + 1.",
-                  "answer": "1000"
-                },
-                {
-                  "text": "If x + 0 = −5, what is x?",
-                  "answer": "−5"
-                }
-              ]
-            },
-            {
-              "name": "Any-Order Addition (Mental Math Strategy)",
-              "keyIdea": "Use commutative + associative properties to pair numbers that make easy sums.",
-              "example": "219 + 28 + 281 = (219 + 281) + 28 = 500 + 28 = 528",
-              "questions": [
-                {
-                  "text": "Compute 168 + 32 + 95 + 5.",
-                  "answer": "300"
-                },
-                {
-                  "text": "Compute 1 + 2 + 3 + … + 10 (pair ends: 1+10, 2+9…).",
-                  "answer": "55"
-                },
-                {
-                  "text": "Compute 48 + 52 + 137.",
-                  "answer": "237"
-                }
-              ]
-            },
             {
               "name": "Summing Consecutive Integers",
               "keyIdea": "Pair smallest with largest; each pair has the same sum.",
@@ -170,25 +32,6 @@
           "title": "1.3 · Multiplication",
           "topics": [
             {
-              "name": "Commutative Property of Multiplication",
-              "keyIdea": "**a · b = b · a** (also written a×b or ab)",
-              "example": "4 × 7 = 7 × 4 = 28",
-              "questions": [
-                {
-                  "text": "Compute 25 × 16 mentally (use reordering).",
-                  "answer": "400"
-                },
-                {
-                  "text": "Compute 4 × 25 × 8 by regrouping.",
-                  "answer": "800"
-                },
-                {
-                  "text": "Is 13 × 17 equal to 17 × 13?",
-                  "answer": "Yes"
-                }
-              ]
-            },
-            {
               "name": "Associative Property of Multiplication",
               "keyIdea": "**(a · b) · c = a · (b · c)**",
               "example": "(2 × 5) × 3 = 2 × (5 × 3) = 30",
@@ -208,32 +51,13 @@
               ]
             },
             {
-              "name": "Multiplying by 1",
-              "keyIdea": "**a · 1 = a** — one is the identity for multiplication.",
-              "example": "999 × 1 = 999",
-              "questions": [
-                {
-                  "text": "Simplify 1 × 43 × 1 × 1.",
-                  "answer": "43"
-                },
-                {
-                  "text": "If n × 1 × n = 64 and n is positive, what is n?",
-                  "answer": "8"
-                },
-                {
-                  "text": "What is (−1) × 1 × (−1)?",
-                  "answer": "1"
-                }
-              ]
-            },
-            {
               "name": "Order of Operations",
               "keyIdea": "Parentheses → powers → multiply/divide (left to right) → add/subtract (left to right).",
               "example": "3 + 4 × 2 = 3 + 8 = 11 (not 14)",
               "questions": [
                 {
                   "text": "Compute 2 + 3 × 4.",
-                  "answer": "11"
+                  "answer": "14"
                 },
                 {
                   "text": "Compute (2 + 3) × 4.",
@@ -3317,6 +3141,6 @@
     }
   ],
   "meta": {
-    "totalQuestions": 481
+    "totalQuestions": 454
   }
 }

@@ -30,106 +30,93 @@ const els = {
   btnAnswer: $("btnAnswer"),
   chineseTableWrap: $("chineseTableWrap"),
   chineseTableBody: $("chineseTableBody"),
-  statsLine: $("statsLine"),
-  timerLine: $("timerLine"),
-  btnResetTimer: $("btnResetTimer"),
+  progressLine: $("progressLine"),
+  btnResetProgress: $("btnResetProgress"),
 };
 
-const TIMER_STORAGE_KEY = "practiceTimeBySubject";
-const SUBJECTS = ["math", "english", "chinese", "bible"];
+const SEEN_STORAGE_KEY = "practiceSeenByPool";
 
-/** @type {Record<string, number>} */
-let timeBySubject = loadTimeBySubject();
-let timerStartedAt = null;
-let timerInterval = null;
+function poolKey() {
+  return `${subject}:${els.filterSelect.value || "all"}`;
+}
 
-function loadTimeBySubject() {
+function loadSeenMap() {
   try {
-    const raw = localStorage.getItem(TIMER_STORAGE_KEY);
-    const parsed = raw ? JSON.parse(raw) : {};
-    const out = {};
-    for (const key of SUBJECTS) {
-      out[key] = Number(parsed[key]) || 0;
-    }
-    return out;
+    const parsed = JSON.parse(localStorage.getItem(SEEN_STORAGE_KEY) || "{}");
+    return parsed && typeof parsed === "object" ? parsed : {};
   } catch {
-    return { math: 0, english: 0, chinese: 0, bible: 0 };
+    return {};
   }
 }
 
-function saveTimeBySubject() {
-  localStorage.setItem(TIMER_STORAGE_KEY, JSON.stringify(timeBySubject));
+function saveSeenMap(map) {
+  localStorage.setItem(SEEN_STORAGE_KEY, JSON.stringify(map));
 }
 
-function formatDuration(ms) {
-  const totalSec = Math.floor(Math.max(0, ms) / 1000);
-  const h = Math.floor(totalSec / 3600);
-  const m = Math.floor((totalSec % 3600) / 60);
-  const s = totalSec % 60;
-  if (h > 0) {
-    return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+function getSeenIds() {
+  const map = loadSeenMap();
+  const list = map[poolKey()];
+  return new Set(Array.isArray(list) ? list : []);
+}
+
+function saveSeenIds(seen) {
+  const map = loadSeenMap();
+  map[poolKey()] = [...seen];
+  saveSeenMap(map);
+}
+
+function questionId(entry) {
+  if (!entry) return "";
+  if (entry.mode === "math") {
+    return `m-${entry.chapterId}-${entry.topicName}-${entry.questionIndex}`;
   }
-  return `${m}:${String(s).padStart(2, "0")}`;
-}
-
-function flushActiveTimer() {
-  if (!timerStartedAt || !subject) return;
-  const now = Date.now();
-  timeBySubject[subject] = (timeBySubject[subject] || 0) + (now - timerStartedAt);
-  timerStartedAt = now;
-  saveTimeBySubject();
-}
-
-function currentSubjectElapsed() {
-  let ms = timeBySubject[subject] || 0;
-  if (timerStartedAt) ms += Date.now() - timerStartedAt;
-  return ms;
-}
-
-function updateTimerDisplay() {
-  if (!els.timerLine) return;
-  els.timerLine.textContent = `Time ${formatDuration(currentSubjectElapsed())}`;
-}
-
-function startSubjectTimer() {
-  flushActiveTimer();
-  timerStartedAt = document.hidden ? null : Date.now();
-  updateTimerDisplay();
-}
-
-function pauseSubjectTimer() {
-  flushActiveTimer();
-  timerStartedAt = null;
-  updateTimerDisplay();
-}
-
-function resumeSubjectTimer() {
-  if (!document.hidden && !timerStartedAt) {
-    timerStartedAt = Date.now();
+  if (entry.mode === "english") {
+    return `e-${entry.gradeId}-${entry.wordIndex}`;
   }
-  updateTimerDisplay();
+  if (entry.mode === "chinese" || entry.mode === "bible") {
+    return `${entry.mode[0]}-${entry.itemId}`;
+  }
+  return "";
 }
 
-function resetCurrentSubjectTimer() {
-  timeBySubject[subject] = 0;
-  timerStartedAt = document.hidden ? null : Date.now();
-  saveTimeBySubject();
-  updateTimerDisplay();
+function sameQuestion(a, b) {
+  if (!a || !b) return false;
+  return questionId(a) === questionId(b);
 }
 
-function initTimer() {
-  startSubjectTimer();
-  timerInterval = setInterval(() => {
-    if (!document.hidden && timerStartedAt) updateTimerDisplay();
-  }, 1000);
+function updateProgressDisplay() {
+  if (!els.progressLine) return;
+  const pool = getPool();
+  const total = pool.length;
+  if (!total) {
+    els.progressLine.textContent = "0/0";
+    return;
+  }
+  const poolIds = new Set(pool.map(questionId));
+  const seen = getSeenIds();
+  let count = 0;
+  for (const id of seen) {
+    if (poolIds.has(id)) count++;
+  }
+  els.progressLine.textContent = `${count}/${total}`;
+}
 
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) pauseSubjectTimer();
-    else resumeSubjectTimer();
-  });
+function markSeen(entry) {
+  if (!entry) return;
+  const id = questionId(entry);
+  if (!id) return;
+  const seen = getSeenIds();
+  if (!seen.has(id)) {
+    seen.add(id);
+    saveSeenIds(seen);
+  }
+  updateProgressDisplay();
+}
 
-  window.addEventListener("pagehide", flushActiveTimer);
-  window.addEventListener("beforeunload", flushActiveTimer);
+function resetCurrentProgress() {
+  saveSeenIds(new Set());
+  updateProgressDisplay();
+  renderQuestion(pickRandom());
 }
 
 const CHINESE_CATEGORY_LABELS = {
@@ -139,11 +126,12 @@ const CHINESE_CATEGORY_LABELS = {
 };
 
 const BIBLE_CATEGORY_LABELS = {
-  courage: "Be Brave",
-  stories: "Epic Stories",
-  verses: "Power Verses",
-  "real-life": "Real Life",
-  identity: "Who You Are",
+  courage: "Confidence & Fear",
+  kindness: "Kindness & Words",
+  family: "Family & Home",
+  school: "School & Friends",
+  screens: "Screens & Games",
+  habits: "Habits & Adventure",
 };
 
 function buildMathPool(filter) {
@@ -247,31 +235,25 @@ function getPool() {
 function pickRandom(exclude = null) {
   const pool = getPool();
   if (!pool.length) return null;
-  if (pool.length === 1) return pool[0];
 
-  let candidate;
-  let attempts = 0;
-  do {
-    candidate = pool[Math.floor(Math.random() * pool.length)];
-    attempts++;
-    if (!exclude) break;
-    if (subject === "math") {
-      const same =
-        candidate.chapterId === exclude.chapterId &&
-        candidate.topicName === exclude.topicName &&
-        candidate.questionIndex === exclude.questionIndex;
-      if (!same) break;
-    } else if (subject === "english") {
-      const same =
-        candidate.gradeId === exclude.gradeId &&
-        candidate.wordIndex === exclude.wordIndex;
-      if (!same) break;
-    } else if (candidate.itemId !== exclude.itemId) {
-      break;
-    }
-  } while (attempts < 40);
+  const seen = getSeenIds();
+  let candidates = pool.filter((entry) => !seen.has(questionId(entry)));
 
-  return candidate;
+  // Auto-reset when every question in this category has been viewed
+  if (!candidates.length) {
+    saveSeenIds(new Set());
+    candidates = pool.slice();
+  }
+
+  if (candidates.length === 1) return candidates[0];
+
+  let filtered = candidates;
+  if (exclude) {
+    const without = candidates.filter((entry) => !sameQuestion(entry, exclude));
+    if (without.length) filtered = without;
+  }
+
+  return filtered[Math.floor(Math.random() * filtered.length)];
 }
 
 function hidePanels() {
@@ -394,10 +376,12 @@ function renderQuestion(entry) {
     els.metaLine.textContent = "No items";
     els.questionText.textContent = "Try another filter.";
     els.questionText.classList.remove("word-prompt", "chinese-prompt", "bible-prompt");
+    updateProgressDisplay();
     return;
   }
 
   current = entry;
+  markSeen(entry);
 
   if (subject === "chinese") {
     els.metaLine.textContent = `${entry.lessonTitle} · ${CHINESE_CATEGORY_LABELS[entry.category] || entry.category}`;
@@ -459,8 +443,6 @@ function populateFilter() {
       opt.textContent = `Ch ${ch.id}: ${ch.title}`;
       els.filterSelect.appendChild(opt);
     }
-    const total = mathData.meta?.totalQuestions ?? getPool().length;
-    els.statsLine.textContent = `${total} math questions · ${mathData.chapters.length} chapters`;
   } else if (subject === "english") {
     const all = document.createElement("option");
     all.value = "all";
@@ -472,8 +454,6 @@ function populateFilter() {
       opt.textContent = `${g.title} (${g.words.length} words)`;
       els.filterSelect.appendChild(opt);
     }
-    const total = vocabData.meta?.totalWords ?? getPool().length;
-    els.statsLine.textContent = `${total} vocabulary words · 5th & 6th grade`;
   } else if (subject === "chinese") {
     for (const cat of chineseData.categories) {
       const opt = document.createElement("option");
@@ -481,8 +461,6 @@ function populateFilter() {
       opt.textContent = cat.label;
       els.filterSelect.appendChild(opt);
     }
-    const total = chineseData.items.length;
-    els.statsLine.textContent = `${total} items · ${chineseData.meta.title}`;
   } else {
     for (const cat of bibleData.categories) {
       const opt = document.createElement("option");
@@ -490,19 +468,16 @@ function populateFilter() {
       opt.textContent = cat.label;
       els.filterSelect.appendChild(opt);
     }
-    const total = bibleData.items.length;
-    els.statsLine.textContent = `${total} cards · ${bibleData.meta.title}`;
   }
+  updateProgressDisplay();
 }
 
 function setSubject(next) {
-  flushActiveTimer();
   subject = next;
   updateSubjectUI();
   updateExplainLabels();
   populateFilter();
   renderQuestion(pickRandom());
-  startSubjectTimer();
 }
 
 function init() {
@@ -511,9 +486,11 @@ function init() {
   els.btnChinese.addEventListener("click", () => setSubject("chinese"));
   els.btnBible.addEventListener("click", () => setSubject("bible"));
   els.btnAnswer.addEventListener("click", handleAnswer);
-  els.filterSelect.addEventListener("change", () => renderQuestion(pickRandom()));
-  els.btnResetTimer.addEventListener("click", resetCurrentSubjectTimer);
-  initTimer();
+  els.filterSelect.addEventListener("change", () => {
+    updateProgressDisplay();
+    renderQuestion(pickRandom());
+  });
+  els.btnResetProgress.addEventListener("click", resetCurrentProgress);
 }
 
 async function load() {

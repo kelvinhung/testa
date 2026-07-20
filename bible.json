@@ -1,355 +1,503 @@
 {
   "meta": {
     "title": "Bible",
-    "totalItems": 40,
-    "note": "Written for ~age 12. Themes drawn from common teen verse lists (Joshua 1:9, Philippians 4:13, 1 Peter 5:7, Psalm 139:14, etc.)."
+    "totalItems": 60,
+    "note": "Ages 11–13. All cards are daily situations; answers are grounded in Scripture (not verse memorization)."
   },
   "categories": [
-    {
-      "id": "all",
-      "label": "All"
-    },
-    {
-      "id": "courage",
-      "label": "Be Brave"
-    },
-    {
-      "id": "stories",
-      "label": "Epic Stories"
-    },
-    {
-      "id": "verses",
-      "label": "Power Verses"
-    },
-    {
-      "id": "real-life",
-      "label": "Real Life"
-    },
-    {
-      "id": "identity",
-      "label": "Who You Are"
-    }
+    { "id": "all", "label": "All" },
+    { "id": "courage", "label": "Confidence & Fear" },
+    { "id": "kindness", "label": "Kindness & Words" },
+    { "id": "family", "label": "Family & Home" },
+    { "id": "school", "label": "School & Friends" },
+    { "id": "screens", "label": "Screens & Games" },
+    { "id": "habits", "label": "Habits & Adventure" }
   ],
   "items": [
     {
       "id": "b01",
-      "category": "stories",
-      "prompt": "A shepherd boy fought a giant with a sling. Who was he?",
-      "verse": "1 Samuel 17 — David vs Goliath",
-      "takeaway": "You don't need to be the biggest kid. God helps brave hearts.",
-      "answer": "David"
+      "category": "courage",
+      "prompt": "You're starting a new class and feel too shy to talk to anyone. How can confidence grow without pretending you're fearless?",
+      "verse": "2 Timothy 1:7 — God gave us a spirit of power, love, and a sound mind—not fear.",
+      "takeaway": "Feeling shy is normal. Ask God for courage, then take one small step (say hi, sit near someone).",
+      "answer": "Ask God for courage, then take one small brave step"
     },
     {
       "id": "b02",
       "category": "courage",
-      "prompt": "Finish it: \"Be strong and courageous… God will be with you ___ you go.\"",
-      "verse": "Joshua 1:9",
-      "takeaway": "Feeling nervous before a game, test, or new school? God goes with you.",
-      "answer": "wherever"
+      "prompt": "There's a party or youth group with lots of new kids. Your stomach flips. What does God say about fear when you meet new people?",
+      "verse": "Isaiah 41:10 — Do not fear, for I am with you… I will strengthen you.",
+      "takeaway": "God goes with you into the room. You don't have to be the loudest—just present and kind.",
+      "answer": "Don't let fear stop you — God is with you"
     },
     {
       "id": "b03",
-      "category": "verses",
-      "prompt": "Finish it: \"I can do all things through ___ who strengthens me.\"",
-      "verse": "Philippians 4:13",
-      "takeaway": "Hard days happen. Jesus gives strength when you feel done.",
-      "answer": "Christ"
+      "category": "courage",
+      "prompt": "You want to try out for a team/play but keep thinking \"I'm not good enough.\" What truth fights that lie?",
+      "verse": "Philippians 4:13 — I can do all things through Christ who strengthens me.",
+      "takeaway": "Confidence isn't \"I'm the best.\" It's \"God helps me try.\"",
+      "answer": "Try with Christ's strength — don't quit before you start"
     },
     {
       "id": "b04",
-      "category": "stories",
-      "prompt": "Jesus stopped a huge storm with His words. True or false?",
-      "verse": "Mark 4:39 — \"Quiet! Be still!\"",
-      "takeaway": "When life feels wild, Jesus is still in charge.",
-      "answer": "True"
+      "category": "courage",
+      "prompt": "Someone laughs at your idea and you want to stay silent forever. How should you think about yourself?",
+      "verse": "Psalm 139:14 — I am fearfully and wonderfully made.",
+      "takeaway": "One person's joke doesn't erase how God made you.",
+      "answer": "Remember you are wonderfully made — keep showing up"
     },
     {
       "id": "b05",
-      "category": "stories",
-      "prompt": "Who got thrown into a lions' den for praying—and God kept him safe?",
-      "verse": "Daniel 6",
-      "takeaway": "Doing the right thing can be hard. God sees you.",
-      "answer": "Daniel"
+      "category": "courage",
+      "prompt": "You're nervous to introduce yourself to a new neighbor kid. What's a brave, simple move?",
+      "verse": "Joshua 1:9 — Be strong and courageous… God is with you wherever you go.",
+      "takeaway": "Courage can be three words: \"Hi, I'm __.\" God is with you in ordinary hellos.",
+      "answer": "Be courageous — go say a friendly hello"
     },
     {
       "id": "b06",
-      "category": "identity",
-      "prompt": "True or false: You're too young to matter to God.",
+      "category": "courage",
+      "prompt": "You feel small compared to older teens who seem cooler. Does age mean you don't matter?",
       "verse": "1 Timothy 4:12 — Don't let anyone look down on you because you are young.",
-      "takeaway": "At 12 you can already be kind, honest, and brave.",
-      "answer": "False"
+      "takeaway": "At 11–13 you can already lead with kindness, honesty, and courage.",
+      "answer": "No — your youth doesn't make you unimportant"
     },
     {
       "id": "b07",
-      "category": "verses",
-      "prompt": "\"If God is for us, who can be against us?\" Where is that?",
-      "verse": "Romans 8:31",
-      "takeaway": "Mean comments don't get the final say. God is on your side.",
-      "answer": "Romans 8:31"
+      "category": "courage",
+      "prompt": "Before a hard conversation (apology, asking for help), fear freezes you. What can you do with that worry?",
+      "verse": "1 Peter 5:7 — Cast all your anxiety on him because he cares for you.",
+      "takeaway": "Pray first, then speak calmly. God cares about the awkward moments too.",
+      "answer": "Give the fear to God, then take the next step"
     },
     {
       "id": "b08",
-      "category": "real-life",
-      "prompt": "When you don't know what to do, Proverbs says: Trust in the Lord… and don't lean only on your own ___.",
-      "verse": "Proverbs 3:5-6",
-      "takeaway": "Ask God for help. You don't have to figure everything out alone.",
-      "answer": "understanding"
+      "category": "courage",
+      "prompt": "You miss a shot / mess up a presentation and want to hide. How do you bounce back?",
+      "verse": "Proverbs 24:16 — The righteous fall seven times and rise again.",
+      "takeaway": "Confidence grows by getting back up, not by never failing.",
+      "answer": "Get back up — falling isn't the end"
     },
+
     {
       "id": "b09",
-      "category": "identity",
-      "prompt": "Psalm 139 says you are \"fearfully and ___ made.\"",
-      "verse": "Psalm 139:14",
-      "takeaway": "You are not a mistake. God made you on purpose.",
-      "answer": "wonderfully"
+      "category": "kindness",
+      "prompt": "Why bother being nice when some people are rude first?",
+      "verse": "Luke 6:31 — Do to others as you would have them do to you.",
+      "takeaway": "Kindness isn't a reward for perfect people—it's how Jesus asks us to live.",
+      "answer": "Treat others the way you'd want to be treated"
     },
     {
       "id": "b10",
-      "category": "verses",
-      "prompt": "Psalm 23 says even in a dark valley, \"I will fear no ___.\"",
-      "verse": "Psalm 23:4",
-      "takeaway": "Scary moments happen. God walks with you through them.",
-      "answer": "evil"
+      "category": "kindness",
+      "prompt": "What's the big reason Christians should be kind even when nobody's watching?",
+      "verse": "Matthew 22:39 — Love your neighbor as yourself.",
+      "takeaway": "People matter to God—so how you treat them matters.",
+      "answer": "Love your neighbor — people matter to God"
     },
     {
       "id": "b11",
-      "category": "stories",
-      "prompt": "Joseph's brothers sold him. Years later, Joseph helped save many people. Did God waste Joseph's hard years?",
-      "verse": "Genesis 50:20 — You meant harm, but God meant it for good.",
-      "takeaway": "Bad days aren't the end of your story.",
-      "answer": "No — God used them for good"
+      "category": "kindness",
+      "prompt": "Friends start using foul language to sound cool. What should come out of your mouth?",
+      "verse": "Ephesians 4:29 — Do not let any unwholesome talk come out of your mouths.",
+      "takeaway": "Dirty words aren't \"just words\"—they shape your heart and hurt your witness.",
+      "answer": "Don't use foul language — speak what builds people up"
     },
     {
       "id": "b12",
-      "category": "courage",
-      "prompt": "God told Gideon to fight with only 300 men. Why so few?",
-      "verse": "Judges 7",
-      "takeaway": "God likes to show that He is strong—even when we feel small.",
-      "answer": "So people would know God won"
+      "category": "kindness",
+      "prompt": "You're mad and want to swear under your breath. What does God want instead?",
+      "verse": "Colossians 3:8 — Rid yourselves of… filthy language from your lips.",
+      "takeaway": "Anger is a feeling. Foul language is a choice you can refuse.",
+      "answer": "Drop the filthy language — choose cleaner words"
     },
     {
       "id": "b13",
-      "category": "real-life",
-      "prompt": "Ephesians says: \"In your anger do not ___.\"",
-      "verse": "Ephesians 4:26",
-      "takeaway": "It's okay to feel mad. It's not okay to hurt people or stay bitter.",
-      "answer": "sin"
+      "category": "kindness",
+      "prompt": "A classmate trips and kids laugh. You're about to make a mean joke too. Stop—why?",
+      "verse": "Proverbs 18:21 — The tongue has the power of life and death.",
+      "takeaway": "Mean jokes can stick in someone's mind for years. Choose life.",
+      "answer": "Don't say mean things — words can crush or heal"
     },
     {
       "id": "b14",
-      "category": "real-life",
-      "prompt": "Proverbs says the tongue has the power of life and ___.",
-      "verse": "Proverbs 18:21",
-      "takeaway": "Words can build a friend up—or wreck their day. Choose life.",
-      "answer": "death"
+      "category": "kindness",
+      "prompt": "Your sibling embarrasses you and you want to roast them in front of friends. What's better?",
+      "verse": "Ephesians 4:32 — Be kind and compassionate… forgiving each other.",
+      "takeaway": "Family aren't practice targets for insults.",
+      "answer": "Be kind — don't roast them to look cool"
     },
     {
       "id": "b15",
-      "category": "courage",
-      "prompt": "God has not given us a spirit of fear, but of power, love, and a ___ mind.",
-      "verse": "2 Timothy 1:7",
-      "takeaway": "Fear doesn't get to run your life.",
-      "answer": "sound"
+      "category": "kindness",
+      "prompt": "Someone posts a mean comment about a kid. Your group wants you to pile on. What do you do?",
+      "verse": "Romans 12:17-18 — Do not repay anyone evil for evil… live at peace.",
+      "takeaway": "Silence or a kind stand is better than joining the pile-on.",
+      "answer": "Don't pile on — refuse to repay meanness with meanness"
     },
     {
       "id": "b16",
-      "category": "verses",
-      "prompt": "John 3:16 — God loved the world so much that He gave His one and only ___.",
-      "verse": "John 3:16",
-      "takeaway": "Jesus came because God loves you—for real.",
-      "answer": "Son"
+      "category": "kindness",
+      "prompt": "Why does God care if you're \"just teasing\" someone smaller or quieter?",
+      "verse": "Genesis 1:27 — God created people in his own image.",
+      "takeaway": "Mocking a person mocks someone made in God's image.",
+      "answer": "Every person is made in God's image — treat them with respect"
     },
     {
       "id": "b17",
-      "category": "real-life",
-      "prompt": "\"Bad company corrupts good character.\" What does that mean for friends?",
-      "verse": "1 Corinthians 15:33",
-      "takeaway": "Friends shape you. Pick people who help you be better, not worse.",
-      "answer": "Friends who do wrong can pull you into wrong"
+      "category": "kindness",
+      "prompt": "You know a rumor is juicy. Should you pass it on?",
+      "verse": "Proverbs 16:28 — A gossip separates close friends.",
+      "takeaway": "If it would hurt you, don't spread it.",
+      "answer": "No — don't gossip or pass mean rumors"
     },
     {
       "id": "b18",
-      "category": "courage",
-      "prompt": "Jesus said, \"I am with you ___.\"",
-      "verse": "Matthew 28:20",
-      "takeaway": "You're never alone—not at school, not at night, not when you're scared.",
-      "answer": "always"
+      "category": "kindness",
+      "prompt": "A kid who was mean to you last month looks lonely today. What would Jesus-shaped kindness look like?",
+      "verse": "Matthew 5:44 — Love your enemies and pray for those who persecute you.",
+      "takeaway": "Kindness can be a quiet invite—not pretending the past never happened.",
+      "answer": "Be kind anyway — even to people who weren't kind first"
     },
+
     {
       "id": "b19",
-      "category": "real-life",
-      "prompt": "If you know the right thing and won't do it, James calls that ___.",
-      "verse": "James 4:17",
-      "takeaway": "Don't just know what's right—do it.",
-      "answer": "sin"
+      "category": "family",
+      "prompt": "Parents set a screen-time rule you hate. What's the right response?",
+      "verse": "Ephesians 6:1 — Children, obey your parents in the Lord.",
+      "takeaway": "You can share feelings calmly—and still obey the limit.",
+      "answer": "Obey and honor them even when you disagree"
     },
     {
       "id": "b20",
-      "category": "verses",
-      "prompt": "Those who hope in the Lord will renew their ___.",
-      "verse": "Isaiah 40:31",
-      "takeaway": "Tired? Ask God for fresh strength.",
-      "answer": "strength"
+      "category": "family",
+      "prompt": "Mom asks you to pause your game and help. You want to groan. What attitude fits?",
+      "verse": "Philippians 2:14 — Do everything without grumbling or arguing.",
+      "takeaway": "Helping at home is love in action, not a punishment.",
+      "answer": "Help without grumbling"
     },
     {
       "id": "b21",
-      "category": "stories",
-      "prompt": "Shadrach, Meshach, and Abednego got thrown in a fire for not bowing to a statue. Did they burn up?",
-      "verse": "Daniel 3",
-      "takeaway": "They stood for God even when it was scary—and God was with them.",
-      "answer": "No — God kept them safe"
+      "category": "family",
+      "prompt": "Dad is stressed and short with you. You want to snap back. What does honor look like?",
+      "verse": "Exodus 20:12 — Honor your father and your mother.",
+      "takeaway": "Honor doesn't mean parents are perfect. It means you don't add fuel.",
+      "answer": "Respond with respect, not more heat"
     },
     {
       "id": "b22",
-      "category": "real-life",
-      "prompt": "The golden rule: Treat others the way you want them to ___ you.",
-      "verse": "Matthew 7:12",
-      "takeaway": "Before you tease or ignore someone, ask: Would I want that?",
-      "answer": "treat"
+      "category": "family",
+      "prompt": "Your sibling ruins your game build. You want to scream. What does love look like?",
+      "verse": "1 Corinthians 13:4 — Love is patient, love is kind.",
+      "takeaway": "Family love shows up in small annoying moments.",
+      "answer": "Be patient and kind — even when it's annoying"
     },
     {
       "id": "b23",
-      "category": "identity",
-      "prompt": "Jeremiah said he was too young. God said: Don't say that—I am with you. True or false?",
-      "verse": "Jeremiah 1:7-8",
-      "takeaway": "God can use kids. Age is not a no.",
-      "answer": "True"
+      "category": "family",
+      "prompt": "You're still mad at a sibling for days and won't forgive. What does Jesus connect to forgiveness?",
+      "verse": "Matthew 6:14-15 — If you forgive others, your Father will also forgive you.",
+      "takeaway": "Forgiving isn't saying \"it was fine.\" It's dropping the revenge score.",
+      "answer": "Forgive them — don't hold a grudge"
     },
     {
       "id": "b24",
-      "category": "courage",
-      "prompt": "Hebrews says to run your race with your eyes fixed on ___.",
-      "verse": "Hebrews 12:1-2",
-      "takeaway": "When you want to quit, look to Jesus and keep going.",
-      "answer": "Jesus"
+      "category": "family",
+      "prompt": "You promised to do a chore, then a better invite came. What about your word?",
+      "verse": "Matthew 5:37 — Let your \"Yes\" be yes and your \"No\" be no.",
+      "takeaway": "Keeping promises at home builds trust.",
+      "answer": "Keep your yes — follow through at home"
     },
     {
       "id": "b25",
-      "category": "real-life",
-      "prompt": "1 Peter 5:7 — Cast all your ___ on Him, because He cares for you.",
-      "verse": "1 Peter 5:7",
-      "takeaway": "Worried about school, friends, or home? Tell God. He cares.",
-      "answer": "worries"
+      "category": "family",
+      "prompt": "You're jealous a cousin got new gear and you didn't. What does God warn about envy?",
+      "verse": "Exodus 20:17 — You shall not covet.",
+      "takeaway": "Wanting stuff is normal. Letting envy sour family isn't.",
+      "answer": "Don't covet — practice contentment and gladness for them"
     },
     {
       "id": "b26",
-      "category": "verses",
-      "prompt": "\"Do not fear, for I am with you… I will strengthen you.\" Which book?",
-      "verse": "Isaiah 41:10",
-      "takeaway": "God doesn't just say \"don't be scared\"—He helps you.",
-      "answer": "Isaiah"
+      "category": "family",
+      "prompt": "Family dinner is boring and you want to stare at your phone. What fits better?",
+      "verse": "Romans 12:10 — Be devoted to one another in love. Honor one another.",
+      "takeaway": "Putting the phone down is a way to honor people in front of you.",
+      "answer": "Be present — honor family over the screen"
     },
+
     {
       "id": "b27",
-      "category": "real-life",
-      "prompt": "Philippians says: Don't worry about anything. Instead, ___ about everything.",
-      "verse": "Philippians 4:6-7",
-      "takeaway": "Turn worry into prayer. God gives peace.",
-      "answer": "pray"
+      "category": "school",
+      "prompt": "Friends dare you to cheat \"just once.\" What does honesty require?",
+      "verse": "Proverbs 12:22 — The Lord delights in people who are trustworthy.",
+      "takeaway": "A quick cheat costs character.",
+      "answer": "Don't cheat — be trustworthy"
     },
     {
       "id": "b28",
-      "category": "identity",
-      "prompt": "Jesus said the most important commands are: Love God, and love your ___ as yourself.",
-      "verse": "Matthew 22:37-39",
-      "takeaway": "Faith isn't just church talk—it's how you treat people.",
-      "answer": "neighbor"
+      "category": "school",
+      "prompt": "A new student eats alone. You feel awkward saying hi. What does loving your neighbor look like?",
+      "verse": "Matthew 22:39 — Love your neighbor as yourself.",
+      "takeaway": "\"Want to sit with us?\" can change a whole day.",
+      "answer": "Include them the way you'd want to be included"
     },
     {
       "id": "b29",
-      "category": "stories",
-      "prompt": "Noah built a huge boat when God told him to. Did people think that was weird?",
-      "verse": "Genesis 6–7",
-      "takeaway": "Obeying God matters more than looking cool.",
-      "answer": "Yes — but Noah obeyed anyway"
+      "category": "school",
+      "prompt": "Your friend group starts excluding one kid. What would love do?",
+      "verse": "Luke 6:31 — Do to others as you would have them do to you.",
+      "takeaway": "If you'd hate being left out, don't help leave someone out.",
+      "answer": "Don't join the exclusion — include"
     },
     {
       "id": "b30",
-      "category": "real-life",
-      "prompt": "\"A friend loves at all times.\" What kind of friend is that?",
-      "verse": "Proverbs 17:17",
-      "takeaway": "Real friends stick around on bad days, not just fun days.",
-      "answer": "A loyal friend"
+      "category": "school",
+      "prompt": "You know someone's being bullied but speaking up feels uncool. What does James say?",
+      "verse": "James 4:17 — If you know the good you ought to do and don't do it, it is sin.",
+      "takeaway": "Courage often looks like telling a trusted adult.",
+      "answer": "Do the good you know — speak up"
     },
     {
       "id": "b31",
-      "category": "courage",
-      "prompt": "\"The Lord is my light and my salvation—whom shall I ___?\"",
-      "verse": "Psalm 27:1",
-      "takeaway": "God is bigger than what scares you.",
-      "answer": "fear"
+      "category": "school",
+      "prompt": "A teacher is strict and you want to give up. How should you work?",
+      "verse": "Colossians 3:23 — Work with all your heart, as working for the Lord.",
+      "takeaway": "You're practicing faithfulness, not only chasing a grade.",
+      "answer": "Work hard as if for the Lord"
     },
     {
       "id": "b32",
-      "category": "real-life",
-      "prompt": "Colossians says: Whatever you do, work at it with all your heart—as working for ___.",
-      "verse": "Colossians 3:23",
-      "takeaway": "Homework, chores, practice—do them for God, not just for grades or parents.",
-      "answer": "the Lord"
+      "category": "school",
+      "prompt": "You bombed a test and can't stop replaying it at night. What do with the worry?",
+      "verse": "Philippians 4:6-7 — Don't be anxious… pray about everything.",
+      "takeaway": "Pray, then make a plan. Worry alone doesn't help.",
+      "answer": "Pray instead of only stressing"
     },
     {
       "id": "b33",
-      "category": "verses",
-      "prompt": "Jesus said: \"Come to me, all you who are weary… and I will give you ___.\"",
-      "verse": "Matthew 11:28",
-      "takeaway": "Burned out? Jesus invites you to rest with Him.",
-      "answer": "rest"
+      "category": "school",
+      "prompt": "Friend group language is getting worse. What's the warning about company?",
+      "verse": "1 Corinthians 15:33 — Bad company corrupts good character.",
+      "takeaway": "Friends pull you up or down. Choose wisely.",
+      "answer": "Be careful — friends can pull you into wrong"
     },
     {
       "id": "b34",
-      "category": "identity",
-      "prompt": "Ephesians says we are God's ___, created to do good things.",
-      "verse": "Ephesians 2:10",
-      "takeaway": "You're God's handiwork—not leftover scrap.",
-      "answer": "handiwork"
+      "category": "school",
+      "prompt": "You got caught in a lie about homework. Next step?",
+      "verse": "Proverbs 28:13 — Whoever confesses and renounces their sins finds mercy.",
+      "takeaway": "Hiding usually makes it worse. Own it and make it right.",
+      "answer": "Confess, apologize, and tell the truth"
     },
     {
       "id": "b35",
-      "category": "real-life",
-      "prompt": "\"Do not let any unwholesome talk come out of your mouths.\" What should your words do instead?",
-      "verse": "Ephesians 4:29",
-      "takeaway": "Build people up. Don't trash-talk.",
-      "answer": "Build others up"
+      "category": "school",
+      "prompt": "Someone asks if you go to church and you feel embarrassed. What courage fits?",
+      "verse": "Matthew 5:16 — Let your light shine before others.",
+      "takeaway": "A honest, kind answer still shines—no speech required.",
+      "answer": "Don't hide your faith — let your light shine"
     },
     {
       "id": "b36",
-      "category": "stories",
-      "prompt": "Moses was scared to speak for God. Did God still use him?",
-      "verse": "Exodus 3–4",
-      "takeaway": "Feeling scared doesn't mean God can't use you.",
-      "answer": "Yes"
+      "category": "school",
+      "prompt": "A teammate messes up and others trash-talk them. How do you use your tongue?",
+      "verse": "Proverbs 18:21 — The tongue has the power of life and death.",
+      "takeaway": "Encourage. Don't crush.",
+      "answer": "Speak life — encourage, don't tear down"
     },
+
     {
       "id": "b37",
-      "category": "courage",
-      "prompt": "\"Be strong and courageous. Do not be afraid… God goes with you.\" That's from Deuteronomy. True or false?",
-      "verse": "Deuteronomy 31:6",
-      "takeaway": "God won't leave you hanging.",
-      "answer": "True"
+      "category": "screens",
+      "prompt": "You've gamed for hours and snapped at family when they asked for help. What's off?",
+      "verse": "1 Corinthians 10:31 — Whatever you do, do it all for the glory of God.",
+      "takeaway": "Fun is fine until it makes you selfish. Then pause.",
+      "answer": "Stop and reset — free time should still honor God and people"
     },
     {
       "id": "b38",
-      "category": "real-life",
-      "prompt": "Jesus said: Don't worry about tomorrow. Why?",
-      "verse": "Matthew 6:34",
-      "takeaway": "Handle today's stuff with God. Don't carry tomorrow's stress early.",
-      "answer": "Tomorrow has enough trouble of its own"
+      "category": "screens",
+      "prompt": "Endless scrolling is stealing sleep and chores. What fruit of the Spirit do you need?",
+      "verse": "Galatians 5:22-23 — The fruit of the Spirit includes self-control.",
+      "takeaway": "You can enjoy screens and still put them down.",
+      "answer": "Use self-control — set the phone down when it's time"
     },
     {
       "id": "b39",
-      "category": "verses",
-      "prompt": "\"This is the day the Lord has made; let us rejoice and be glad in it.\" Can a normal school day count?",
-      "verse": "Psalm 118:24",
-      "takeaway": "Yes—ordinary days are still gifts from God.",
-      "answer": "Yes"
+      "category": "screens",
+      "prompt": "You lose online and the chat fills with rage. What should come from you?",
+      "verse": "Colossians 4:6 — Let your conversation be always full of grace.",
+      "takeaway": "It's a game. Grace > insults.",
+      "answer": "Speak with grace — don't rage in chat"
     },
     {
       "id": "b40",
-      "category": "identity",
-      "prompt": "Jesus said: \"I am the way and the truth and the ___.\"",
-      "verse": "John 14:6",
-      "takeaway": "Following Jesus is the path that leads to real life.",
-      "answer": "life"
+      "category": "screens",
+      "prompt": "Videos leave you angry, scared, or dirty inside. What should fill your mind?",
+      "verse": "Philippians 4:8 — Think about what is true, noble, right, pure, lovely…",
+      "takeaway": "What you watch shapes you. Choose better input.",
+      "answer": "Fill your mind with what is good and pure"
+    },
+    {
+      "id": "b41",
+      "category": "screens",
+      "prompt": "You compare your life to highlight reels online and feel worthless. What's true?",
+      "verse": "Psalm 139:14 — You are fearfully and wonderfully made.",
+      "takeaway": "Filters aren't the truth about you—or them.",
+      "answer": "You are wonderfully made — don't let comparison decide your worth"
+    },
+    {
+      "id": "b42",
+      "category": "screens",
+      "prompt": "A viral challenge looks wrong/dangerous. Friends say everyone is doing it. Guide?",
+      "verse": "Romans 12:2 — Do not conform to the pattern of this world.",
+      "takeaway": "Popular ≠ wise. You can say no.",
+      "answer": "Don't just copy the crowd — choose what's right"
+    },
+    {
+      "id": "b43",
+      "category": "screens",
+      "prompt": "Pressure to buy every new game/app update is stressing you. How to think about \"enough\"?",
+      "verse": "Hebrews 13:5 — Be content with what you have.",
+      "takeaway": "Contentment is freedom from always needing more.",
+      "answer": "Practice contentment — you don't need every new thing"
+    },
+    {
+      "id": "b44",
+      "category": "screens",
+      "prompt": "Someone was rude online and you want to blast them publicly. Better path?",
+      "verse": "James 1:19 — Be quick to listen, slow to speak, slow to become angry.",
+      "takeaway": "Slow down. Adults can help. Online revenge usually explodes.",
+      "answer": "Slow down — don't fire back in anger"
+    },
+
+    {
+      "id": "b45",
+      "category": "habits",
+      "prompt": "You'd rather stay in your room all weekend than go outside or try something new. Why go out and see more of the world?",
+      "verse": "Genesis 1:31 — God saw all that he had made, and it was very good.",
+      "takeaway": "God's world is bigger than a bedroom. Fresh air, people, and places wake up gratitude.",
+      "answer": "Go out — enjoy God's good world instead of only staying inside"
+    },
+    {
+      "id": "b46",
+      "category": "habits",
+      "prompt": "You're curious about how things work, other cultures, or nature—but friends call it \"nerdy.\" Is curiosity good?",
+      "verse": "Proverbs 2:3-6 — Cry out for insight… the Lord gives wisdom.",
+      "takeaway": "God loves wise, curious minds. Asking good questions is a gift.",
+      "answer": "Yes — be curious; seek wisdom and understanding"
+    },
+    {
+      "id": "b47",
+      "category": "habits",
+      "prompt": "You keep saying \"I'm bored\" and only want screens. How can curiosity change that?",
+      "verse": "Proverbs 18:15 — The heart of the discerning acquires knowledge.",
+      "takeaway": "Try a walk, a book, a hobby, a conversation. Boredom can be a doorway.",
+      "answer": "Get curious — learn, explore, try something new"
+    },
+    {
+      "id": "b48",
+      "category": "habits",
+      "prompt": "Family wants a hike/park day; you want to stay home in bed. What fits a life of adventure with God?",
+      "verse": "Psalm 19:1 — The heavens declare the glory of God.",
+      "takeaway": "Creation is a free museum. Going out can refill your soul.",
+      "answer": "Go out and notice God's world — don't only stay home"
+    },
+    {
+      "id": "b49",
+      "category": "habits",
+      "prompt": "You keep delaying your shower until someone nags you. Why take care of your body earlier?",
+      "verse": "1 Corinthians 6:19-20 — Your body is a temple of the Holy Spirit… honor God with your body.",
+      "takeaway": "Hygiene isn't vanity—it's stewardship and kindness to people around you.",
+      "answer": "Take a shower early — honor God with your body"
+    },
+    {
+      "id": "b50",
+      "category": "habits",
+      "prompt": "You smell / look messy and hope nobody notices. What's a better habit?",
+      "verse": "Colossians 3:23 — Whatever you do, work at it with all your heart.",
+      "takeaway": "Basic care (shower, clean clothes, teeth) is part of doing life well.",
+      "answer": "Build the habit — clean up without waiting to be nagged"
+    },
+    {
+      "id": "b51",
+      "category": "habits",
+      "prompt": "Morning rush: you skip shower \"just today\" again. What does diligence look like?",
+      "verse": "Proverbs 6:6-8 — Consider the ant… it stores its provisions in summer.",
+      "takeaway": "Little daily habits (shower, pack bag, sleep) beat last-minute panic.",
+      "answer": "Be diligent — do small good habits early"
+    },
+    {
+      "id": "b52",
+      "category": "habits",
+      "prompt": "You're scared to try a new sport, club, or trip because it's unfamiliar. What invitation is bigger than comfort?",
+      "verse": "Matthew 28:19-20 — Go and make disciples… I am with you always.",
+      "takeaway": "Faith isn't only staying safe at home—it's going, learning, meeting people with God.",
+      "answer": "Step out — God is with you beyond your comfort zone"
+    },
+    {
+      "id": "b53",
+      "category": "habits",
+      "prompt": "You only talk to the same two people and never meet anyone new. Why stretch?",
+      "verse": "Hebrews 13:2 — Do not forget to show hospitality to strangers.",
+      "takeaway": "New people aren't threats by default—they can become friends.",
+      "answer": "Be open to new people — practice welcoming others"
+    },
+    {
+      "id": "b54",
+      "category": "habits",
+      "prompt": "Sunday you're tired and want to skip gathering with church family. Why still go?",
+      "verse": "Hebrews 10:24-25 — Do not give up meeting together… encourage one another.",
+      "takeaway": "Church is people who help you follow Jesus—not only a building.",
+      "answer": "Keep meeting with others — encourage and be encouraged"
+    },
+    {
+      "id": "b55",
+      "category": "habits",
+      "prompt": "You stay up late on screens, then feel foggy and cranky. What wisdom fits?",
+      "verse": "Psalm 127:2 — In vain you rise early and stay up late… he grants sleep to those he loves.",
+      "takeaway": "Rest is a gift. Protect sleep so you can love people better tomorrow.",
+      "answer": "Honor rest — don't let screens steal sleep"
+    },
+    {
+      "id": "b56",
+      "category": "kindness",
+      "prompt": "Why should you be nice even when it doesn't get likes or applause?",
+      "verse": "Matthew 5:16 — Let your light shine… that they may see your good deeds and glorify your Father.",
+      "takeaway": "Kindness points to God, not to your popularity score.",
+      "answer": "Be kind to honor God — not to get attention"
+    },
+    {
+      "id": "b57",
+      "category": "courage",
+      "prompt": "You freeze when adults ask you a question in a group. How can you grow confidence?",
+      "verse": "Jeremiah 1:7-8 — Do not say, \"I am too young\"… Do not be afraid… I am with you.",
+      "takeaway": "Practice short answers. God can use your voice at any age.",
+      "answer": "Don't hide behind \"I'm too young\" — speak with God beside you"
+    },
+    {
+      "id": "b58",
+      "category": "kindness",
+      "prompt": "You're about to text something sarcastic that will sting. What filter should you use?",
+      "verse": "Ephesians 4:29 — Only what is helpful for building others up.",
+      "takeaway": "If it won't build them up, don't send it.",
+      "answer": "Don't send mean words — only what builds up"
+    },
+    {
+      "id": "b59",
+      "category": "habits",
+      "prompt": "You say you want adventure someday, but refuse every small outing now. What's the first step?",
+      "verse": "Luke 16:10 — Whoever is faithful with very little will also be faithful with much.",
+      "takeaway": "Big adventures grow from small yeses: walk, museum, family trip, saying hi.",
+      "answer": "Be faithful in small outings — say yes to little adventures"
+    },
+    {
+      "id": "b60",
+      "category": "family",
+      "prompt": "You leave towels, dirty clothes, and dishes for others. What does love look like at home?",
+      "verse": "Philippians 2:4 — Look not only to your own interests, but also to the interests of others.",
+      "takeaway": "Clean up, shower on time, help—home is a team.",
+      "answer": "Think of others — clean up and help without being asked"
     }
   ]
 }

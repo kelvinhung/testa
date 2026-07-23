@@ -2,7 +2,7 @@
   "meta": {
     "lesson": 1,
     "title": "Lesson 1 · 这是我妈妈（上）",
-    "totalItems": 4
+    "totalItems": 6
   },
   "categories": [
     { "id": "all", "label": "All" },
@@ -51,6 +51,28 @@
       "pinyin": "bù\nmǐ\nfǔ\nnǚ",
       "hanzi": "不\n米\n斧\n女",
       "english": "no\nrice\naxe\nfemale"
+    },
+    {
+      "id": "s1a-03-words",
+      "category": "vocabulary",
+      "prompt": "S1A-03 生词 · Word",
+      "label1": "Pinyin",
+      "label2": "English",
+      "labelAnswer": "Chinese",
+      "pinyin": "jiějie\ngēge\ndìdi\nmèimei\nshéi\nde\njiārén\nyéye\nnǎinai\nérzi\nnǚ'ér",
+      "hanzi": "姐姐\n哥哥\n弟弟\n妹妹\n谁\n的\n家人\n爷爷\n奶奶\n儿子\n女儿",
+      "english": "elder sister\nelder brother\nyounger brother\nyounger sister\nwho\n(used after an attribute)\nfamily member\ngrandfather\ngrandmother\nson\ndaughter"
+    },
+    {
+      "id": "s-pinyin-board",
+      "category": "pinyin",
+      "prompt": "声母 · 拼一拼 · 韵母",
+      "label1": "Pinyin",
+      "label2": "Section",
+      "labelAnswer": "Content",
+      "pinyin": "b p m f\nbù\nmǐ\nfǔ\nnǚ\nlǜ\npú\na o e i u\nü",
+      "hanzi": "b p m f\nbù\nmǐ\nfǔ\nnǚ\nlǜ\npú\na o e i u\nü",
+      "english": "声母 initials\n拼一拼\n拼一拼\n拼一拼\n拼一拼\n拼一拼\n拼一拼\n韵母 finals\n韵母 finals"
     }
   ]
 }
